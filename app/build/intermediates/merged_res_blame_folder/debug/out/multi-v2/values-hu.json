@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-42:/values-hu/values-hu.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-48:/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\204c071f5ceffafadb1af5c4278ef5cc\\transformed\\ui-1.4.0\\res\\values-hu\\values-hu.xml",

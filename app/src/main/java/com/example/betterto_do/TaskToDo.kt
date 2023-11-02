@@ -1,8 +1,8 @@
 package com.example.betterto_do
 
-//This is imported to use the LocalTime for duedate
+//This is imported to use the LocalTime for due date
 import java.time.LocalTime
-//Imported for task id's 
+//Imported for task id's
 import java.util.UUID
 
 //Class to handle tasks

@@ -15,8 +15,12 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id action_homeFragment_to_newDestinationFragment
+id homeFragment
+id newDestinationFragment
 mipmap ic_launcher
 mipmap ic_launcher_round
+navigation nav_graph
 string app_name
 style Theme.BetterToDo
 xml backup_rules

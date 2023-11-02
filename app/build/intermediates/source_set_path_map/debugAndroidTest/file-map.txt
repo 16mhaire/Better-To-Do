@@ -29,7 +29,7 @@ com.example.betterto_do.test.app-lifecycle-runtime-2.6.2-27 C:\Users\anita\.grad
 com.example.betterto_do.test.app-customview-poolingcontainer-1.0.0-28 C:\Users\anita\.gradle\caches\transforms-3\e955d2ad3b7fdd262da1f822c4578020\transformed\customview-poolingcontainer-1.0.0\res
 com.example.betterto_do.test.app-core-ktx-1.9.0-29 C:\Users\anita\.gradle\caches\transforms-3\eee94ecdf5941a4a6aeff6328ddc45bc\transformed\core-ktx-1.9.0\res
 com.example.betterto_do.test.app-activity-compose-1.8.0-30 C:\Users\anita\.gradle\caches\transforms-3\f264e20d89a7d7f067d97793d3bc4bac\transformed\activity-compose-1.8.0\res
-com.example.betterto_do.test.app-androidTest-31 D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\build\generated\res\resValues\androidTest\debug
-com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32 D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.betterto_do.test.app-mergeDebugAndroidTestResources-33 D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.betterto_do.test.app-merged_res-34 D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\build\intermediates\merged_res\debugAndroidTest
+com.example.betterto_do.test.app-androidTest-31 C:\Users\anita\source\repos\Better-To-Do\app\build\generated\res\resValues\androidTest\debug
+com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32 C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.betterto_do.test.app-mergeDebugAndroidTestResources-33 C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.betterto_do.test.app-merged_res-34 C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\merged_res\debugAndroidTest

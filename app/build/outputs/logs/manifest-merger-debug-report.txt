@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\297bfc3f5cd053c4f79705826a3ee115\transformed\material3-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-ripple:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\980454582c5770c37a767e85b8e10a13\transformed\material-ripple-1.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-icons-core:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\1b42aad1da48605c8800a734ed33108c\transformed\material-icons-core-1.4.0\AndroidManifest.xml:17:1-22:12
@@ -48,19 +48,19 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\anita\.gradle\cach
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\3a2dc9d8a9ce1e467f2ff7b51ebfec49\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\937468986046d680db8a558590603192\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 	package
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:4:5-38
-		INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:6:5-27:19
-INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:6:5-27:19
+ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:6:5-27:19
+INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:6:5-27:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\0ab41a5b0b588445c26cacde80b79978\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\0ab41a5b0b588445c26cacde80b79978\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\4a2eedb1338be1ccbb150c040d61d150\transformed\ui-tooling-1.4.0\AndroidManifest.xml:22:5-26:19
@@ -78,51 +78,51 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\an
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\anita\.gradle\caches\transforms-3\6b0d46a1275bb0751cb08bfa5138ed6b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\anita\.gradle\caches\transforms-3\6b0d46a1275bb0751cb08bfa5138ed6b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\anita\.gradle\caches\transforms-3\54d2751d2b9e48bb8e0175fa03bfc140\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:11:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:9:9-54
 	android:roundIcon
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:15:9-29
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:15:9-29
 	android:icon
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:14:9-48
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:14:9-48
 	android:dataExtractionRules
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:8:9-65
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:8:9-65
 activity#com.example.betterto_do.MainActivity
-ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:16:9-26:20
+ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:16:9-26:20
 	android:label
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:19:13-45
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:19:13-45
 	android:exported
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:18:13-36
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:18:13-36
 	android:theme
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:20:13-52
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:20:13-52
 	android:name
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
-INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml
+INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml
+INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml
 MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\297bfc3f5cd053c4f79705826a3ee115\transformed\material3-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\297bfc3f5cd053c4f79705826a3ee115\transformed\material3-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-ripple:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\980454582c5770c37a767e85b8e10a13\transformed\material-ripple-1.4.0\AndroidManifest.xml:20:5-44
@@ -210,9 +210,9 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\anita\.gradle\caches\trans
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\937468986046d680db8a558590603192\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\937468986046d680db8a558590603192\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\AndroidManifest.xml
 activity#androidx.activity.ComponentActivity
 ADDED from [androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\0ab41a5b0b588445c26cacde80b79978\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:23:9-25:39
 	android:exported

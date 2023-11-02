@@ -38,9 +38,9 @@ com.example.betterto_do.app-customview-poolingcontainer-1.0.0-36 C:\Users\anita\
 com.example.betterto_do.app-core-ktx-1.9.0-37 C:\Users\anita\.gradle\caches\transforms-3\eee94ecdf5941a4a6aeff6328ddc45bc\transformed\core-ktx-1.9.0\res
 com.example.betterto_do.app-activity-compose-1.8.0-38 C:\Users\anita\.gradle\caches\transforms-3\f264e20d89a7d7f067d97793d3bc4bac\transformed\activity-compose-1.8.0\res
 com.example.betterto_do.app-foundation-1.4.0-39 C:\Users\anita\.gradle\caches\transforms-3\fefc16278070ba1f448b8faf49b6180b\transformed\foundation-1.4.0\res
-com.example.betterto_do.app-resValues-40 C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\build\generated\res\resValues\debug
-com.example.betterto_do.app-packageDebugResources-41 C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.betterto_do.app-packageDebugResources-42 C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.betterto_do.app-merged_res-43 C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\build\intermediates\merged_res\debug
-com.example.betterto_do.app-debug-44 C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\debug\res
-com.example.betterto_do.app-main-45 C:\Users\anita\OneDrive\Documents\GitHub\Better-To-Do\app\src\main\res
+com.example.betterto_do.app-resValues-40 D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\build\generated\res\resValues\debug
+com.example.betterto_do.app-packageDebugResources-41 D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.betterto_do.app-packageDebugResources-42 D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.betterto_do.app-merged_res-43 D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\build\intermediates\merged_res\debug
+com.example.betterto_do.app-debug-44 D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\debug\res
+com.example.betterto_do.app-main-45 D:\Anita\Repos\4realwth\Better To-Do\Better-To-Do\app\src\main\res

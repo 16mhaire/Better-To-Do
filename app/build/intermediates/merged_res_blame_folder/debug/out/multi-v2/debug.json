@@ -23,6 +23,40 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "48",
+                        "endOffsets": "61"
+                    },
+                    "to": {
+                        "startLines": "110",
+                        "startColumns": "4",
+                        "startOffsets": "6469",
+                        "endColumns": "48",
+                        "endOffsets": "6513"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "12,13,10,8,9,11,7,2,3,4,5,6,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "523,564,434,344,390,478,293,57,105,153,201,247,607",
+                        "endColumns": "39,41,42,44,42,43,49,46,46,46,44,44,41",
+                        "endOffsets": "558,601,472,384,428,517,338,99,147,195,241,287,644"
+                    },
+                    "to": {
+                        "startLines": "3,6,7,8,9,10,11,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "210,410,452,495,540,583,627,809,856,903,950,995,1040",
+                        "endColumns": "39,41,42,44,42,43,49,46,46,46,44,44,41",
+                        "endOffsets": "245,447,490,535,578,622,672,851,898,945,990,1035,1077"
+                    }
+                },
+                {
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\e34e04bb9cc451d35e425339bfa8b527\\transformed\\lifecycle-runtime-2.6.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -57,7 +91,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anita\\OneDrive\\Documents\\GitHub\\Better-To-Do\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -71,23 +105,6 @@
                         "startOffsets": "8868",
                         "endColumns": "86",
                         "endOffsets": "8950"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\OneDrive\\Documents\\GitHub\\Better-To-Do\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "12,13,10,8,9,11,7,2,3,4,5,6,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "523,564,434,344,390,478,293,57,105,153,201,247,607",
-                        "endColumns": "39,41,42,44,42,43,49,46,46,46,44,44,41",
-                        "endOffsets": "558,601,472,384,428,517,338,99,147,195,241,287,644"
-                    },
-                    "to": {
-                        "startLines": "3,6,7,8,9,10,11,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "210,410,452,495,540,583,627,809,856,903,950,995,1040",
-                        "endColumns": "39,41,42,44,42,43,49,46,46,46,44,44,41",
-                        "endOffsets": "245,447,490,535,578,622,672,851,898,945,990,1035,1077"
                     }
                 },
                 {
@@ -175,23 +192,6 @@
                         "startOffsets": "6386",
                         "endColumns": "82",
                         "endOffsets": "6464"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\OneDrive\\Documents\\GitHub\\Better-To-Do\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "48",
-                        "endOffsets": "61"
-                    },
-                    "to": {
-                        "startLines": "110",
-                        "startColumns": "4",
-                        "startOffsets": "6469",
-                        "endColumns": "48",
-                        "endOffsets": "6513"
                     }
                 },
                 {

@@ -15,7 +15,6 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id action_homeFragment_to_newDestinationFragment
 id homeFragment
 id newDestinationFragment
 mipmap ic_launcher

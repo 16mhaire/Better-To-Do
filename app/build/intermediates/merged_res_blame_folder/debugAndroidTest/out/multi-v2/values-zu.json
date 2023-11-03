@@ -4,7 +4,7 @@
             "outputFile": "com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32:/values-zu/values-zu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\54d2751d2b9e48bb8e0175fa03bfc140\\transformed\\core-1.9.0\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\204c071f5ceffafadb1af5c4278ef5cc\\transformed\\ui-1.4.0\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9a61df474d7dec936e0e7758a932a3df\\transformed\\ui-1.4.0\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

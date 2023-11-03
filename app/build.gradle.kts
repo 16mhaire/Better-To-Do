@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId = "com.example.betterto_do"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -72,4 +72,5 @@ dependencies {
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    implementation ("com.google.firebase:firebase-analytics:20.0.1")
 }

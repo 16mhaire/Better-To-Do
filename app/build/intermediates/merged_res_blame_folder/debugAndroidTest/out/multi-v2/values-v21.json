@@ -4,26 +4,7 @@
             "outputFile": "com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\30fa46543c6e478fb6560dfe8896a86e\\transformed\\core-1.5.0\\res\\values-v21\\values.xml",
-                    "from": {
-                        "startLines": "4,13",
-                        "startColumns": "0,0",
-                        "startOffsets": "180,655",
-                        "endLines": "12,21",
-                        "endColumns": "8,8",
-                        "endOffsets": "654,1127"
-                    },
-                    "to": {
-                        "startLines": "10,19",
-                        "startColumns": "4,4",
-                        "startOffsets": "864,1343",
-                        "endLines": "18,27",
-                        "endColumns": "8,8",
-                        "endOffsets": "1338,1815"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\54d2751d2b9e48bb8e0175fa03bfc140\\transformed\\core-1.9.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -39,6 +20,25 @@
                         "endLines": "2,3,4,5,6,7,8,9,30,35",
                         "endColumns": "117,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "168,232,299,363,479,605,731,859,1987,2339"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\6b8b17dca51a643214d5fc8d523dcd5a\\transformed\\core-1.5.0\\res\\values-v21\\values.xml",
+                    "from": {
+                        "startLines": "4,13",
+                        "startColumns": "0,0",
+                        "startOffsets": "180,655",
+                        "endLines": "12,21",
+                        "endColumns": "8,8",
+                        "endOffsets": "654,1127"
+                    },
+                    "to": {
+                        "startLines": "10,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "864,1343",
+                        "endLines": "18,27",
+                        "endColumns": "8,8",
+                        "endOffsets": "1338,1815"
                     }
                 }
             ]

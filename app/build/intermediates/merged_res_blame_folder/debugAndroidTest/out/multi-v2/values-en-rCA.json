@@ -4,24 +4,7 @@
             "outputFile": "com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\204c071f5ceffafadb1af5c4278ef5cc\\transformed\\ui-1.4.0\\res\\values-en-rCA\\values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,197,279,373,472,558,640,730,819,903,968,1032,1110,1192,1265,1342,1408",
-                        "endColumns": "91,81,93,98,85,81,89,88,83,64,63,77,81,72,76,65,119",
-                        "endOffsets": "192,274,368,467,553,635,725,814,898,963,1027,1105,1187,1260,1337,1403,1523"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,197,279,373,472,558,640,730,819,903,968,1032,1110,1192,1366,1443,1509",
-                        "endColumns": "91,81,93,98,85,81,89,88,83,64,63,77,81,72,76,65,119",
-                        "endOffsets": "192,274,368,467,553,635,725,814,898,963,1027,1105,1187,1260,1438,1504,1624"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\54d2751d2b9e48bb8e0175fa03bfc140\\transformed\\core-1.9.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,6 +18,23 @@
                         "startOffsets": "1265",
                         "endColumns": "100",
                         "endOffsets": "1361"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9a61df474d7dec936e0e7758a932a3df\\transformed\\ui-1.4.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,279,373,472,558,640,730,819,903,968,1032,1110,1192,1265,1342,1408",
+                        "endColumns": "91,81,93,98,85,81,89,88,83,64,63,77,81,72,76,65,119",
+                        "endOffsets": "192,274,368,467,553,635,725,814,898,963,1027,1105,1187,1260,1337,1403,1523"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,279,373,472,558,640,730,819,903,968,1032,1110,1192,1366,1443,1509",
+                        "endColumns": "91,81,93,98,85,81,89,88,83,64,63,77,81,72,76,65,119",
+                        "endOffsets": "192,274,368,467,553,635,725,814,898,963,1027,1105,1187,1260,1438,1504,1624"
                     }
                 }
             ]

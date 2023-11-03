@@ -9,9 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.example.betterto_do.ui.theme.BetterToDoTheme
-import com.example.betterto_do.Dashboard
 
 
 class MainActivity : ComponentActivity() {

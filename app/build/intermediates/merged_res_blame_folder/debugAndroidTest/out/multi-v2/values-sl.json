@@ -4,6 +4,7 @@
             "outputFile": "com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32:/values-sl/values-sl.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\84d9c42807b8d95d455e984954ac63fd\\transformed\\core-1.12.0\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -21,6 +22,8 @@
                     }
                 },
                 {
+=======
+>>>>>>> 571ea27 (Uodated sdk to 34 and it builds)
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9a61df474d7dec936e0e7758a932a3df\\transformed\\ui-1.4.0\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
@@ -35,6 +38,23 @@
                         "startOffsets": "828,923,1004,1100,1198,1283,1360,1447,1539,1621,1694,1766,1848,1934,2107,2185,2255",
                         "endColumns": "94,80,95,97,84,76,86,91,81,72,71,81,85,71,77,69,120",
                         "endOffsets": "918,999,1095,1193,1278,1355,1442,1534,1616,1689,1761,1843,1929,2001,2180,2250,2371"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1283",
+                        "endColumns": "100",
+                        "endOffsets": "1379"
                     }
                 }
             ]

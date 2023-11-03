@@ -4,6 +4,7 @@
             "outputFile": "com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32:/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\84d9c42807b8d95d455e984954ac63fd\\transformed\\core-1.12.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -21,6 +22,8 @@
                     }
                 },
                 {
+=======
+>>>>>>> 571ea27 (Uodated sdk to 34 and it builds)
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9a61df474d7dec936e0e7758a932a3df\\transformed\\ui-1.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
@@ -35,6 +38,23 @@
                         "startOffsets": "769,846,922,1007,1098,1175,1249,1326,1404,1479,1544,1609,1682,1757,1926,1999,2065",
                         "endColumns": "76,75,84,90,76,73,76,77,74,64,64,72,74,67,72,65,115",
                         "endOffsets": "841,917,1002,1093,1170,1244,1321,1399,1474,1539,1604,1677,1752,1820,1994,2060,2176"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1161",
+                        "endColumns": "100",
+                        "endOffsets": "1257"
                     }
                 }
             ]

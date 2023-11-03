@@ -4,6 +4,7 @@
             "outputFile": "com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32:/values-in/values-in.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9a61df474d7dec936e0e7758a932a3df\\transformed\\ui-1.4.0\\res\\values-in\\values-in.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
@@ -22,6 +23,9 @@
                 },
                 {
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\84d9c42807b8d95d455e984954ac63fd\\transformed\\core-1.12.0\\res\\values-in\\values-in.xml",
+=======
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-in\\values-in.xml",
+>>>>>>> 571ea27 (Uodated sdk to 34 and it builds)
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -35,6 +39,23 @@
                         "startOffsets": "105,200,302,399,496,602,720,2011",
                         "endColumns": "94,101,96,96,105,117,114,100",
                         "endOffsets": "195,297,394,491,597,715,830,2107"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9a61df474d7dec936e0e7758a932a3df\\transformed\\ui-1.4.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,195,277,375,475,561,644,735,822,907,977,1044,1126,1209,1281,1359,1425",
+                        "endColumns": "89,81,97,99,85,82,90,86,84,69,66,81,82,71,77,65,118",
+                        "endOffsets": "190,272,370,470,556,639,730,817,902,972,1039,1121,1204,1276,1354,1420,1539"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,195,277,375,475,561,644,735,822,907,977,1044,1126,1209,1382,1460,1526",
+                        "endColumns": "89,81,97,99,85,82,90,86,84,69,66,81,82,71,77,65,118",
+                        "endOffsets": "190,272,370,470,556,639,730,817,902,972,1039,1121,1204,1276,1455,1521,1640"
                     }
                 }
             ]

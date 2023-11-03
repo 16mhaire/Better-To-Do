@@ -45,7 +45,6 @@
     <string msgid="406453423630273620" name="close_drawer">"සංචාලන මෙනුව වසන්න"</string>
     <string msgid="7573152094250666567" name="close_sheet">"පත්‍රය වසන්න"</string>
     <string msgid="5389587048670450460" name="collapsed">"හකුළන ලදි"</string>
-    <string name="common_google_play_services_unknown_issue">%1$s හට Google Play සේවා සමගින් ගැටලු ඇත. කරුණාකර නැවත උත්සාහ කරන්න.</string>
     <string msgid="8038256446254964252" name="default_error_message">"වලංගු නොවන ආදානයකි"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"උත්පතන කවුළුව"</string>
     <string msgid="4057925834421392736" name="dialog">"සංවාදය"</string>

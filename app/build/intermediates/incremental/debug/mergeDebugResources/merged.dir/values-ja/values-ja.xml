@@ -45,7 +45,6 @@
     <string msgid="406453423630273620" name="close_drawer">"ナビゲーションメニューを閉じる"</string>
     <string msgid="7573152094250666567" name="close_sheet">"シートを閉じる"</string>
     <string msgid="5389587048670450460" name="collapsed">"閉じています"</string>
-    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
     <string msgid="8038256446254964252" name="default_error_message">"入力値が無効です"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"ポップアップウィンドウ"</string>
     <string msgid="4057925834421392736" name="dialog">"ダイアログ"</string>

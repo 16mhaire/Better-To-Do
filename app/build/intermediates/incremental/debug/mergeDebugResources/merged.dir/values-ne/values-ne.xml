@@ -45,7 +45,6 @@
     <string msgid="406453423630273620" name="close_drawer">"नेभिगेसन मेनु बन्द गर्नुहोस्"</string>
     <string msgid="7573152094250666567" name="close_sheet">"पाना बन्द गर्नुहोस्"</string>
     <string msgid="5389587048670450460" name="collapsed">"कोल्याप्स गरियो"</string>
-    <string name="common_google_play_services_unknown_issue">%1$s लाई Google Play services सँग सहकार्य गर्न समस्या भइरहेको छ। कृपया फेरि प्रयास गर्नुहोस्।</string>
     <string msgid="8038256446254964252" name="default_error_message">"अवैद्य इन्पुट"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"पपअप विन्डो"</string>
     <string msgid="4057925834421392736" name="dialog">"डायलग"</string>

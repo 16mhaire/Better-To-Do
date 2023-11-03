@@ -45,7 +45,6 @@
     <string msgid="406453423630273620" name="close_drawer">"Fermer le menu de navigation"</string>
     <string msgid="7573152094250666567" name="close_sheet">"Fermer la feuille"</string>
     <string msgid="5389587048670450460" name="collapsed">"Réduit"</string>
-    <string name="common_google_play_services_unknown_issue">L\'application %1$s éprouve un problème avec les services Google Play. Veuillez réessayer.</string>
     <string msgid="8038256446254964252" name="default_error_message">"Entrée incorrecte"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Fenêtre contextuelle"</string>
     <string msgid="4057925834421392736" name="dialog">"Dialogue"</string>

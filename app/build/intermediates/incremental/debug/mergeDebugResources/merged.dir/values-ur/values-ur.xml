@@ -45,7 +45,6 @@
     <string msgid="406453423630273620" name="close_drawer">"نیویگیشن مینو بند کریں"</string>
     <string msgid="7573152094250666567" name="close_sheet">"شیٹ بند کریں"</string>
     <string msgid="5389587048670450460" name="collapsed">"سکیڑا گیا"</string>
-    <string name="common_google_play_services_unknown_issue">‏%1$s کو Google Play سروسز کے ساتھ مسئلہ پیش آ رہا ہے۔ براہ کرم دوبارہ کوشش کریں۔</string>
     <string msgid="8038256446254964252" name="default_error_message">"غلط ان پٹ"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"پاپ اپ ونڈو"</string>
     <string msgid="4057925834421392736" name="dialog">"ڈائلاگ"</string>

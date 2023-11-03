@@ -46,7 +46,6 @@
     <string msgid="406453423630273620" name="close_drawer">"Zatvaranje izbornika za navigaciju"</string>
     <string msgid="7573152094250666567" name="close_sheet">"Zatvaranje lista"</string>
     <string msgid="5389587048670450460" name="collapsed">"Sažeto"</string>
-    <string name="common_google_play_services_unknown_issue">%1$s ima poteškoća s uslugama Google Playa. Pokušajte ponovo.</string>
     <string msgid="8038256446254964252" name="default_error_message">"Nevažeći unos"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Skočni prozor"</string>
     <string msgid="4057925834421392736" name="dialog">"Dijaloški okvir"</string>

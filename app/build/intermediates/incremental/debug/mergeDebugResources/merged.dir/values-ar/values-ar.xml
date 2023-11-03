@@ -49,7 +49,6 @@
     <string msgid="406453423630273620" name="close_drawer">"إغلاق قائمة التنقل"</string>
     <string msgid="7573152094250666567" name="close_sheet">"إغلاق الورقة"</string>
     <string msgid="5389587048670450460" name="collapsed">"مصغَّر"</string>
-    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. يُرجى إعادة المحاولة.</string>
     <string msgid="8038256446254964252" name="default_error_message">"إدخال غير صالح"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"نافذة منبثقة"</string>
     <string msgid="4057925834421392736" name="dialog">"مربّع حوار"</string>

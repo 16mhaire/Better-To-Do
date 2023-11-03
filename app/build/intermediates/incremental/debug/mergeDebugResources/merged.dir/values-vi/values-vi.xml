@@ -45,7 +45,6 @@
     <string msgid="406453423630273620" name="close_drawer">"Đóng trình đơn điều hướng"</string>
     <string msgid="7573152094250666567" name="close_sheet">"Đóng trang tính"</string>
     <string msgid="5389587048670450460" name="collapsed">"Đã thu gọn"</string>
-    <string name="common_google_play_services_unknown_issue">%1$s đang gặp sự cố với Dịch vụ Google Play. Hãy thử lại.</string>
     <string msgid="8038256446254964252" name="default_error_message">"Giá trị nhập không hợp lệ"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Cửa sổ bật lên"</string>
     <string msgid="4057925834421392736" name="dialog">"Hộp thoại"</string>

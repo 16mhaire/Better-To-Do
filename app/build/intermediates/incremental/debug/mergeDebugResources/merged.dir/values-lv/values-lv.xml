@@ -46,7 +46,6 @@
     <string msgid="406453423630273620" name="close_drawer">"Aizvērt navigācijas izvēlni"</string>
     <string msgid="7573152094250666567" name="close_sheet">"Aizvērt izklājlapu"</string>
     <string msgid="5389587048670450460" name="collapsed">"Sakļauts"</string>
-    <string name="common_google_play_services_unknown_issue">Lietotnē %1$s ir radusies problēma ar Google Play pakalpojumu darbību. Lūdzu, mēģiniet vēlreiz.</string>
     <string msgid="8038256446254964252" name="default_error_message">"Nederīga ievade"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Uznirstošais logs"</string>
     <string msgid="4057925834421392736" name="dialog">"Dialoglodziņš"</string>

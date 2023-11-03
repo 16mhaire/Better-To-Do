@@ -45,7 +45,6 @@
     <string msgid="406453423630273620" name="close_drawer">"បិទម៉ឺនុយរុករក"</string>
     <string msgid="7573152094250666567" name="close_sheet">"បិទសន្លឹក"</string>
     <string msgid="5389587048670450460" name="collapsed">"បាន​បង្រួម"</string>
-    <string name="common_google_play_services_unknown_issue">%1$s កំពុងមានបញ្ហាជាមួយសេវាកម្មរបស់ Google Play ។ សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។</string>
     <string msgid="8038256446254964252" name="default_error_message">"ការបញ្ចូល​មិនត្រឹមត្រូវ"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"វិនដូ​លោតឡើង"</string>
     <string msgid="4057925834421392736" name="dialog">"ប្រអប់"</string>

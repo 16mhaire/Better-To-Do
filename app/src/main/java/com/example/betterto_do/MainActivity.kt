@@ -37,8 +37,8 @@ class MainActivity : ComponentActivity() {
                 modifier = modifier
             )
         }
-
-        @Preview(showBackground = true)
+        //This preview here causes an error
+        //@Preview(showBackground = true)
         @Composable
         fun GreetingPreview() {
             BetterToDoTheme {

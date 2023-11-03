@@ -21,6 +21,8 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 string app_name
+string title_activity_login
+string title_activity_register
 style Theme.BetterToDo
 xml backup_rules
 xml data_extraction_rules

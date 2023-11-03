@@ -4,24 +4,7 @@
             "outputFile": "com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32:/values-iw/values-iw.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-iw\\values-iw.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "1237",
-                        "endColumns": "100",
-                        "endOffsets": "1333"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9a61df474d7dec936e0e7758a932a3df\\transformed\\ui-1.4.0\\res\\values-iw\\values-iw.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9cda9e70f4a3a38318f0f295acb14911\\transformed\\ui-1.4.0\\res\\values-iw\\values-iw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,194,278,371,466,549,626,711,797,876,942,1008,1086,1168,1338,1412,1483",
                         "endColumns": "88,83,92,94,82,76,84,85,78,65,65,77,81,68,73,70,118",
                         "endOffsets": "189,273,366,461,544,621,706,792,871,937,1003,1081,1163,1232,1407,1478,1597"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\752913496dfd2f181eb406ca304d809c\\transformed\\core-1.9.0\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1237",
+                        "endColumns": "100",
+                        "endOffsets": "1333"
                     }
                 }
             ]

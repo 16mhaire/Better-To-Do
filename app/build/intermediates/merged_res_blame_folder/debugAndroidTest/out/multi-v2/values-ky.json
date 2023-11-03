@@ -4,24 +4,7 @@
             "outputFile": "com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32:/values-ky/values-ky.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-ky\\values-ky.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "1309",
-                        "endColumns": "100",
-                        "endOffsets": "1405"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9a61df474d7dec936e0e7758a932a3df\\transformed\\ui-1.4.0\\res\\values-ky\\values-ky.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9cda9e70f4a3a38318f0f295acb14911\\transformed\\ui-1.4.0\\res\\values-ky\\values-ky.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,198,282,392,492,577,659,757,846,931,997,1064,1149,1236,1410,1489,1557",
                         "endColumns": "92,83,109,99,84,81,97,88,84,65,66,84,86,72,78,67,117",
                         "endOffsets": "193,277,387,487,572,654,752,841,926,992,1059,1144,1231,1304,1484,1552,1670"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\752913496dfd2f181eb406ca304d809c\\transformed\\core-1.9.0\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1309",
+                        "endColumns": "100",
+                        "endOffsets": "1405"
                     }
                 }
             ]

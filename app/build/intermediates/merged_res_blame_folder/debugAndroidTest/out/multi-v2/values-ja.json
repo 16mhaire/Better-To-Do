@@ -4,24 +4,7 @@
             "outputFile": "com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32:/values-ja/values-ja.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-ja\\values-ja.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "1201",
-                        "endColumns": "100",
-                        "endOffsets": "1297"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9a61df474d7dec936e0e7758a932a3df\\transformed\\ui-1.4.0\\res\\values-ja\\values-ja.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9cda9e70f4a3a38318f0f295acb14911\\transformed\\ui-1.4.0\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,191,269,358,455,538,616,694,779,854,918,982,1056,1132,1302,1378,1443",
                         "endColumns": "85,77,88,96,82,77,77,84,74,63,63,73,75,68,75,64,116",
                         "endOffsets": "186,264,353,450,533,611,689,774,849,913,977,1051,1127,1196,1373,1438,1555"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\752913496dfd2f181eb406ca304d809c\\transformed\\core-1.9.0\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "1201",
+                        "endColumns": "100",
+                        "endOffsets": "1297"
                     }
                 }
             ]

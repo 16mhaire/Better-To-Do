@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="881409763997275156" name="call_notification_answer_action">"ಉತ್ತರಿಸಿ"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ವೀಡಿಯೊ"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"ನಿರಾಕರಿಸಿ"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"ಕರೆ ಕೊನೆಗೊಳಿಸಿ"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"ಒಳಬರುವ ಕರೆ"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಕರೆ"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"ಒಳಬರುವ ಕರೆಯನ್ನು ಸ್ಕ್ರೀನ್ ಮಾಡಲಾಗುತ್ತಿದೆ"</string>
     <string msgid="406453423630273620" name="close_drawer">"ನ್ಯಾವಿಗೇಷನ್‌ ಮೆನು ಮುಚ್ಚಿರಿ"</string>
     <string msgid="7573152094250666567" name="close_sheet">"ಶೀಟ್ ಮುಚ್ಚಿರಿ"</string>
     <string msgid="8038256446254964252" name="default_error_message">"ಅಮಾನ್ಯ ಇನ್‌ಪುಟ್"</string>

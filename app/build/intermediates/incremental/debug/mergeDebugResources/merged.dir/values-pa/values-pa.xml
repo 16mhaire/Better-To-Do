@@ -45,6 +45,7 @@
     <string msgid="406453423630273620" name="close_drawer">"ਨੈਵੀਗੇਸ਼ਨ ਮੀਨੂ ਬੰਦ ਕਰੋ"</string>
     <string msgid="7573152094250666567" name="close_sheet">"ਸ਼ੀਟ ਬੰਦ ਕਰੋ"</string>
     <string msgid="5389587048670450460" name="collapsed">"ਸਮੇਟਿਆ ਗਿਆ"</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ਨੂੰ Google Play ਸੇਵਾਵਾਂ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string msgid="8038256446254964252" name="default_error_message">"ਅਵੈਧ ਇਨਪੁੱਟ"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"ਪੌਪ-ਅੱਪ ਵਿੰਡੋ"</string>
     <string msgid="4057925834421392736" name="dialog">"ਵਿੰਡੋ"</string>

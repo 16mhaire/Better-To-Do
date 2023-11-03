@@ -45,6 +45,7 @@
     <string msgid="406453423630273620" name="close_drawer">"关闭导航菜单"</string>
     <string msgid="7573152094250666567" name="close_sheet">"关闭工作表"</string>
     <string msgid="5389587048670450460" name="collapsed">"已收起"</string>
+    <string name="common_google_play_services_unknown_issue">%1$s无法访问 Google Play 服务，请重试。</string>
     <string msgid="8038256446254964252" name="default_error_message">"输入无效"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"弹出式窗口"</string>
     <string msgid="4057925834421392736" name="dialog">"对话框"</string>

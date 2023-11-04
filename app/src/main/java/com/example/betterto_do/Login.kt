@@ -7,12 +7,15 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -26,6 +29,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -51,15 +56,19 @@ fun LoginScreen(modifier: Modifier = Modifier) {
     Surface(
         Modifier.fillMaxSize()
     ) {
-        Column {
+        Column (
+            modifier = Modifier.fillMaxHeight(),
+            verticalArrangement = Arrangement.Center
+        ){
             LoginHeading()
             Text(
                 text = "Please login",
                 modifier = Modifier.fillMaxWidth(),
                 textAlign = TextAlign.Center,
+
             )
-            TextInputField("UserName")
-            TextInputField("Password")
+            TextInputField("Email", false)
+            TextInputField("Password", true)
             LoginButton()
         }
     }
@@ -76,27 +85,36 @@ fun GreetingPreview2() {
 
 @Composable
 fun LoginHeading(){
-    Text(
-        text = "Welcome to Better To-Do",
-        color = colorResource(id = R.color.cerulean),
-        modifier = Modifier.fillMaxWidth(),
-        style = androidx.compose.ui.text.TextStyle(
-            fontSize = 30.sp,
-            fontWeight = FontWeight.Bold
-        ),
-        textAlign = TextAlign.Center,
-    )
+    Column (
+        verticalArrangement = Arrangement.Center
+    ){
+        Text(
+            text = "Welcome to Better To-Do",
+            color = colorResource(id = R.color.cerulean),
+            modifier = Modifier.fillMaxWidth()
+                .padding(24.dp),
+            style = androidx.compose.ui.text.TextStyle(
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Bold
+            ),
+            textAlign = TextAlign.Center
+        )
+    }
+
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TextInputField(value:String) {
+fun TextInputField(value:String, isPassword:Boolean) {
     var text by remember { mutableStateOf("") }
     TextField(
         value = text,
         onValueChange = { newText -> text = newText },
         label = { Text(value) },
         modifier = Modifier.padding(10.dp)
+            .fillMaxWidth(),
+        visualTransformation = if (isPassword) PasswordVisualTransformation() else VisualTransformation.None
+
     )
 }
 
@@ -108,11 +126,12 @@ fun LoginButton(){
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp),
-        verticalArrangement = Arrangement.Center
+        verticalArrangement = Arrangement.Bottom
         ) {
         Button(
             onClick = { /*To-Do Implement this function*/},
                 modifier = Modifier.fillMaxWidth(),
+            colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
             ) {
                 Text(text = "Login")
             }

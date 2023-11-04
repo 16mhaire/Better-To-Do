@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-48:/values-km/values-km.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-42:/values-km/values-km.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\54d2751d2b9e48bb8e0175fa03bfc140\\transformed\\core-1.9.0\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\54d2751d2b9e48bb8e0175fa03bfc140\\transformed\\core-1.9.0\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\297bfc3f5cd053c4f79705826a3ee115\\transformed\\material3-1.0.0\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,134,206",
-                        "endColumns": "78,71,77",
-                        "endOffsets": "129,201,279"
-                    },
-                    "to": {
-                        "startLines": "4,7,9",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "270,551,711",
-                        "endColumns": "78,71,77",
-                        "endOffsets": "344,618,784"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\204c071f5ceffafadb1af5c4278ef5cc\\transformed\\ui-1.4.0\\res\\values-km\\values-km.xml",
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\204c071f5ceffafadb1af5c4278ef5cc\\transformed\\ui-1.4.0\\res\\values-km\\values-km.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "105,190,349,453,623,789,873,956,1041,1128,1193,1258,1338,1423,1600,1684,1750",
                         "endColumns": "84,79,103,97,87,83,82,84,86,64,64,79,84,75,83,65,117",
                         "endOffsets": "185,265,448,546,706,868,951,1036,1123,1188,1253,1333,1418,1494,1679,1745,1863"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\297bfc3f5cd053c4f79705826a3ee115\\transformed\\material3-1.0.0\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,134,206",
+                        "endColumns": "78,71,77",
+                        "endOffsets": "129,201,279"
+                    },
+                    "to": {
+                        "startLines": "4,7,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "270,551,711",
+                        "endColumns": "78,71,77",
+                        "endOffsets": "344,618,784"
                     }
                 }
             ]

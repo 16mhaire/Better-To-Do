@@ -4,75 +4,24 @@
             "outputFile": "com.example.betterto_do.app-mergeDebugResources-42:/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\30d4ca80d8713328df271822a55cda75\\transformed\\lifecycle-viewmodel-2.6.2\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Groobles\\AndroidStudioProjects\\Better-To-Do\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-                        "startLines": "2",
+                        "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "49",
-                        "endOffsets": "100"
+                        "startOffsets": "59",
+                        "endColumns": "87",
+                        "endOffsets": "142"
                     },
                     "to": {
-                        "startLines": "106",
+                        "startLines": "153",
                         "startColumns": "4",
-                        "startOffsets": "6213",
-                        "endColumns": "49",
-                        "endOffsets": "6258"
+                        "startOffsets": "8868",
+                        "endColumns": "86",
+                        "endOffsets": "8950"
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\6b0d46a1275bb0751cb08bfa5138ed6b\\transformed\\startup-runtime-1.1.1\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "82",
-                        "endOffsets": "133"
-                    },
-                    "to": {
-                        "startLines": "109",
-                        "startColumns": "4",
-                        "startOffsets": "6386",
-                        "endColumns": "82",
-                        "endOffsets": "6464"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jaite\\AndroidStudioProjects\\Better-To-Do\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "48",
-                        "endOffsets": "60"
-                    },
-                    "to": {
-                        "startLines": "110",
-                        "startColumns": "4",
-                        "startOffsets": "6469",
-                        "endColumns": "48",
-                        "endOffsets": "6513"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\35641f5e69f5563adad4994b6aa0a89f\\transformed\\activity-1.8.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,97",
-                        "endColumns": "41,59",
-                        "endOffsets": "92,152"
-                    },
-                    "to": {
-                        "startLines": "86,104",
-                        "startColumns": "4,4",
-                        "startOffsets": "5155,6099",
-                        "endColumns": "41,59",
-                        "endOffsets": "5192,6154"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\204c071f5ceffafadb1af5c4278ef5cc\\transformed\\ui-1.4.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\204c071f5ceffafadb1af5c4278ef5cc\\transformed\\ui-1.4.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,60,63",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -91,58 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\e34e04bb9cc451d35e425339bfa8b527\\transformed\\lifecycle-runtime-2.6.2\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "42",
-                        "endOffsets": "93"
-                    },
-                    "to": {
-                        "startLines": "103",
-                        "startColumns": "4",
-                        "startOffsets": "6056",
-                        "endColumns": "42",
-                        "endOffsets": "6094"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\e955d2ad3b7fdd262da1f822c4578020\\transformed\\customview-poolingcontainer-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,109",
-                        "endColumns": "53,66",
-                        "endOffsets": "104,171"
-                    },
-                    "to": {
-                        "startLines": "82,85",
-                        "startColumns": "4,4",
-                        "startOffsets": "4964,5088",
-                        "endColumns": "53,66",
-                        "endOffsets": "5013,5150"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\297bfc3f5cd053c4f79705826a3ee115\\transformed\\material3-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,103,147",
-                        "endColumns": "47,43,45",
-                        "endOffsets": "98,142,188"
-                    },
-                    "to": {
-                        "startLines": "113,116,118",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "6637,6852,6954",
-                        "endColumns": "47,43,45",
-                        "endOffsets": "6680,6891,6995"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\67aef483e0e49ec9ae76622549967eed\\transformed\\savedstate-1.2.1\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\67aef483e0e49ec9ae76622549967eed\\transformed\\savedstate-1.2.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -159,24 +57,75 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaite\\AndroidStudioProjects\\Better-To-Do\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\6b0d46a1275bb0751cb08bfa5138ed6b\\transformed\\startup-runtime-1.1.1\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "12,13,10,8,9,11,7,2,3,4,5,6,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "511,551,424,336,381,467,286,55,102,149,196,241,593",
-                        "endColumns": "39,41,42,44,42,43,49,46,46,46,44,44,41",
-                        "endOffsets": "546,588,462,376,419,506,331,97,144,191,236,281,630"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
                     },
                     "to": {
-                        "startLines": "3,6,7,8,9,10,11,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "210,410,452,495,540,583,627,809,856,903,950,995,1040",
-                        "endColumns": "39,41,42,44,42,43,49,46,46,46,44,44,41",
-                        "endOffsets": "245,447,490,535,578,622,672,851,898,945,990,1035,1077"
+                        "startLines": "109",
+                        "startColumns": "4",
+                        "startOffsets": "6386",
+                        "endColumns": "82",
+                        "endOffsets": "6464"
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\54d2751d2b9e48bb8e0175fa03bfc140\\transformed\\core-1.9.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\e34e04bb9cc451d35e425339bfa8b527\\transformed\\lifecycle-runtime-2.6.2\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "103",
+                        "startColumns": "4",
+                        "startOffsets": "6056",
+                        "endColumns": "42",
+                        "endOffsets": "6094"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\297bfc3f5cd053c4f79705826a3ee115\\transformed\\material3-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,103,147",
+                        "endColumns": "47,43,45",
+                        "endOffsets": "98,142,188"
+                    },
+                    "to": {
+                        "startLines": "113,116,118",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "6637,6852,6954",
+                        "endColumns": "47,43,45",
+                        "endOffsets": "6680,6891,6995"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\35641f5e69f5563adad4994b6aa0a89f\\transformed\\activity-1.8.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,59",
+                        "endOffsets": "92,152"
+                    },
+                    "to": {
+                        "startLines": "86,104",
+                        "startColumns": "4,4",
+                        "startOffsets": "5155,6099",
+                        "endColumns": "41,59",
+                        "endOffsets": "5192,6154"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\54d2751d2b9e48bb8e0175fa03bfc140\\transformed\\core-1.9.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,89,90,94,95,96,97,103,113,146,167,200",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -195,20 +144,71 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jaite\\AndroidStudioProjects\\Better-To-Do\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\Groobles\\AndroidStudioProjects\\Better-To-Do\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3",
+                        "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "56",
-                        "endColumns": "87",
-                        "endOffsets": "139"
+                        "startOffsets": "17",
+                        "endColumns": "48",
+                        "endOffsets": "61"
                     },
                     "to": {
-                        "startLines": "153",
+                        "startLines": "110",
                         "startColumns": "4",
-                        "startOffsets": "8868",
-                        "endColumns": "86",
-                        "endOffsets": "8950"
+                        "startOffsets": "6469",
+                        "endColumns": "48",
+                        "endOffsets": "6513"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\AndroidStudioProjects\\Better-To-Do\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "12,13,10,8,9,11,7,2,3,4,5,6,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "523,564,434,344,390,478,293,57,105,153,201,247,607",
+                        "endColumns": "39,41,42,44,42,43,49,46,46,46,44,44,41",
+                        "endOffsets": "558,601,472,384,428,517,338,99,147,195,241,287,644"
+                    },
+                    "to": {
+                        "startLines": "3,6,7,8,9,10,11,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "210,410,452,495,540,583,627,809,856,903,950,995,1040",
+                        "endColumns": "39,41,42,44,42,43,49,46,46,46,44,44,41",
+                        "endOffsets": "245,447,490,535,578,622,672,851,898,945,990,1035,1077"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\30d4ca80d8713328df271822a55cda75\\transformed\\lifecycle-viewmodel-2.6.2\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "106",
+                        "startColumns": "4",
+                        "startOffsets": "6213",
+                        "endColumns": "49",
+                        "endOffsets": "6258"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\e955d2ad3b7fdd262da1f822c4578020\\transformed\\customview-poolingcontainer-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,109",
+                        "endColumns": "53,66",
+                        "endOffsets": "104,171"
+                    },
+                    "to": {
+                        "startLines": "82,85",
+                        "startColumns": "4,4",
+                        "startOffsets": "4964,5088",
+                        "endColumns": "53,66",
+                        "endOffsets": "5013,5150"
                     }
                 }
             ]

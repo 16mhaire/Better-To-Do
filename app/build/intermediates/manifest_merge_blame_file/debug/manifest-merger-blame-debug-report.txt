@@ -20,393 +20,412 @@
 15-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:26:5-79
 15-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:26:22-76
 16    <uses-permission android:name="android.permission.WAKE_LOCK" />
-16-->[com.google.android.gms:play-services-measurement-api:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\f7dfd913e3daf852b5a27078dc423743\transformed\play-services-measurement-api-20.0.1\AndroidManifest.xml:24:5-68
-16-->[com.google.android.gms:play-services-measurement-api:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\f7dfd913e3daf852b5a27078dc423743\transformed\play-services-measurement-api-20.0.1\AndroidManifest.xml:24:22-65
-17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
-17-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:26:5-110
-17-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:26:22-107
-18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-18-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\anita\.gradle\caches\transforms-3\d4ce5126635cf9d9626b5ca55771ba1d\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
-18-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\anita\.gradle\caches\transforms-3\d4ce5126635cf9d9626b5ca55771ba1d\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
-19
-20    <permission
-20-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-21        android:name="com.example.betterto_do.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-21-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-22        android:protectionLevel="signature" />
-22-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-23
-24    <uses-permission android:name="com.example.betterto_do.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-24-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-24-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+16-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+18-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+18-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+19    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+19-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+19-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+21
+22    <permission
+22-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.betterto_do.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 25
-26    <application
-26-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:9:5-59:19
-27        android:allowBackup="true"
-27-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:10:9-35
-28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-29        android:dataExtractionRules="@xml/data_extraction_rules"
-29-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:11:9-65
-30        android:debuggable="true"
-31        android:extractNativeLibs="false"
-32        android:fullBackupContent="@xml/backup_rules"
-32-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:12:9-54
-33        android:icon="@mipmap/ic_launcher"
-33-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:13:9-43
-34        android:label="@string/app_name"
-34-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:14:9-41
-35        android:roundIcon="@mipmap/ic_launcher_round"
-35-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:15:9-54
-36        android:supportsRtl="true"
-36-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:16:9-35
-37        android:testOnly="true"
-38        android:theme="@style/Theme.BetterToDo" >
-38-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:17:9-48
-39        <service
-39-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:19:9-22:47
-40            android:name="com.example.betterto_do.MyService"
-40-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:20:13-38
-41            android:enabled="true"
-41-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:21:13-35
-42            android:exported="true" />
-42-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:22:13-36
-43        <service
-43-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:23:9-26:39
-44            android:name="com.example.betterto_do.Services"
-44-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:24:13-37
-45            android:enabled="true"
-45-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:25:13-35
-46            android:exported="true" />
-46-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:26:13-36
-47
-48        <activity
-48-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:28:9-32:55
-49            android:name="com.example.betterto_do.Register"
-49-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:29:13-37
-50            android:exported="false"
-50-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:30:13-37
-51            android:label="@string/title_activity_register"
-51-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:31:13-60
-52            android:theme="@style/Theme.BetterToDo" />
-52-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:32:13-52
-53        <activity
-53-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:33:9-37:55
-54            android:name="com.example.betterto_do.Login"
-54-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:34:13-34
-55            android:exported="false"
-55-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:35:13-37
-56            android:label="@string/title_activity_login"
-56-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:36:13-57
-57            android:theme="@style/Theme.BetterToDo" />
-57-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:37:13-52
-58        <activity
-58-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:28:9-32:55
-59            android:name="com.example.betterto_do.Register"
-59-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:29:13-37
-60            android:exported="false"
-60-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:30:13-37
-61            android:label="@string/title_activity_register"
-61-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:31:13-60
-62            android:theme="@style/Theme.BetterToDo" />
-62-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:32:13-52
-63        <activity
-63-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:33:9-37:55
-64            android:name="com.example.betterto_do.Login"
-64-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:34:13-34
-65            android:exported="false"
-65-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:35:13-37
-66            android:label="@string/title_activity_login"
-66-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:36:13-57
-67            android:theme="@style/Theme.BetterToDo" />
-67-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:37:13-52
-68        <activity
-68-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:48:9-58:20
-69            android:name="com.example.betterto_do.MainActivity"
-69-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:49:13-41
-70            android:exported="true"
-70-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:50:13-36
-71            android:label="@string/app_name"
-71-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:51:13-45
-72            android:theme="@style/Theme.BetterToDo" >
-72-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:52:13-52
-73            <intent-filter>
-73-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:53:13-57:29
-74                <action android:name="android.intent.action.MAIN" />
-74-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:54:17-69
-74-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:54:25-66
-75
-76                <category android:name="android.intent.category.LAUNCHER" />
-76-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:56:17-77
-76-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:56:27-74
-77            </intent-filter>
-78        </activity>
-79        <activity
-79-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\e6e06a0785eb5f09414d757fdc17f382\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:23:9-25:39
-80            android:name="androidx.activity.ComponentActivity"
-80-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\e6e06a0785eb5f09414d757fdc17f382\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:24:13-63
-81            android:exported="true" />
-81-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\e6e06a0785eb5f09414d757fdc17f382\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:25:13-36
-82        <activity
-82-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\2208a83918e90f0aa18ec875211081ea\transformed\ui-tooling-1.4.0\AndroidManifest.xml:23:9-25:39
-83            android:name="androidx.compose.ui.tooling.PreviewActivity"
-83-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\2208a83918e90f0aa18ec875211081ea\transformed\ui-tooling-1.4.0\AndroidManifest.xml:24:13-71
-84            android:exported="true" />
-84-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\2208a83918e90f0aa18ec875211081ea\transformed\ui-tooling-1.4.0\AndroidManifest.xml:25:13-36
-85
-86        <service
-86-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:8:9-14:19
-87            android:name="com.google.firebase.components.ComponentDiscoveryService"
-87-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:9:13-84
-88            android:directBootAware="true"
-88-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
-89            android:exported="false" >
-89-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:10:13-37
-90            <meta-data
-90-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:11:13-13:85
-91                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
-91-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:12:17-119
-92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:13:17-82
-93            <meta-data
-93-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:69:13-71:85
-94                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-94-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:70:17-109
-95                android:value="com.google.firebase.components.ComponentRegistrar" />
-95-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:71:17-82
-96            <meta-data
-96-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\2ae8b247d62df5b323431c6ee3204970\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
-97                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-97-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\2ae8b247d62df5b323431c6ee3204970\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
-98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\2ae8b247d62df5b323431c6ee3204970\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
-99            <meta-data
-99-->[com.google.android.gms:play-services-measurement-api:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\f7dfd913e3daf852b5a27078dc423743\transformed\play-services-measurement-api-20.0.1\AndroidManifest.xml:30:13-32:85
-100                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-100-->[com.google.android.gms:play-services-measurement-api:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\f7dfd913e3daf852b5a27078dc423743\transformed\play-services-measurement-api-20.0.1\AndroidManifest.xml:31:17-139
-101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[com.google.android.gms:play-services-measurement-api:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\f7dfd913e3daf852b5a27078dc423743\transformed\play-services-measurement-api-20.0.1\AndroidManifest.xml:32:17-82
-102            <meta-data
-102-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\anita\.gradle\caches\transforms-3\a8d290af2d98428a6b8c7f86d95f3476\transformed\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
-103                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-103-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\anita\.gradle\caches\transforms-3\a8d290af2d98428a6b8c7f86d95f3476\transformed\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
-104                android:value="com.google.firebase.components.ComponentRegistrar" />
-104-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\anita\.gradle\caches\transforms-3\a8d290af2d98428a6b8c7f86d95f3476\transformed\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
-105            <meta-data
-105-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
-106                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-106-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
-107                android:value="com.google.firebase.components.ComponentRegistrar" />
-107-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
-108        </service>
-109
-110        <activity
-110-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:29:9-46:20
-111            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-111-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:30:13-80
-112            android:excludeFromRecents="true"
-112-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:31:13-46
-113            android:exported="true"
-113-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:32:13-36
-114            android:launchMode="singleTask"
-114-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:33:13-44
-115            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-115-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:34:13-72
-116            <intent-filter>
-116-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:35:13-45:29
-117                <action android:name="android.intent.action.VIEW" />
-117-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:36:17-69
-117-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:36:25-66
-118
-119                <category android:name="android.intent.category.DEFAULT" />
-119-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:38:17-76
-119-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:38:27-73
-120                <category android:name="android.intent.category.BROWSABLE" />
-120-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:39:17-78
-120-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:39:27-75
-121
-122                <data
-122-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:41:17-44:51
-123                    android:host="firebase.auth"
-123-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:42:21-49
-124                    android:path="/"
-124-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:43:21-37
-125                    android:scheme="genericidp" />
-125-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:44:21-48
-126            </intent-filter>
-127        </activity>
-128        <activity
-128-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:47:9-64:20
-129            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-129-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:48:13-79
-130            android:excludeFromRecents="true"
-130-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:49:13-46
-131            android:exported="true"
-131-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:50:13-36
-132            android:launchMode="singleTask"
-132-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:51:13-44
-133            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-133-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:52:13-72
-134            <intent-filter>
-134-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:53:13-63:29
-135                <action android:name="android.intent.action.VIEW" />
-135-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:36:17-69
-135-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:36:25-66
-136
-137                <category android:name="android.intent.category.DEFAULT" />
-137-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:38:17-76
-137-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:38:27-73
-138                <category android:name="android.intent.category.BROWSABLE" />
-138-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:39:17-78
-138-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:39:27-75
-139
-140                <data
-140-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:41:17-44:51
-141                    android:host="firebase.auth"
-141-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:42:21-49
-142                    android:path="/"
-142-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:43:21-37
-143                    android:scheme="recaptcha" />
-143-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:44:21-48
-144            </intent-filter>
-145        </activity>
-146
-147        <provider
-147-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
-148            android:name="com.google.firebase.provider.FirebaseInitProvider"
-148-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
-149            android:authorities="com.example.betterto_do.firebaseinitprovider"
-149-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
-150            android:directBootAware="true"
-150-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
-151            android:exported="false"
-151-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
-152            android:initOrder="100" />
-152-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
-153
-154        <receiver
-154-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:29:9-33:20
-155            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-155-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:30:13-85
-156            android:enabled="true"
-156-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:31:13-35
-157            android:exported="false" >
-157-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:32:13-37
-158        </receiver>
+26    <uses-permission android:name="com.example.betterto_do.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:9:5-59:19
+29        android:allowBackup="true"
+29-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:10:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:11:9-65
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:fullBackupContent="@xml/backup_rules"
+34-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:12:9-54
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:13:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:14:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:15:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:16:9-35
+39        android:theme="@style/Theme.BetterToDo" >
+39-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:17:9-48
+40        <service
+40-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:19:9-22:47
+41            android:name="com.example.betterto_do.MyService"
+41-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:20:13-38
+42            android:enabled="true"
+42-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:21:13-35
+43            android:exported="true" />
+43-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:22:13-36
+44        <service
+44-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:23:9-26:39
+45            android:name="com.example.betterto_do.Services"
+45-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:24:13-37
+46            android:enabled="true"
+46-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:25:13-35
+47            android:exported="true" />
+47-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:26:13-36
+48
+49        <activity
+49-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:28:9-32:55
+50            android:name="com.example.betterto_do.Register"
+50-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:29:13-37
+51            android:exported="false"
+51-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:30:13-37
+52            android:label="@string/title_activity_register"
+52-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:31:13-60
+53            android:theme="@style/Theme.BetterToDo" />
+53-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:32:13-52
+54        <activity
+54-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:33:9-37:55
+55            android:name="com.example.betterto_do.Login"
+55-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:34:13-34
+56            android:exported="false"
+56-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:35:13-37
+57            android:label="@string/title_activity_login"
+57-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:36:13-57
+58            android:theme="@style/Theme.BetterToDo" />
+58-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:37:13-52
+59        <activity
+59-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:28:9-32:55
+60            android:name="com.example.betterto_do.Register"
+60-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:29:13-37
+61            android:exported="false"
+61-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:30:13-37
+62            android:label="@string/title_activity_register"
+62-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:31:13-60
+63            android:theme="@style/Theme.BetterToDo" />
+63-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:32:13-52
+64        <activity
+64-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:33:9-37:55
+65            android:name="com.example.betterto_do.Login"
+65-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:34:13-34
+66            android:exported="false"
+66-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:35:13-37
+67            android:label="@string/title_activity_login"
+67-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:36:13-57
+68            android:theme="@style/Theme.BetterToDo" />
+68-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:37:13-52
+69        <activity
+69-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:48:9-58:20
+70            android:name="com.example.betterto_do.MainActivity"
+70-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:49:13-41
+71            android:exported="true"
+71-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:50:13-36
+72            android:label="@string/app_name"
+72-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:51:13-45
+73            android:theme="@style/Theme.BetterToDo" >
+73-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:52:13-52
+74            <intent-filter>
+74-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:53:13-57:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:54:17-69
+75-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:54:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:56:17-77
+77-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:56:27-74
+78            </intent-filter>
+79        </activity>
+80
+81        <service
+81-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:8:9-14:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:9:13-84
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:10:13-37
+85            <meta-data
+85-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:11:13-13:85
+86                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+86-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:12:17-119
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-auth-ktx:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\8f930c84a7419a4cafc27305a35694e3\transformed\firebase-auth-ktx-22.2.0\AndroidManifest.xml:13:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:69:13-71:85
+89                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+89-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:70:17-109
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:71:17-82
+91            <meta-data
+91-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+92                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+92-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\2ae8b247d62df5b323431c6ee3204970\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+95                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+95-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\2ae8b247d62df5b323431c6ee3204970\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\2ae8b247d62df5b323431c6ee3204970\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\anita\.gradle\caches\transforms-3\cab8de07269f3c731d767154fc8e6e02\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+98                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+98-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\anita\.gradle\caches\transforms-3\cab8de07269f3c731d767154fc8e6e02\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\anita\.gradle\caches\transforms-3\cab8de07269f3c731d767154fc8e6e02\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+101                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+101-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+103        </service>
+104
+105        <activity
+105-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:29:9-46:20
+106            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+106-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:30:13-80
+107            android:excludeFromRecents="true"
+107-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:31:13-46
+108            android:exported="true"
+108-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:32:13-36
+109            android:launchMode="singleTask"
+109-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:33:13-44
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+110-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:34:13-72
+111            <intent-filter>
+111-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:35:13-45:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:36:17-69
+112-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:36:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:38:17-76
+114-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:38:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:39:17-78
+115-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:39:27-75
+116
+117                <data
+117-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:41:17-44:51
+118                    android:host="firebase.auth"
+118-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:42:21-49
+119                    android:path="/"
+119-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:43:21-37
+120                    android:scheme="genericidp" />
+120-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:44:21-48
+121            </intent-filter>
+122        </activity>
+123        <activity
+123-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:47:9-64:20
+124            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+124-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:48:13-79
+125            android:excludeFromRecents="true"
+125-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:49:13-46
+126            android:exported="true"
+126-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:50:13-36
+127            android:launchMode="singleTask"
+127-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:51:13-44
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+128-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:52:13-72
+129            <intent-filter>
+129-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:53:13-63:29
+130                <action android:name="android.intent.action.VIEW" />
+130-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:36:17-69
+130-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:36:25-66
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:38:17-76
+132-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:38:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:39:17-78
+133-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:39:27-75
+134
+135                <data
+135-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:41:17-44:51
+136                    android:host="firebase.auth"
+136-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:42:21-49
+137                    android:path="/"
+137-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:43:21-37
+138                    android:scheme="recaptcha" />
+138-->[com.google.firebase:firebase-auth:22.2.0] C:\Users\anita\.gradle\caches\transforms-3\08c00f1973b77d58c2e23985bcbf1d73\transformed\firebase-auth-22.2.0\AndroidManifest.xml:44:21-48
+139            </intent-filter>
+140        </activity>
+141
+142        <property
+142-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+143            android:name="android.adservices.AD_SERVICES_CONFIG"
+143-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+144            android:resource="@xml/ga_ad_services_config" />
+144-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\d50a62d95cd8e352ff50c5b81a2045ed\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+145
+146        <activity
+146-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\e6e06a0785eb5f09414d757fdc17f382\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:23:9-25:39
+147            android:name="androidx.activity.ComponentActivity"
+147-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\e6e06a0785eb5f09414d757fdc17f382\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:24:13-63
+148            android:exported="true" />
+148-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\e6e06a0785eb5f09414d757fdc17f382\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:25:13-36
+149        <activity
+149-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\2208a83918e90f0aa18ec875211081ea\transformed\ui-tooling-1.4.0\AndroidManifest.xml:23:9-25:39
+150            android:name="androidx.compose.ui.tooling.PreviewActivity"
+150-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\2208a83918e90f0aa18ec875211081ea\transformed\ui-tooling-1.4.0\AndroidManifest.xml:24:13-71
+151            android:exported="true" />
+151-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\2208a83918e90f0aa18ec875211081ea\transformed\ui-tooling-1.4.0\AndroidManifest.xml:25:13-36
+152
+153        <provider
+153-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+154            android:name="com.google.firebase.provider.FirebaseInitProvider"
+154-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+155            android:authorities="com.example.betterto_do.firebaseinitprovider"
+155-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+157            android:exported="false"
+157-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+158            android:initOrder="100" />
+158-->[com.google.firebase:firebase-common:20.4.2] C:\Users\anita\.gradle\caches\transforms-3\91a29bec4a22f4a871cf6724ce7db97b\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
 159
-160        <service
-160-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:35:9-38:40
-161            android:name="com.google.android.gms.measurement.AppMeasurementService"
-161-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:36:13-84
+160        <receiver
+160-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+161            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+161-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
 162            android:enabled="true"
-162-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:37:13-35
-163            android:exported="false" />
-163-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:38:13-37
-164        <service
-164-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:39:9-43:72
-165            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-165-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:40:13-87
-166            android:enabled="true"
-166-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:41:13-35
-167            android:exported="false"
-167-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:42:13-37
-168            android:permission="android.permission.BIND_JOB_SERVICE" />
-168-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:43:13-69
-169
-170        <activity
-170-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\anita\.gradle\caches\transforms-3\693fc2e12ae5f709400e709c93b671e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-171            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-171-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\anita\.gradle\caches\transforms-3\693fc2e12ae5f709400e709c93b671e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-172            android:exported="false"
-172-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\anita\.gradle\caches\transforms-3\693fc2e12ae5f709400e709c93b671e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-173            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-173-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\anita\.gradle\caches\transforms-3\693fc2e12ae5f709400e709c93b671e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-174
-175        <meta-data
-175-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\anita\.gradle\caches\transforms-3\3c7f705f04c9ee0d6ac8e26c50d75471\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-176            android:name="com.google.android.gms.version"
-176-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\anita\.gradle\caches\transforms-3\3c7f705f04c9ee0d6ac8e26c50d75471\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-177            android:value="@integer/google_play_services_version" />
-177-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\anita\.gradle\caches\transforms-3\3c7f705f04c9ee0d6ac8e26c50d75471\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-178
-179        <provider
-179-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-180            android:name="androidx.startup.InitializationProvider"
-180-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-181            android:authorities="com.example.betterto_do.androidx-startup"
-181-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-182            android:exported="false" >
-182-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-183            <meta-data
-183-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-184                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-184-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-185                android:value="androidx.startup" />
-185-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-186            <meta-data
-186-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\anita\.gradle\caches\transforms-3\f9b85f1f39f23bbb6d45199f52ef5dba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-187                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-187-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\anita\.gradle\caches\transforms-3\f9b85f1f39f23bbb6d45199f52ef5dba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-188                android:value="androidx.startup" />
-188-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\anita\.gradle\caches\transforms-3\f9b85f1f39f23bbb6d45199f52ef5dba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-189            <meta-data
-189-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-190                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-190-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-191                android:value="androidx.startup" />
-191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-192        </provider>
-193
-194        <uses-library
-194-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-195            android:name="androidx.window.extensions"
-195-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-196            android:required="false" />
-196-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-197        <uses-library
-197-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-198            android:name="androidx.window.sidecar"
-198-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-199            android:required="false" />
-199-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-200
-201        <receiver
-201-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-202            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-202-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-203            android:directBootAware="false"
-203-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-204            android:enabled="true"
-204-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-205            android:exported="true"
-205-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-206            android:permission="android.permission.DUMP" >
-206-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-207            <intent-filter>
-207-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-208                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-208-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-208-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-209            </intent-filter>
-210            <intent-filter>
-210-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-211                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-212            </intent-filter>
-213            <intent-filter>
-213-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-214                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-214-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-214-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-215            </intent-filter>
+162-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+163            android:exported="false" >
+163-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+164        </receiver>
+165
+166        <service
+166-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+167            android:name="com.google.android.gms.measurement.AppMeasurementService"
+167-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+168            android:enabled="true"
+168-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+169            android:exported="false" />
+169-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+170        <service
+170-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+171            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+171-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+172            android:enabled="true"
+172-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+173            android:exported="false"
+173-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+174            android:permission="android.permission.BIND_JOB_SERVICE" />
+174-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\anita\.gradle\caches\transforms-3\8bb599b27543ef357b52aca4eae1d454\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+175
+176        <activity
+176-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\anita\.gradle\caches\transforms-3\693fc2e12ae5f709400e709c93b671e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+177            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+177-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\anita\.gradle\caches\transforms-3\693fc2e12ae5f709400e709c93b671e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\anita\.gradle\caches\transforms-3\693fc2e12ae5f709400e709c93b671e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+179-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\anita\.gradle\caches\transforms-3\693fc2e12ae5f709400e709c93b671e4\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+180
+181        <provider
+181-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+182            android:name="androidx.startup.InitializationProvider"
+182-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+183            android:authorities="com.example.betterto_do.androidx-startup"
+183-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+184            android:exported="false" >
+184-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+185            <meta-data
+185-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+186                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+186-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+187                android:value="androidx.startup" />
+187-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+188            <meta-data
+188-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\anita\.gradle\caches\transforms-3\f9b85f1f39f23bbb6d45199f52ef5dba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+189                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+189-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\anita\.gradle\caches\transforms-3\f9b85f1f39f23bbb6d45199f52ef5dba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+190                android:value="androidx.startup" />
+190-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\anita\.gradle\caches\transforms-3\f9b85f1f39f23bbb6d45199f52ef5dba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+191            <meta-data
+191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+192                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+192-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+193                android:value="androidx.startup" />
+193-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+194        </provider>
+195
+196        <uses-library
+196-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\anita\.gradle\caches\transforms-3\c4b2629378a7a358c8b62cbbeb23b863\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+197            android:name="android.ext.adservices"
+197-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\anita\.gradle\caches\transforms-3\c4b2629378a7a358c8b62cbbeb23b863\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+198            android:required="false" />
+198-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\anita\.gradle\caches\transforms-3\c4b2629378a7a358c8b62cbbeb23b863\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+199        <uses-library
+199-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+200            android:name="androidx.window.extensions"
+200-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+201            android:required="false" />
+201-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+202        <uses-library
+202-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+203            android:name="androidx.window.sidecar"
+203-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+204            android:required="false" />
+204-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+205
+206        <meta-data
+206-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\anita\.gradle\caches\transforms-3\3c7f705f04c9ee0d6ac8e26c50d75471\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+207            android:name="com.google.android.gms.version"
+207-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\anita\.gradle\caches\transforms-3\3c7f705f04c9ee0d6ac8e26c50d75471\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+208            android:value="@integer/google_play_services_version" />
+208-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\anita\.gradle\caches\transforms-3\3c7f705f04c9ee0d6ac8e26c50d75471\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+209
+210        <receiver
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+211            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+212            android:directBootAware="false"
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+213            android:enabled="true"
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+214            android:exported="true"
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+215            android:permission="android.permission.DUMP" >
+215-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 216            <intent-filter>
-216-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-217                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-217-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-217-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+216-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+217                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+217-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+217-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 218            </intent-filter>
-219        </receiver>
-220    </application>
-221
-222</manifest>
+219            <intent-filter>
+219-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+220                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+220-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+220-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+221            </intent-filter>
+222            <intent-filter>
+222-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+223                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+224            </intent-filter>
+225            <intent-filter>
+225-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+226                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+227            </intent-filter>
+228        </receiver>
+229    </application>
+230
+231</manifest>

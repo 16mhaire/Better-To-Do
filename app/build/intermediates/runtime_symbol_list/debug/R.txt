@@ -5045,9 +5045,10 @@ int styleable ViewStubCompat_android_layout 1
 int styleable ViewStubCompat_android_inflatedId 2
 int xml backup_rules 0x7f130000
 int xml data_extraction_rules 0x7f130001
-int xml image_share_filepaths 0x7f130002
-int xml standalone_badge 0x7f130003
-int xml standalone_badge_gravity_bottom_end 0x7f130004
-int xml standalone_badge_gravity_bottom_start 0x7f130005
-int xml standalone_badge_gravity_top_start 0x7f130006
-int xml standalone_badge_offset 0x7f130007
+int xml ga_ad_services_config 0x7f130002
+int xml image_share_filepaths 0x7f130003
+int xml standalone_badge 0x7f130004
+int xml standalone_badge_gravity_bottom_end 0x7f130005
+int xml standalone_badge_gravity_bottom_start 0x7f130006
+int xml standalone_badge_gravity_top_start 0x7f130007
+int xml standalone_badge_offset 0x7f130008

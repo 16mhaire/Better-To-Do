@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-70:/values-sk/values-sk.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-73:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\3c7f705f04c9ee0d6ac8e26c50d75471\\transformed\\play-services-basement-18.1.0\\res\\values-sk\\values.xml",

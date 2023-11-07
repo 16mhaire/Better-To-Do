@@ -3509,6 +3509,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 xml backup_rules
 xml data_extraction_rules
+xml ga_ad_services_config
 xml image_share_filepaths
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end

@@ -36,23 +36,6 @@
                         "endColumns": "97,101,98,101,103,103,113,100",
                         "endOffsets": "198,300,399,501,605,709,823,2136"
                     }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "1317",
-                        "endColumns": "100",
-                        "endOffsets": "1413"
-                    }
                 }
             ]
         }

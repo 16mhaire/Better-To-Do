@@ -4,7 +4,6 @@
             "outputFile": "com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\84d9c42807b8d95d455e984954ac63fd\\transformed\\core-1.12.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -22,8 +21,6 @@
                     }
                 },
                 {
-=======
->>>>>>> 571ea27 (Uodated sdk to 34 and it builds)
                     "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9a61df474d7dec936e0e7758a932a3df\\transformed\\ui-1.4.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
@@ -37,28 +34,7 @@
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
                         "startOffsets": "1532,1723,1908,2105,2307,2494,2679,2872,3060,3247,3412,3579,3760,3945,4315,4494,4661",
                         "endColumns": "190,184,196,201,186,184,192,187,186,164,166,180,184,165,178,166,237",
-<<<<<<< HEAD
                         "endOffsets": "1718,1903,2100,2302,2489,2674,2867,3055,3242,3407,3574,3755,3940,4106,4489,4656,4894"
-=======
-                        "endOffsets": "291,476,673,875,1062,1247,1440,1628,1815,1980,2147,2328,2513,2679,3062,3229,3467"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-en-rXC\\values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "203",
-                        "endOffsets": "254"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "2684",
-                        "endColumns": "203",
-                        "endOffsets": "2883"
->>>>>>> 571ea27 (Uodated sdk to 34 and it builds)
                     }
                 }
             ]

@@ -159,113 +159,21 @@
 </style>
     <style name="Widget.Compat.NotificationActionContainer" parent=""/>
     <style name="Widget.Compat.NotificationActionText" parent=""/>
-    <declare-styleable name="Capability">
-        
-        <attr format="reference" name="queryPatterns"/>
-        
-        <attr format="boolean" name="shortcutMatchRequired"/>
-    </declare-styleable>
-    <declare-styleable name="ColorStateListItem">
-        
-        <attr name="android:color"/>
-        
-        <attr format="float" name="alpha"/>
-        <attr name="android:alpha"/>
-        
-        <attr format="float" name="lStar"/>
-        <attr name="android:lStar"/>
-    </declare-styleable>
-    <declare-styleable name="FontFamily">
-        
-        <attr format="string" name="fontProviderAuthority"/>
-        
-        <attr format="string" name="fontProviderPackage"/>
-        
-        <attr format="string" name="fontProviderQuery"/>
-        
-        <attr format="reference" name="fontProviderCerts"/>
-        
-        <attr name="fontProviderFetchStrategy">
-            <!-- The blocking font fetch works as follows.
-              First, check the local cache, then if the requested font is not cached, request the
-              font from the provider and wait until it is finished.  You can change the length of
-              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-              default typeface will be used instead. -->
+    <declare-styleable name="Capability"><attr format="reference" name="queryPatterns"/><attr format="boolean" name="shortcutMatchRequired"/></declare-styleable>
+    <declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/><attr format="float" name="lStar"/><attr name="android:lStar"/></declare-styleable>
+    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
+            
             <enum name="blocking" value="0"/>
-            <!-- The async font fetch works as follows.
-              First, check the local cache, then if the requeted font is not cached, trigger a
-              request the font and continue with layout inflation. Once the font fetch succeeds, the
-              target text view will be refreshed with the downloaded font data. The
-              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            
             <enum name="async" value="1"/>
-        </attr>
-        
-        <attr format="integer" name="fontProviderFetchTimeout">
-            <!-- A special value for the timeout. In this case, the blocking font fetching will not
-              timeout and wait until a reply is received from the font provider. -->
+        </attr><attr format="integer" name="fontProviderFetchTimeout">
+            
             <enum name="forever" value="-1"/>
-        </attr>
-        
-        <attr format="string" name="fontProviderSystemFontFamily"/>
-    </declare-styleable>
-    <declare-styleable name="FontFamilyFont">
-        
-        <attr name="fontStyle">
+        </attr><attr format="string" name="fontProviderSystemFontFamily"/></declare-styleable>
+    <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
             <enum name="normal" value="0"/>
             <enum name="italic" value="1"/>
-        </attr>
-        
-        <attr format="reference" name="font"/>
-        
-        <attr format="integer" name="fontWeight"/>
-        
-        <attr format="string" name="fontVariationSettings"/>
-        
-        <attr format="integer" name="ttcIndex"/>
-        
-        <attr name="android:fontStyle"/>
-        <attr name="android:font"/>
-        <attr name="android:fontWeight"/>
-        <attr name="android:fontVariationSettings"/>
-        <attr name="android:ttcIndex"/>
-    </declare-styleable>
-    <declare-styleable name="GradientColor">
-        
-        <attr name="android:startColor"/>
-        
-        <attr name="android:centerColor"/>
-        
-        <attr name="android:endColor"/>
-        
-        <attr name="android:type"/>
-
-        
-        
-        <attr name="android:gradientRadius"/>
-
-        
-        
-        <attr name="android:centerX"/>
-        
-        <attr name="android:centerY"/>
-
-        
-        
-        <attr name="android:startX"/>
-        
-        <attr name="android:startY"/>
-        
-        <attr name="android:endX"/>
-        
-        <attr name="android:endY"/>
-
-        
-        <attr name="android:tileMode"/>
-    </declare-styleable>
-    <declare-styleable name="GradientColorItem">
-        
-        <attr name="android:offset"/>
-        
-        <attr name="android:color"/>
-    </declare-styleable>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr format="string" name="fontVariationSettings"/><attr format="integer" name="ttcIndex"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/><attr name="android:fontVariationSettings"/><attr name="android:ttcIndex"/></declare-styleable>
+    <declare-styleable name="GradientColor"><attr name="android:startColor"/><attr name="android:centerColor"/><attr name="android:endColor"/><attr name="android:type"/><attr name="android:gradientRadius"/><attr name="android:centerX"/><attr name="android:centerY"/><attr name="android:startX"/><attr name="android:startY"/><attr name="android:endX"/><attr name="android:endY"/><attr name="android:tileMode"/></declare-styleable>
+    <declare-styleable name="GradientColorItem"><attr name="android:offset"/><attr name="android:color"/></declare-styleable>
 </resources>

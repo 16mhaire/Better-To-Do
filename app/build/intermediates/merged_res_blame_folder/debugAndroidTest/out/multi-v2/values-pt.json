@@ -36,23 +36,6 @@
                         "endColumns": "96,101,98,99,106,109,119,100",
                         "endOffsets": "197,299,398,498,605,715,835,2149"
                     }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\9374623364fb9fadfca49623c35e2012\\transformed\\core-1.9.0\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "1318",
-                        "endColumns": "100",
-                        "endOffsets": "1414"
-                    }
                 }
             ]
         }

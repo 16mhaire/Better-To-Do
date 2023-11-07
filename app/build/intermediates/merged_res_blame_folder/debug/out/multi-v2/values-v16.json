@@ -4,7 +4,7 @@
             "outputFile": "com.example.betterto_do.app-mergeDebugResources-70:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\techp\\.gradle\\caches\\transforms-3\\872cb5cc3501e7164e058554082a42fb\\transformed\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\872cb5cc3501e7164e058554082a42fb\\transformed\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\techp\\.gradle\\caches\\transforms-3\\84d9c42807b8d95d455e984954ac63fd\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\84d9c42807b8d95d455e984954ac63fd\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

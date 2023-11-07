@@ -36,7 +36,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.betterto_do.ui.theme.BetterToDoTheme
+import com.google.firebase.auth.FirebaseAuth
 import java.time.format.TextStyle
+import kotlin.time.measureTime
 
 class Login : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -67,8 +69,8 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 textAlign = TextAlign.Center,
 
             )
-            TextInputField("Email", false)
-            TextInputField("Password", true)
+            TextInputField("Email", false) { var email = it }
+            TextInputField("Password", true) { var password = it }
             LoginButton()
         }
     }
@@ -77,7 +79,7 @@ fun LoginScreen(modifier: Modifier = Modifier) {
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview2() {
+fun LoginPreview() {
     BetterToDoTheme {
         LoginScreen()
     }
@@ -91,7 +93,8 @@ fun LoginHeading(){
         Text(
             text = "Welcome to Better To-Do",
             color = colorResource(id = R.color.cerulean),
-            modifier = Modifier.fillMaxWidth()
+            modifier = Modifier
+                .fillMaxWidth()
                 .padding(24.dp),
             style = androidx.compose.ui.text.TextStyle(
                 fontSize = 30.sp,
@@ -105,13 +108,17 @@ fun LoginHeading(){
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TextInputField(value:String, isPassword:Boolean) {
+fun TextInputField(value:String, isPassword:Boolean, onValueChanged: (String) -> Unit) {
     var text by remember { mutableStateOf("") }
     TextField(
         value = text,
         onValueChange = { newText -> text = newText },
-        label = { Text(value) },
-        modifier = Modifier.padding(10.dp)
+        label = {
+            //text = it
+            //onValueChanged(it)
+                },
+        modifier = Modifier
+            .padding(10.dp)
             .fillMaxWidth(),
         visualTransformation = if (isPassword) PasswordVisualTransformation() else VisualTransformation.None
 
@@ -120,6 +127,9 @@ fun TextInputField(value:String, isPassword:Boolean) {
 
 @Composable
 fun LoginButton(){
+    val auth = FirebaseAuth.getInstance()
+    var email by remember { mutableStateOf("") }
+    var password by remember { mutableStateOf("") }
     var buttonState by remember { mutableStateOf("") }
 
     Column(
@@ -129,8 +139,18 @@ fun LoginButton(){
         verticalArrangement = Arrangement.Bottom
         ) {
         Button(
-            onClick = { /*To-Do Implement this function*/},
-                modifier = Modifier.fillMaxWidth(),
+            onClick = {
+                      auth.signInWithEmailAndPassword(email, password).addOnCompleteListener{ task ->
+                          if (task.isSuccessful){
+                              buttonState = "Login successful"
+                          }
+                          else{
+                              val exception = task.exception
+                              buttonState = "Login failed: ${exception?.message}"
+                          }
+                      }
+            },
+            modifier = Modifier.fillMaxWidth(),
             colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
             ) {
                 Text(text = "Login")

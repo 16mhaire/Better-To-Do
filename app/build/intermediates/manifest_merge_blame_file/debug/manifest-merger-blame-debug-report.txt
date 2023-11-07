@@ -13,6 +13,7 @@
 12-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:7:5-40
 12-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:7:18-37
 13
+<<<<<<< Updated upstream
 14    <!-- Required permission for App measurement to run. -->
 15    <uses-permission android:name="android.permission.INTERNET" />
 15-->[com.google.android.gms:play-services-measurement:20.0.1] C:\Users\anita\.gradle\caches\transforms-3\abadadcbe9bc5de56c3da2077f1fef67\transformed\play-services-measurement-20.0.1\AndroidManifest.xml:23:5-67
@@ -286,3 +287,191 @@
 156    </application>
 157
 158</manifest>
+=======
+14    <permission
+14-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.betterto_do.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.betterto_do.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:9:5-49:19
+21        android:allowBackup="true"
+21-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:10:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.12.0] C:\Users\anita\.gradle\caches\transforms-3\84d9c42807b8d95d455e984954ac63fd\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:11:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:12:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:13:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:14:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:15:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:16:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.BetterToDo" >
+32-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:17:9-48
+33        <service
+33-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:19:9-22:47
+34            android:name="com.example.betterto_do.MyService"
+34-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:20:13-38
+35            android:enabled="true"
+35-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:21:13-35
+36            android:exported="true" />
+36-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:22:13-36
+37        <service
+37-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:23:9-26:39
+38            android:name="com.example.betterto_do.Services"
+38-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:24:13-37
+39            android:enabled="true"
+39-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:25:13-35
+40            android:exported="true" />
+40-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:26:13-36
+41
+42        <activity
+42-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:28:9-32:55
+43            android:name="com.example.betterto_do.Register"
+43-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:29:13-37
+44            android:exported="false"
+44-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:30:13-37
+45            android:label="@string/title_activity_register"
+45-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:31:13-60
+46            android:theme="@style/Theme.BetterToDo" />
+46-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:32:13-52
+47        <activity
+47-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:33:9-37:55
+48            android:name="com.example.betterto_do.Login"
+48-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:34:13-34
+49            android:exported="false"
+49-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:35:13-37
+50            android:label="@string/title_activity_login"
+50-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:36:13-57
+51            android:theme="@style/Theme.BetterToDo" />
+51-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:37:13-52
+52        <activity
+52-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:38:9-48:20
+53            android:name="com.example.betterto_do.MainActivity"
+53-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:39:13-41
+54            android:exported="true"
+54-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:40:13-36
+55            android:label="@string/app_name"
+55-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:41:13-45
+56            android:theme="@style/Theme.BetterToDo" >
+56-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:42:13-52
+57            <intent-filter>
+57-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:43:13-47:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:44:17-69
+58-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:44:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:46:17-77
+60-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:46:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\e6e06a0785eb5f09414d757fdc17f382\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:23:9-25:39
+64            android:name="androidx.activity.ComponentActivity"
+64-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\e6e06a0785eb5f09414d757fdc17f382\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:24:13-63
+65            android:exported="true" />
+65-->[androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\e6e06a0785eb5f09414d757fdc17f382\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:25:13-36
+66        <activity
+66-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\2208a83918e90f0aa18ec875211081ea\transformed\ui-tooling-1.4.0\AndroidManifest.xml:23:9-25:39
+67            android:name="androidx.compose.ui.tooling.PreviewActivity"
+67-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\2208a83918e90f0aa18ec875211081ea\transformed\ui-tooling-1.4.0\AndroidManifest.xml:24:13-71
+68            android:exported="true" />
+68-->[androidx.compose.ui:ui-tooling:1.4.0] C:\Users\anita\.gradle\caches\transforms-3\2208a83918e90f0aa18ec875211081ea\transformed\ui-tooling-1.4.0\AndroidManifest.xml:25:13-36
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+72            android:authorities="com.example.betterto_do.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e5161ba6530f3718a811496dd10af4d9\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\anita\.gradle\caches\transforms-3\f9b85f1f39f23bbb6d45199f52ef5dba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\anita\.gradle\caches\transforms-3\f9b85f1f39f23bbb6d45199f52ef5dba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\anita\.gradle\caches\transforms-3\f9b85f1f39f23bbb6d45199f52ef5dba\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+82                android:value="androidx.startup" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+83        </provider>
+84
+85        <uses-library
+85-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+86            android:name="androidx.window.extensions"
+86-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+87            android:required="false" />
+87-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+88        <uses-library
+88-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+89            android:name="androidx.window.sidecar"
+89-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0] C:\Users\anita\.gradle\caches\transforms-3\58a0c52d1b854fb9cf41699abf6027e9\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anita\.gradle\caches\transforms-3\e47a0fb036456e457d5eb67e2767959c\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>
+>>>>>>> Stashed changes

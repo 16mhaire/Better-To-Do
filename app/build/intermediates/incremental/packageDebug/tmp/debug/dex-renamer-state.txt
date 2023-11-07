@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 #Tue Nov 07 10:35:26 EST 2023
+=======
+#Tue Nov 07 11:16:10 EST 2023
+>>>>>>> Stashed changes
 base.0=C\:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex

@@ -147,6 +147,11 @@ com.example.betterto_do:style/Widget.MaterialComponents.MaterialCalendar = 0x7f1
 com.example.betterto_do:style/Widget.MaterialComponents.FloatingActionButton = 0x7f10028e
 com.example.betterto_do:style/Widget.MaterialComponents.ExtendedFloatingActionButton = 0x7f10028c
 com.example.betterto_do:style/Widget.MaterialComponents.CompoundButton.Switch = 0x7f10028b
+<<<<<<< Updated upstream
+=======
+com.example.betterto_do:string/abc_toolbar_collapse_description = 0x7f0f001a
+com.example.betterto_do:style/Widget.MaterialComponents.CollapsingToolbar = 0x7f100288
+>>>>>>> Stashed changes
 com.example.betterto_do:style/Widget.MaterialComponents.CircularProgressIndicator.Medium = 0x7f100286
 com.example.betterto_do:style/Widget.MaterialComponents.PopupMenu = 0x7f1002ae
 com.example.betterto_do:dimen/mtrl_bottomappbar_fab_cradle_margin = 0x7f0600cd
@@ -569,6 +574,7 @@ com.example.betterto_do:style/Animation.AppCompat.Tooltip = 0x7f100005
 com.example.betterto_do:attr/pivotAnchor = 0x7f03029e
 com.example.betterto_do:style/Animation.AppCompat.DropDownUp = 0x7f100004
 com.example.betterto_do:style/AlertDialog.AppCompat.Light = 0x7f100001
+<<<<<<< Updated upstream
 com.example.betterto_do:string/title_activity_register = 0x7f0f008a
 com.example.betterto_do:string/switch_role = 0x7f0f0086
 com.example.betterto_do:string/status_bar_notification_info_overflow = 0x7f0f0085
@@ -632,10 +638,76 @@ com.example.betterto_do:style/Base.AlertDialog.AppCompat.Light = 0x7f100009
 com.example.betterto_do:mipmap/ic_launcher = 0x7f0c0000
 com.example.betterto_do:string/material_slider_range_start = 0x7f0f004b
 com.example.betterto_do:string/material_minute_suffix = 0x7f0f0044
+=======
+com.example.betterto_do:string/title_activity_register = 0x7f0f0089
+com.example.betterto_do:string/switch_role = 0x7f0f0085
+com.example.betterto_do:string/status_bar_notification_info_overflow = 0x7f0f0084
+com.example.betterto_do:string/selected = 0x7f0f0083
+com.example.betterto_do:animator/linear_indeterminate_line2_tail_interpolator = 0x7f02000c
+com.example.betterto_do:id/left = 0x7f0800ce
+com.example.betterto_do:style/Theme.MaterialComponents.Dialog.FixedSize.Bridge = 0x7f1001be
+com.example.betterto_do:string/search_menu_title = 0x7f0f0082
+com.example.betterto_do:string/range_start = 0x7f0f0081
+com.example.betterto_do:string/path_password_eye_mask_visible = 0x7f0f007e
+com.example.betterto_do:string/path_password_eye_mask_strike_through = 0x7f0f007d
+com.example.betterto_do:string/path_password_eye = 0x7f0f007c
+com.example.betterto_do:string/off = 0x7f0f0079
+com.example.betterto_do:string/mtrl_picker_text_input_day_abbr = 0x7f0f006e
+com.example.betterto_do:string/not_selected = 0x7f0f0078
+com.example.betterto_do:layout/text_view_with_line_height_from_appearance = 0x7f0b006d
+com.example.betterto_do:style/Widget.AppCompat.RatingBar.Indicator = 0x7f100242
+com.example.betterto_do:string/navigation_menu = 0x7f0f0077
+com.example.betterto_do:attr/tabBackground = 0x7f030319
+com.example.betterto_do:string/nav_app_bar_open_drawer_description = 0x7f0f0076
+com.example.betterto_do:dimen/design_bottom_sheet_modal_elevation = 0x7f06006b
+com.example.betterto_do:string/nav_app_bar_navigate_up_description = 0x7f0f0075
+com.example.betterto_do:string/mtrl_picker_toggle_to_year_selection = 0x7f0f0074
+com.example.betterto_do:animator/nav_default_pop_enter_anim = 0x7f02001c
+com.example.betterto_do:color/material_slider_active_track_color = 0x7f05007e
+com.example.betterto_do:string/mtrl_picker_toggle_to_day_selection = 0x7f0f0072
+com.example.betterto_do:string/mtrl_picker_text_input_year_abbr = 0x7f0f0070
+com.example.betterto_do:string/mtrl_picker_text_input_month_abbr = 0x7f0f006f
+com.example.betterto_do:string/mtrl_picker_save = 0x7f0f006a
+com.example.betterto_do:string/mtrl_picker_range_header_only_start_selected = 0x7f0f0066
+com.example.betterto_do:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox = 0x7f1001e5
+com.example.betterto_do:attr/materialCalendarHeaderDivider = 0x7f030234
+com.example.betterto_do:string/mtrl_picker_range_header_only_end_selected = 0x7f0f0065
+com.example.betterto_do:attr/contrast = 0x7f0300e4
+com.example.betterto_do:id/accessibility_custom_action_14 = 0x7f080016
+com.example.betterto_do:string/mtrl_picker_out_of_range = 0x7f0f0064
+com.example.betterto_do:color/mtrl_error = 0x7f05009c
+com.example.betterto_do:string/mtrl_picker_navigate_to_year_description = 0x7f0f0063
+com.example.betterto_do:style/Platform.AppCompat = 0x7f1000f5
+com.example.betterto_do:string/mtrl_picker_invalid_range = 0x7f0f0062
+com.example.betterto_do:style/Base.ThemeOverlay.AppCompat.Dialog.Alert = 0x7f10006d
+com.example.betterto_do:string/mtrl_picker_invalid_format_example = 0x7f0f0060
+com.example.betterto_do:string/mtrl_picker_day_of_week_column_header = 0x7f0f005e
+com.example.betterto_do:string/mtrl_picker_date_header_unselected = 0x7f0f005d
+com.example.betterto_do:id/dragUp = 0x7f080093
+com.example.betterto_do:dimen/material_helper_text_font_1_3_padding_horizontal = 0x7f0600b3
+com.example.betterto_do:string/mtrl_picker_date_header_title = 0x7f0f005c
+com.example.betterto_do:attr/boxCornerRadiusTopEnd = 0x7f030067
+com.example.betterto_do:string/mtrl_picker_date_header_selected = 0x7f0f005b
+com.example.betterto_do:attr/suffixTextColor = 0x7f030313
+com.example.betterto_do:string/mtrl_picker_confirm = 0x7f0f005a
+com.example.betterto_do:string/mtrl_picker_a11y_next_month = 0x7f0f0056
+com.example.betterto_do:string/mtrl_exceed_max_badge_number_content_description = 0x7f0f0054
+com.example.betterto_do:string/mtrl_chip_close_icon_content_description = 0x7f0f0053
+com.example.betterto_do:string/material_timepicker_hour = 0x7f0f004d
+com.example.betterto_do:layout/mtrl_calendar_day = 0x7f0b0042
+com.example.betterto_do:string/material_timepicker_clock_mode_description = 0x7f0f004c
+com.example.betterto_do:string/material_timepicker_am = 0x7f0f004b
+com.example.betterto_do:string/material_minute_selection = 0x7f0f0042
+com.example.betterto_do:style/Base.AlertDialog.AppCompat.Light = 0x7f100009
+com.example.betterto_do:mipmap/ic_launcher = 0x7f0c0000
+com.example.betterto_do:string/material_slider_range_start = 0x7f0f004a
+com.example.betterto_do:string/material_minute_suffix = 0x7f0f0043
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/fabCradleVerticalOffset = 0x7f030155
 com.example.betterto_do:id/text = 0x7f080188
 com.example.betterto_do:dimen/mtrl_btn_text_btn_padding_right = 0x7f0600e6
 com.example.betterto_do:attr/fontProviderSystemFontFamily = 0x7f03017c
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_hour_suffix = 0x7f0f0042
 com.example.betterto_do:style/Base.V14.Theme.MaterialComponents.Light = 0x7f100078
 com.example.betterto_do:id/auto = 0x7f08004f
@@ -651,6 +723,21 @@ com.example.betterto_do:attr/mock_showDiagonals = 0x7f03025a
 com.example.betterto_do:string/dest_title = 0x7f0f0032
 com.example.betterto_do:layout/ime_secondary_split_test_activity = 0x7f0b002d
 com.example.betterto_do:string/common_google_play_services_unknown_issue = 0x7f0f002f
+=======
+com.example.betterto_do:string/material_hour_suffix = 0x7f0f0041
+com.example.betterto_do:style/Base.V14.Theme.MaterialComponents.Light = 0x7f100078
+com.example.betterto_do:id/auto = 0x7f08004f
+com.example.betterto_do:string/material_clock_toggle_content_description = 0x7f0f003f
+com.example.betterto_do:dimen/abc_button_inset_vertical_material = 0x7f060013
+com.example.betterto_do:style/Base.TextAppearance.AppCompat.Body2 = 0x7f100015
+com.example.betterto_do:string/hide_bottom_view_on_scroll_behavior = 0x7f0f0039
+com.example.betterto_do:string/exposed_dropdown_menu_content_description = 0x7f0f0036
+com.example.betterto_do:string/dialog = 0x7f0f0032
+com.example.betterto_do:attr/buttonBarPositiveButtonStyle = 0x7f030071
+com.example.betterto_do:attr/onTouchUp = 0x7f030284
+com.example.betterto_do:attr/mock_showDiagonals = 0x7f03025a
+com.example.betterto_do:string/dest_title = 0x7f0f0031
+>>>>>>> Stashed changes
 com.example.betterto_do:string/close_drawer = 0x7f0f002c
 com.example.betterto_do:attr/roundPercent = 0x7f0302c6
 com.example.betterto_do:string/clear_text_end_icon_content_description = 0x7f0f002b
@@ -664,20 +751,32 @@ com.example.betterto_do:style/TextAppearance.MaterialComponents.Button = 0x7f100
 com.example.betterto_do:string/call_notification_ongoing_text = 0x7f0f0025
 com.example.betterto_do:string/call_notification_hang_up_action = 0x7f0f0023
 com.example.betterto_do:string/bottomsheet_action_expand_halfway = 0x7f0f001f
+<<<<<<< Updated upstream
 com.example.betterto_do:string/on = 0x7f0f007b
+=======
+com.example.betterto_do:string/on = 0x7f0f007a
+>>>>>>> Stashed changes
 com.example.betterto_do:id/action_divider = 0x7f080039
 com.example.betterto_do:string/abc_shareactionprovider_share_with = 0x7f0f0018
 com.example.betterto_do:string/abc_searchview_description_submit = 0x7f0f0016
 com.example.betterto_do:string/abc_searchview_description_query = 0x7f0f0014
 com.example.betterto_do:string/abc_searchview_description_clear = 0x7f0f0013
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_toggle_to_calendar_input_mode = 0x7f0f0072
+=======
+com.example.betterto_do:string/mtrl_picker_toggle_to_calendar_input_mode = 0x7f0f0071
+>>>>>>> Stashed changes
 com.example.betterto_do:id/floating = 0x7f0800aa
 com.example.betterto_do:string/abc_prepend_shortcut_label = 0x7f0f0011
 com.example.betterto_do:string/abc_searchview_description_search = 0x7f0f0015
 com.example.betterto_do:string/abc_menu_shift_shortcut_label = 0x7f0f000e
 com.example.betterto_do:style/Widget.AppCompat.DrawerArrowToggle = 0x7f10021d
 com.example.betterto_do:color/mtrl_chip_text_color = 0x7f050098
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_timepicker_pm = 0x7f0f0050
+=======
+com.example.betterto_do:string/material_timepicker_pm = 0x7f0f004f
+>>>>>>> Stashed changes
 com.example.betterto_do:id/slide = 0x7f08015a
 com.example.betterto_do:string/abc_menu_function_shortcut_label = 0x7f0f000c
 com.example.betterto_do:string/abc_menu_ctrl_shortcut_label = 0x7f0f0009
@@ -704,7 +803,11 @@ com.example.betterto_do:layout/test_toolbar_elevation = 0x7f0b006b
 com.example.betterto_do:id/search_plate = 0x7f08014e
 com.example.betterto_do:layout/test_design_checkbox = 0x7f0b0065
 com.example.betterto_do:dimen/abc_list_item_padding_horizontal_material = 0x7f060033
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_timepicker_select_time = 0x7f0f0051
+=======
+com.example.betterto_do:string/material_timepicker_select_time = 0x7f0f0050
+>>>>>>> Stashed changes
 com.example.betterto_do:color/design_dark_default_color_on_primary = 0x7f050039
 com.example.betterto_do:layout/test_chip_zero_corner_radius = 0x7f0b0064
 com.example.betterto_do:attr/launchSingleTop = 0x7f0301cf
@@ -733,7 +836,11 @@ com.example.betterto_do:attr/gestureInsetBottomIgnored = 0x7f030183
 com.example.betterto_do:layout/mtrl_layout_snackbar = 0x7f0b004c
 com.example.betterto_do:dimen/test_navigation_bar_active_item_min_width = 0x7f060193
 com.example.betterto_do:layout/mtrl_calendar_month_navigation = 0x7f0b0048
+<<<<<<< Updated upstream
 com.example.betterto_do:integer/material_motion_duration_short_1 = 0x7f09000f
+=======
+com.example.betterto_do:integer/material_motion_duration_short_1 = 0x7f09000e
+>>>>>>> Stashed changes
 com.example.betterto_do:layout/mtrl_calendar_horizontal = 0x7f0b0045
 com.example.betterto_do:layout/mtrl_calendar_day_of_week = 0x7f0b0043
 com.example.betterto_do:style/Base.Theme.MaterialComponents.Bridge = 0x7f100056
@@ -778,6 +885,7 @@ com.example.betterto_do:layout/abc_action_bar_title_item = 0x7f0b0000
 com.example.betterto_do:attr/listPreferredItemHeightLarge = 0x7f030220
 com.example.betterto_do:interpolator/mtrl_linear = 0x7f0a0009
 com.example.betterto_do:interpolator/fast_out_slow_in = 0x7f0a0006
+<<<<<<< Updated upstream
 com.example.betterto_do:integer/show_password_duration = 0x7f09001c
 com.example.betterto_do:integer/mtrl_tab_indicator_anim_duration_ms = 0x7f09001b
 com.example.betterto_do:dimen/mtrl_calendar_content_padding = 0x7f0600ed
@@ -791,15 +899,36 @@ com.example.betterto_do:integer/mtrl_calendar_header_orientation = 0x7f090015
 com.example.betterto_do:integer/mtrl_btn_anim_duration_ms = 0x7f090014
 com.example.betterto_do:integer/mtrl_btn_anim_delay_ms = 0x7f090013
 com.example.betterto_do:integer/mtrl_badge_max_character_count = 0x7f090012
+=======
+com.example.betterto_do:integer/show_password_duration = 0x7f09001b
+com.example.betterto_do:integer/mtrl_tab_indicator_anim_duration_ms = 0x7f09001a
+com.example.betterto_do:dimen/mtrl_calendar_content_padding = 0x7f0600ed
+com.example.betterto_do:style/Base.Widget.AppCompat.DropDownItem.Spinner = 0x7f1000b4
+com.example.betterto_do:integer/mtrl_chip_anim_duration = 0x7f090019
+com.example.betterto_do:integer/mtrl_card_anim_duration_ms = 0x7f090018
+com.example.betterto_do:integer/mtrl_card_anim_delay_ms = 0x7f090017
+com.example.betterto_do:integer/mtrl_calendar_selection_text_lines = 0x7f090015
+com.example.betterto_do:style/Widget.MaterialComponents.Snackbar.TextView = 0x7f1002b7
+com.example.betterto_do:integer/mtrl_calendar_header_orientation = 0x7f090014
+com.example.betterto_do:integer/mtrl_btn_anim_duration_ms = 0x7f090013
+com.example.betterto_do:integer/mtrl_btn_anim_delay_ms = 0x7f090012
+com.example.betterto_do:integer/mtrl_badge_max_character_count = 0x7f090011
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/textAppearanceListItemSecondary = 0x7f030347
 com.example.betterto_do:id/view_tree_on_back_pressed_dispatcher_owner = 0x7f0801af
 com.example.betterto_do:style/Theme.MaterialComponents.Light.NoActionBar = 0x7f1001d2
 com.example.betterto_do:style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon = 0x7f100105
 com.example.betterto_do:dimen/hint_alpha_material_dark = 0x7f060094
+<<<<<<< Updated upstream
 com.example.betterto_do:integer/material_motion_path = 0x7f090011
 com.example.betterto_do:string/abc_menu_meta_shortcut_label = 0x7f0f000d
 com.example.betterto_do:integer/material_motion_duration_short_2 = 0x7f090010
 com.example.betterto_do:integer/google_play_services_version = 0x7f090009
+=======
+com.example.betterto_do:integer/material_motion_path = 0x7f090010
+com.example.betterto_do:string/abc_menu_meta_shortcut_label = 0x7f0f000d
+com.example.betterto_do:integer/material_motion_duration_short_2 = 0x7f09000f
+>>>>>>> Stashed changes
 com.example.betterto_do:styleable/LinearProgressIndicator = 0x7f11004a
 com.example.betterto_do:style/TextAppearance.MaterialComponents.Headline6 = 0x7f10017f
 com.example.betterto_do:style/ThemeOverlay.MaterialComponents.Light = 0x7f1001f2
@@ -900,7 +1029,11 @@ com.example.betterto_do:id/search_badge = 0x7f080147
 com.example.betterto_do:id/scale = 0x7f080140
 com.example.betterto_do:attr/expandedTitleGravity = 0x7f030148
 com.example.betterto_do:id/sawtooth = 0x7f08013f
+<<<<<<< Updated upstream
 com.example.betterto_do:integer/material_motion_duration_long_1 = 0x7f09000b
+=======
+com.example.betterto_do:integer/material_motion_duration_long_1 = 0x7f09000a
+>>>>>>> Stashed changes
 com.example.betterto_do:id/rounded = 0x7f08013a
 com.example.betterto_do:attr/contentInsetEndWithActions = 0x7f0300d7
 com.example.betterto_do:id/right_icon = 0x7f080138
@@ -917,7 +1050,11 @@ com.example.betterto_do:id/pooling_container_listener_holder_tag = 0x7f08012c
 com.example.betterto_do:attr/textAppearanceHeadline5 = 0x7f030342
 com.example.betterto_do:id/pin = 0x7f08012b
 com.example.betterto_do:id/peekHeight = 0x7f080129
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_toggle_to_text_input_mode = 0x7f0f0074
+=======
+com.example.betterto_do:string/mtrl_picker_toggle_to_text_input_mode = 0x7f0f0073
+>>>>>>> Stashed changes
 com.example.betterto_do:layout/ime_base_split_test_activity = 0x7f0b002c
 com.example.betterto_do:color/design_fab_shadow_end_color = 0x7f050050
 com.example.betterto_do:id/password_toggle = 0x7f080126
@@ -942,7 +1079,11 @@ com.example.betterto_do:id/nav_host_fragment_container = 0x7f08010e
 com.example.betterto_do:id/multiply = 0x7f08010c
 com.example.betterto_do:drawable/btn_checkbox_checked_mtrl = 0x7f07005f
 com.example.betterto_do:id/mtrl_view_tag_bottom_padding = 0x7f08010b
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_exceed_max_badge_number_suffix = 0x7f0f0056
+=======
+com.example.betterto_do:string/mtrl_exceed_max_badge_number_suffix = 0x7f0f0055
+>>>>>>> Stashed changes
 com.example.betterto_do:layout/abc_screen_simple = 0x7f0b0015
 com.example.betterto_do:id/mtrl_picker_text_input_range_start = 0x7f080109
 com.example.betterto_do:id/mtrl_picker_text_input_range_end = 0x7f080108
@@ -950,7 +1091,11 @@ com.example.betterto_do:attr/placeholderText = 0x7f0302a0
 com.example.betterto_do:id/mtrl_picker_text_input_date = 0x7f080107
 com.example.betterto_do:style/Widget.AppCompat.RatingBar.Small = 0x7f100243
 com.example.betterto_do:attr/coordinatorLayoutStyle = 0x7f0300e6
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_motion_easing_emphasized = 0x7f0f0047
+=======
+com.example.betterto_do:string/material_motion_easing_emphasized = 0x7f0f0046
+>>>>>>> Stashed changes
 com.example.betterto_do:id/mtrl_picker_header_toggle = 0x7f080106
 com.example.betterto_do:id/mtrl_picker_header_title_and_selection = 0x7f080105
 com.example.betterto_do:layout/design_navigation_item_header = 0x7f0b0025
@@ -1025,7 +1170,11 @@ com.example.betterto_do:attr/materialCalendarHeaderToggleButton = 0x7f030238
 com.example.betterto_do:id/forever = 0x7f0800ab
 com.example.betterto_do:attr/iconStartPadding = 0x7f03019f
 com.example.betterto_do:id/expanded_menu = 0x7f0800a1
+<<<<<<< Updated upstream
 com.example.betterto_do:integer/status_bar_notification_info_maxnum = 0x7f09001d
+=======
+com.example.betterto_do:integer/status_bar_notification_info_maxnum = 0x7f09001c
+>>>>>>> Stashed changes
 com.example.betterto_do:id/expand_activities_button = 0x7f0800a0
 com.example.betterto_do:id/enterAlways = 0x7f08009d
 com.example.betterto_do:attr/activityAction = 0x7f030023
@@ -1085,7 +1234,11 @@ com.example.betterto_do:id/barrier = 0x7f080053
 com.example.betterto_do:style/Base.Theme.AppCompat.Light.Dialog = 0x7f100050
 com.example.betterto_do:attr/drawableEndCompat = 0x7f03011f
 com.example.betterto_do:id/autoCompleteToStart = 0x7f080052
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_text_input_date_range_end_hint = 0x7f0f006d
+=======
+com.example.betterto_do:string/mtrl_picker_text_input_date_range_end_hint = 0x7f0f006c
+>>>>>>> Stashed changes
 com.example.betterto_do:id/autoComplete = 0x7f080050
 com.example.betterto_do:id/async = 0x7f08004e
 com.example.betterto_do:id/arc = 0x7f08004c
@@ -1114,7 +1267,11 @@ com.example.betterto_do:id/action_bar_activity_content = 0x7f080031
 com.example.betterto_do:color/tooltip_background_light = 0x7f0500db
 com.example.betterto_do:id/action_bar = 0x7f080030
 com.example.betterto_do:color/design_dark_default_color_on_error = 0x7f050038
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_range_header_selected = 0x7f0f0068
+=======
+com.example.betterto_do:string/mtrl_picker_range_header_selected = 0x7f0f0067
+>>>>>>> Stashed changes
 com.example.betterto_do:id/accessibility_custom_action_9 = 0x7f08002f
 com.example.betterto_do:id/accessibility_custom_action_7 = 0x7f08002d
 com.example.betterto_do:style/Theme.MaterialComponents.Light.BottomSheetDialog = 0x7f1001c4
@@ -1139,7 +1296,11 @@ com.example.betterto_do:styleable/SplitPairRule = 0x7f110082
 com.example.betterto_do:layout/design_bottom_navigation_item = 0x7f0b001d
 com.example.betterto_do:attr/tabIconTint = 0x7f03031c
 com.example.betterto_do:id/accessibility_custom_action_13 = 0x7f080015
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_motion_easing_standard = 0x7f0f0049
+=======
+com.example.betterto_do:string/material_motion_easing_standard = 0x7f0f0048
+>>>>>>> Stashed changes
 com.example.betterto_do:id/accessibility_custom_action_12 = 0x7f080014
 com.example.betterto_do:id/accessibility_custom_action_10 = 0x7f080012
 com.example.betterto_do:attr/layout_constraintGuide_percent = 0x7f0301e8
@@ -1273,7 +1434,11 @@ com.example.betterto_do:styleable/Fragment = 0x7f110038
 com.example.betterto_do:drawable/abc_scrubber_control_to_pressed_mtrl_000 = 0x7f070043
 com.example.betterto_do:drawable/abc_scrubber_control_off_mtrl_alpha = 0x7f070042
 com.example.betterto_do:dimen/abc_action_bar_stacked_max_height = 0x7f060009
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_text_input_date_hint = 0x7f0f006c
+=======
+com.example.betterto_do:string/mtrl_picker_text_input_date_hint = 0x7f0f006b
+>>>>>>> Stashed changes
 com.example.betterto_do:drawable/abc_ratingbar_material = 0x7f070040
 com.example.betterto_do:drawable/abc_ratingbar_indicator_material = 0x7f07003f
 com.example.betterto_do:drawable/material_ic_menu_arrow_down_black_24dp = 0x7f070082
@@ -1435,7 +1600,11 @@ com.example.betterto_do:dimen/mtrl_textinput_box_stroke_width_default = 0x7f0601
 com.example.betterto_do:dimen/design_navigation_elevation = 0x7f060074
 com.example.betterto_do:dimen/mtrl_textinput_box_corner_radius_small = 0x7f060172
 com.example.betterto_do:styleable/TabLayout = 0x7f11008b
+<<<<<<< Updated upstream
 com.example.betterto_do:string/template_percent = 0x7f0f0088
+=======
+com.example.betterto_do:string/template_percent = 0x7f0f0087
+>>>>>>> Stashed changes
 com.example.betterto_do:dimen/mtrl_textinput_box_corner_radius_medium = 0x7f060171
 com.example.betterto_do:dimen/mtrl_snackbar_padding_horizontal = 0x7f06016f
 com.example.betterto_do:dimen/mtrl_snackbar_message_margin_horizontal = 0x7f06016e
@@ -1463,7 +1632,11 @@ com.example.betterto_do:attr/maxVelocity = 0x7f03024b
 com.example.betterto_do:dimen/mtrl_slider_track_height = 0x7f060166
 com.example.betterto_do:dimen/mtrl_progress_circular_track_thickness_extra_small = 0x7f060158
 com.example.betterto_do:dimen/mtrl_progress_circular_size = 0x7f060154
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_timepicker_minute = 0x7f0f004f
+=======
+com.example.betterto_do:string/material_timepicker_minute = 0x7f0f004e
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/ttcIndex = 0x7f030393
 com.example.betterto_do:color/switch_thumb_material_light = 0x7f0500d3
 com.example.betterto_do:dimen/mtrl_progress_circular_radius = 0x7f060153
@@ -1498,7 +1671,11 @@ com.example.betterto_do:dimen/mtrl_calendar_selection_baseline_to_top_fullscreen
 com.example.betterto_do:style/Base.Widget.AppCompat.ListView = 0x7f1000c1
 com.example.betterto_do:dimen/mtrl_extended_fab_end_padding = 0x7f060124
 com.example.betterto_do:dimen/mtrl_extended_fab_elevation = 0x7f060123
+<<<<<<< Updated upstream
 com.example.betterto_do:string/range_end = 0x7f0f0081
+=======
+com.example.betterto_do:string/range_end = 0x7f0f0080
+>>>>>>> Stashed changes
 com.example.betterto_do:dimen/mtrl_extended_fab_disabled_elevation = 0x7f060121
 com.example.betterto_do:attr/closeIcon = 0x7f0300aa
 com.example.betterto_do:attr/preserveIconSpacing = 0x7f0302b0
@@ -1511,12 +1688,20 @@ com.example.betterto_do:style/Base.Widget.AppCompat.ActivityChooserView = 0x7f10
 com.example.betterto_do:id/action_mode_bar_stub = 0x7f08003e
 com.example.betterto_do:dimen/mtrl_extended_fab_bottom_padding = 0x7f06011f
 com.example.betterto_do:dimen/mtrl_chip_text_size = 0x7f06011a
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_slider_range_end = 0x7f0f004a
+=======
+com.example.betterto_do:string/material_slider_range_end = 0x7f0f0049
+>>>>>>> Stashed changes
 com.example.betterto_do:dimen/mtrl_card_elevation = 0x7f060117
 com.example.betterto_do:dimen/mtrl_calendar_year_vertical_padding = 0x7f060111
 com.example.betterto_do:attr/titleMarginTop = 0x7f030373
 com.example.betterto_do:style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense = 0x7f1001e8
+<<<<<<< Updated upstream
 com.example.betterto_do:string/password_toggle_content_description = 0x7f0f007c
+=======
+com.example.betterto_do:string/password_toggle_content_description = 0x7f0f007b
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/mock_showLabel = 0x7f03025b
 com.example.betterto_do:id/accessibility_custom_action_16 = 0x7f080018
 com.example.betterto_do:dimen/mtrl_calendar_year_corner = 0x7f06010e
@@ -1638,7 +1823,11 @@ com.example.betterto_do:attr/buttonTint = 0x7f030079
 com.example.betterto_do:dimen/material_filled_edittext_font_1_3_padding_top = 0x7f0600ad
 com.example.betterto_do:attr/collapsedTitleGravity = 0x7f0300b5
 com.example.betterto_do:dimen/material_filled_edittext_font_1_3_padding_bottom = 0x7f0600ac
+<<<<<<< Updated upstream
 com.example.betterto_do:string/expanded = 0x7f0f0036
+=======
+com.example.betterto_do:string/expanded = 0x7f0f0035
+>>>>>>> Stashed changes
 com.example.betterto_do:dimen/abc_text_size_body_1_material = 0x7f06003c
 com.example.betterto_do:id/center = 0x7f08005c
 com.example.betterto_do:attr/onNegativeCross = 0x7f030281
@@ -1670,7 +1859,11 @@ com.example.betterto_do:attr/snackbarStyle = 0x7f0302eb
 com.example.betterto_do:attr/listChoiceIndicatorSingleAnimated = 0x7f030219
 com.example.betterto_do:dimen/item_touch_helper_swipe_escape_max_velocity = 0x7f060099
 com.example.betterto_do:attr/contentPaddingRight = 0x7f0300e0
+<<<<<<< Updated upstream
 com.example.betterto_do:integer/hide_password_duration = 0x7f09000a
+=======
+com.example.betterto_do:integer/hide_password_duration = 0x7f090009
+>>>>>>> Stashed changes
 com.example.betterto_do:dimen/hint_pressed_alpha_material_light = 0x7f060097
 com.example.betterto_do:dimen/hint_alpha_material_light = 0x7f060095
 com.example.betterto_do:dimen/highlight_alpha_material_light = 0x7f060093
@@ -1767,12 +1960,19 @@ com.example.betterto_do:dimen/abc_progress_bar_height_material = 0x7f060035
 com.example.betterto_do:attr/horizontalOffset = 0x7f030198
 com.example.betterto_do:style/Widget.Compat.NotificationActionText = 0x7f100251
 com.example.betterto_do:style/Widget.MaterialComponents.CardView = 0x7f10027d
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_invalid_format_use = 0x7f0f0062
 com.example.betterto_do:attr/boxStrokeWidthFocused = 0x7f03006c
 com.example.betterto_do:attr/layout_constrainedHeight = 0x7f0301d9
 com.example.betterto_do:dimen/mtrl_progress_indicator_full_rounded_corner_radius = 0x7f06015b
 com.example.betterto_do:style/Widget.MaterialComponents.CollapsingToolbar = 0x7f100288
 com.example.betterto_do:string/abc_toolbar_collapse_description = 0x7f0f001a
+=======
+com.example.betterto_do:string/mtrl_picker_invalid_format_use = 0x7f0f0061
+com.example.betterto_do:attr/boxStrokeWidthFocused = 0x7f03006c
+com.example.betterto_do:attr/layout_constrainedHeight = 0x7f0301d9
+com.example.betterto_do:dimen/mtrl_progress_indicator_full_rounded_corner_radius = 0x7f06015b
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/actionBarTabStyle = 0x7f030008
 com.example.betterto_do:color/cardview_shadow_start_color = 0x7f050030
 com.example.betterto_do:dimen/abc_list_item_height_small_material = 0x7f060032
@@ -1829,7 +2029,11 @@ com.example.betterto_do:attr/state_liftable = 0x7f030303
 com.example.betterto_do:style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f100030
 com.example.betterto_do:dimen/abc_action_bar_default_padding_start_material = 0x7f060004
 com.example.betterto_do:dimen/abc_action_bar_default_padding_end_material = 0x7f060003
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_invalid_format = 0x7f0f0060
+=======
+com.example.betterto_do:string/mtrl_picker_invalid_format = 0x7f0f005f
+>>>>>>> Stashed changes
 com.example.betterto_do:style/Base.TextAppearance.AppCompat.Small = 0x7f100028
 com.example.betterto_do:dimen/mtrl_slider_thumb_elevation = 0x7f060164
 com.example.betterto_do:attr/layout_constraintWidth_max = 0x7f030200
@@ -1948,9 +2152,15 @@ com.example.betterto_do:style/TextAppearance.AppCompat.Caption = 0x7f100138
 com.example.betterto_do:attr/layout_constraintWidth_min = 0x7f030201
 com.example.betterto_do:dimen/mtrl_navigation_bar_item_default_icon_size = 0x7f06013e
 com.example.betterto_do:color/material_grey_300 = 0x7f05006d
+<<<<<<< Updated upstream
 com.example.betterto_do:integer/mtrl_calendar_year_selector_span = 0x7f090017
 com.example.betterto_do:color/material_deep_teal_200 = 0x7f05006a
 com.example.betterto_do:string/title_activity_login = 0x7f0f0089
+=======
+com.example.betterto_do:integer/mtrl_calendar_year_selector_span = 0x7f090016
+com.example.betterto_do:color/material_deep_teal_200 = 0x7f05006a
+com.example.betterto_do:string/title_activity_login = 0x7f0f0088
+>>>>>>> Stashed changes
 com.example.betterto_do:dimen/design_bottom_navigation_text_size = 0x7f060069
 com.example.betterto_do:color/material_blue_grey_800 = 0x7f050066
 com.example.betterto_do:attr/colorPrimarySurface = 0x7f0300c8
@@ -1964,7 +2174,11 @@ com.example.betterto_do:color/error_color_material_light = 0x7f05005e
 com.example.betterto_do:attr/alphabeticModifiers = 0x7f03002c
 com.example.betterto_do:color/dim_foreground_material_dark = 0x7f05005b
 com.example.betterto_do:attr/drawableLeftCompat = 0x7f030120
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_timepicker_text_input_mode_description = 0x7f0f0052
+=======
+com.example.betterto_do:string/material_timepicker_text_input_mode_description = 0x7f0f0051
+>>>>>>> Stashed changes
 com.example.betterto_do:style/Base.V14.Theme.MaterialComponents.Light.Dialog.Bridge = 0x7f10007c
 com.example.betterto_do:attr/itemMaxLines = 0x7f0301b6
 com.example.betterto_do:attr/snackbarTextViewStyle = 0x7f0302ec
@@ -2035,7 +2249,11 @@ com.example.betterto_do:color/button_material_light = 0x7f05002a
 com.example.betterto_do:color/abc_tint_btn_checkable = 0x7f050013
 com.example.betterto_do:style/Widget.AppCompat.TextView = 0x7f10024c
 com.example.betterto_do:color/abc_search_url_text_selected = 0x7f050010
+<<<<<<< Updated upstream
 com.example.betterto_do:string/tab = 0x7f0f0087
+=======
+com.example.betterto_do:string/tab = 0x7f0f0086
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/logoDescription = 0x7f030227
 com.example.betterto_do:color/abc_search_url_text_pressed = 0x7f05000f
 com.example.betterto_do:drawable/design_ic_visibility = 0x7f070068
@@ -2133,14 +2351,22 @@ com.example.betterto_do:attr/tooltipFrameBackground = 0x7f03037c
 com.example.betterto_do:attr/actionOverflowMenuStyle = 0x7f03001f
 com.example.betterto_do:color/design_snackbar_background_color = 0x7f050058
 com.example.betterto_do:attr/cornerFamilyTopLeft = 0x7f0300ea
+<<<<<<< Updated upstream
 com.example.betterto_do:string/default_popup_window_title = 0x7f0f0031
+=======
+com.example.betterto_do:string/default_popup_window_title = 0x7f0f0030
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/layout_constraintTop_toBottomOf = 0x7f0301fa
 com.example.betterto_do:color/design_default_color_background = 0x7f050042
 com.example.betterto_do:styleable/RecyclerView = 0x7f110077
 com.example.betterto_do:style/ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog = 0x7f1001ee
 com.example.betterto_do:attr/titleTextStyle = 0x7f030377
 com.example.betterto_do:attr/fabCradleMargin = 0x7f030153
+<<<<<<< Updated upstream
 com.example.betterto_do:string/item_view_role_description = 0x7f0f003e
+=======
+com.example.betterto_do:string/item_view_role_description = 0x7f0f003d
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/titleTextColor = 0x7f030376
 com.example.betterto_do:attr/titleMarginStart = 0x7f030372
 com.example.betterto_do:attr/layoutManager = 0x7f0301d3
@@ -2200,7 +2426,11 @@ com.example.betterto_do:attr/textAppearanceListItemSmall = 0x7f030348
 com.example.betterto_do:attr/bottomNavigationStyle = 0x7f03005f
 com.example.betterto_do:dimen/mtrl_progress_circular_inset_medium = 0x7f060151
 com.example.betterto_do:color/dim_foreground_material_light = 0x7f05005c
+<<<<<<< Updated upstream
 com.example.betterto_do:string/error_icon_content_description = 0x7f0f0035
+=======
+com.example.betterto_do:string/error_icon_content_description = 0x7f0f0034
+>>>>>>> Stashed changes
 com.example.betterto_do:animator/nav_default_exit_anim = 0x7f02001b
 com.example.betterto_do:color/mtrl_scrim_color = 0x7f0500b0
 com.example.betterto_do:id/chip = 0x7f080063
@@ -2270,6 +2500,10 @@ com.example.betterto_do:dimen/design_bottom_navigation_height = 0x7f060062
 com.example.betterto_do:id/tag_on_receive_content_listener = 0x7f08017c
 com.example.betterto_do:color/material_timepicker_clockface = 0x7f050086
 com.example.betterto_do:attr/switchTextAppearance = 0x7f030318
+<<<<<<< Updated upstream
+=======
+com.example.betterto_do:layout/ime_secondary_split_test_activity = 0x7f0b002d
+>>>>>>> Stashed changes
 com.example.betterto_do:dimen/mtrl_calendar_header_height = 0x7f0600f9
 com.example.betterto_do:id/date_picker_actions = 0x7f08007c
 com.example.betterto_do:attr/switchPadding = 0x7f030316
@@ -2296,7 +2530,11 @@ com.example.betterto_do:attr/backgroundInsetBottom = 0x7f030041
 com.example.betterto_do:attr/startIconCheckable = 0x7f0302fa
 com.example.betterto_do:attr/layout = 0x7f0301d0
 com.example.betterto_do:attr/startDestination = 0x7f0302f9
+<<<<<<< Updated upstream
 com.example.betterto_do:string/dropdown_menu = 0x7f0f0034
+=======
+com.example.betterto_do:string/dropdown_menu = 0x7f0f0033
+>>>>>>> Stashed changes
 com.example.betterto_do:drawable/ic_call_answer_video_low = 0x7f07006f
 com.example.betterto_do:dimen/material_clock_face_margin_top = 0x7f06009d
 com.example.betterto_do:attr/splitTrack = 0x7f0302f5
@@ -2340,7 +2578,11 @@ com.example.betterto_do:attr/chipIcon = 0x7f030092
 com.example.betterto_do:dimen/design_snackbar_padding_horizontal = 0x7f060083
 com.example.betterto_do:id/material_textinput_timepicker = 0x7f0800e3
 com.example.betterto_do:attr/showText = 0x7f0302e2
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_motion_easing_decelerated = 0x7f0f0046
+=======
+com.example.betterto_do:string/material_motion_easing_decelerated = 0x7f0f0045
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/showDividers = 0x7f0302df
 com.example.betterto_do:color/secondary_text_disabled_material_light = 0x7f0500cf
 com.example.betterto_do:attr/chipIconEnabled = 0x7f030093
@@ -2358,7 +2600,11 @@ com.example.betterto_do:dimen/design_textinput_caption_translate_y = 0x7f06008b
 com.example.betterto_do:attr/actionBarSize = 0x7f030004
 com.example.betterto_do:attr/layout_constraintLeft_toRightOf = 0x7f0301f2
 com.example.betterto_do:style/Base.MaterialAlertDialog.MaterialComponents.Title.Panel = 0x7f100011
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_cancel = 0x7f0f005a
+=======
+com.example.betterto_do:string/mtrl_picker_cancel = 0x7f0f0059
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/sliderStyle = 0x7f0302e9
 com.example.betterto_do:attr/errorContentDescription = 0x7f03013d
 com.example.betterto_do:attr/errorEnabled = 0x7f03013e
@@ -2419,7 +2665,11 @@ com.example.betterto_do:drawable/material_ic_menu_arrow_up_black_24dp = 0x7f0700
 com.example.betterto_do:attr/queryPatterns = 0x7f0302b7
 com.example.betterto_do:attr/onShow = 0x7f030283
 com.example.betterto_do:animator/mtrl_card_state_list_anim = 0x7f02000f
+<<<<<<< Updated upstream
 com.example.betterto_do:string/path_password_strike_through = 0x7f0f0080
+=======
+com.example.betterto_do:string/path_password_strike_through = 0x7f0f007f
+>>>>>>> Stashed changes
 com.example.betterto_do:style/Theme.MaterialComponents.Light.Dialog = 0x7f1001c8
 com.example.betterto_do:anim/btn_radio_to_off_mtrl_ring_outer_animation = 0x7f010013
 com.example.betterto_do:dimen/design_bottom_navigation_active_item_min_width = 0x7f06005f
@@ -2485,7 +2735,11 @@ com.example.betterto_do:drawable/abc_ic_search_api_material = 0x7f070027
 com.example.betterto_do:dimen/abc_action_bar_content_inset_with_nav = 0x7f060001
 com.example.betterto_do:attr/placeholderTextColor = 0x7f0302a2
 com.example.betterto_do:attr/mock_label = 0x7f030257
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_badge_numberless_content_description = 0x7f0f0053
+=======
+com.example.betterto_do:string/mtrl_badge_numberless_content_description = 0x7f0f0052
+>>>>>>> Stashed changes
 com.example.betterto_do:id/navigation_bar_item_small_label_view = 0x7f080112
 com.example.betterto_do:attr/dropdownListPreferredItemHeight = 0x7f03012a
 com.example.betterto_do:attr/mock_diagonalsColor = 0x7f030256
@@ -2567,6 +2821,12 @@ com.example.betterto_do:attr/shapeAppearanceSmallComponent = 0x7f0302da
 com.example.betterto_do:style/Widget.AppCompat.ActionButton = 0x7f10020c
 com.example.betterto_do:dimen/design_snackbar_action_inline_max_width = 0x7f06007c
 com.example.betterto_do:dimen/mtrl_calendar_days_of_week_height = 0x7f0600f4
+<<<<<<< Updated upstream
+=======
+com.example.betterto_do:style/Widget.MaterialComponents.TextInputEditText.FilledBox.Dense = 0x7f1002bc
+com.example.betterto_do:attr/enforceTextAppearance = 0x7f03013a
+com.example.betterto_do:style/Widget.MaterialComponents.CircularProgressIndicator.Small = 0x7f100287
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/listPreferredItemPaddingStart = 0x7f030225
 com.example.betterto_do:attr/listPreferredItemPaddingEnd = 0x7f030222
 com.example.betterto_do:dimen/abc_select_dialog_padding_start_material = 0x7f06003a
@@ -2593,7 +2853,11 @@ com.example.betterto_do:layout/abc_list_menu_item_radio = 0x7f0b0011
 com.example.betterto_do:id/hide_ime_id = 0x7f0800b6
 com.example.betterto_do:drawable/abc_ic_star_half_black_48dp = 0x7f07002d
 com.example.betterto_do:styleable/NavArgument = 0x7f110065
+<<<<<<< Updated upstream
 com.example.betterto_do:string/default_error_message = 0x7f0f0030
+=======
+com.example.betterto_do:string/default_error_message = 0x7f0f002f
+>>>>>>> Stashed changes
 com.example.betterto_do:style/TextAppearance.AppCompat.Light.SearchResult.Subtitle = 0x7f100141
 com.example.betterto_do:style/Base.V7.Theme.AppCompat.Dialog = 0x7f100095
 com.example.betterto_do:attr/popUpToSaveState = 0x7f0302a8
@@ -2633,7 +2897,11 @@ com.example.betterto_do:integer/app_bar_elevation_anim_duration = 0x7f090002
 com.example.betterto_do:color/mtrl_fab_icon_text_color_selector = 0x7f05009e
 com.example.betterto_do:attr/layout_editor_absoluteX = 0x7f030204
 com.example.betterto_do:dimen/mtrl_alert_dialog_background_inset_end = 0x7f0600bf
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_motion_easing_linear = 0x7f0f0048
+=======
+com.example.betterto_do:string/material_motion_easing_linear = 0x7f0f0047
+>>>>>>> Stashed changes
 com.example.betterto_do:animator/fragment_fade_exit = 0x7f020006
 com.example.betterto_do:interpolator/btn_radio_to_on_mtrl_animation_interpolator_0 = 0x7f0a0005
 com.example.betterto_do:attr/layout_constraintWidth_default = 0x7f0301ff
@@ -2706,7 +2974,11 @@ com.example.betterto_do:integer/abc_config_activityDefaultDur = 0x7f090000
 com.example.betterto_do:attr/keyboardIcon = 0x7f0301c8
 com.example.betterto_do:attr/keyPositionType = 0x7f0301c7
 com.example.betterto_do:attr/constraintSet = 0x7f0300cf
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_range_header_title = 0x7f0f0069
+=======
+com.example.betterto_do:string/mtrl_picker_range_header_title = 0x7f0f0068
+>>>>>>> Stashed changes
 com.example.betterto_do:color/background_floating_material_dark = 0x7f05001e
 com.example.betterto_do:attr/itemTextColor = 0x7f0301c6
 com.example.betterto_do:color/mtrl_outlined_icon_tint = 0x7f0500ad
@@ -2846,7 +3118,11 @@ com.example.betterto_do:id/fitToContents = 0x7f0800a7
 com.example.betterto_do:attr/cardCornerRadius = 0x7f03007c
 com.example.betterto_do:attr/fontWeight = 0x7f03017f
 com.example.betterto_do:style/Theme.MaterialComponents.Light.Dialog.FixedSize = 0x7f1001cc
+<<<<<<< Updated upstream
 com.example.betterto_do:integer/material_motion_duration_medium_1 = 0x7f09000d
+=======
+com.example.betterto_do:integer/material_motion_duration_medium_1 = 0x7f09000c
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/placeholder_emptyVisibility = 0x7f0302a3
 com.example.betterto_do:style/Widget.AppCompat.Button.Small = 0x7f100217
 com.example.betterto_do:color/mtrl_fab_ripple_color = 0x7f05009f
@@ -2918,7 +3194,11 @@ com.example.betterto_do:dimen/design_snackbar_background_corner_radius = 0x7f060
 com.example.betterto_do:attr/fabCustomSize = 0x7f030156
 com.example.betterto_do:style/ShapeAppearanceOverlay.BottomRightCut = 0x7f10011c
 com.example.betterto_do:attr/fabAnimationMode = 0x7f030152
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_motion_easing_accelerated = 0x7f0f0045
+=======
+com.example.betterto_do:string/material_motion_easing_accelerated = 0x7f0f0044
+>>>>>>> Stashed changes
 com.example.betterto_do:layout/abc_search_dropdown_item_icons_2line = 0x7f0b0018
 com.example.betterto_do:attr/extendMotionSpec = 0x7f03014f
 com.example.betterto_do:dimen/mtrl_progress_circular_inset = 0x7f06014f
@@ -2953,7 +3233,11 @@ com.example.betterto_do:dimen/highlight_alpha_material_colored = 0x7f060091
 com.example.betterto_do:id/zero_corner_chip = 0x7f0801b9
 com.example.betterto_do:attr/elevationOverlayColor = 0x7f030130
 com.example.betterto_do:dimen/mtrl_badge_long_text_horizontal_padding = 0x7f0600c4
+<<<<<<< Updated upstream
 com.example.betterto_do:integer/material_motion_duration_long_2 = 0x7f09000c
+=======
+com.example.betterto_do:integer/material_motion_duration_long_2 = 0x7f09000b
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/layoutDuringTransition = 0x7f0301d2
 com.example.betterto_do:dimen/mtrl_btn_disabled_z = 0x7f0600d4
 com.example.betterto_do:style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Centered = 0x7f1001f5
@@ -3010,7 +3294,11 @@ com.example.betterto_do:attr/layout_constraintBottom_toBottomOf = 0x7f0301de
 com.example.betterto_do:attr/counterEnabled = 0x7f0300f2
 com.example.betterto_do:style/Widget.MaterialComponents.TextInputLayout.FilledBox = 0x7f1002bf
 com.example.betterto_do:attr/extendedFloatingActionButtonStyle = 0x7f030150
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_a11y_prev_month = 0x7f0f0058
+=======
+com.example.betterto_do:string/mtrl_picker_a11y_prev_month = 0x7f0f0057
+>>>>>>> Stashed changes
 com.example.betterto_do:style/Widget.MaterialComponents.MaterialCalendar.HeaderSelection = 0x7f10029d
 com.example.betterto_do:attr/iconEndPadding = 0x7f03019b
 com.example.betterto_do:attr/actionBarWidgetTheme = 0x7f03000b
@@ -3039,7 +3327,11 @@ com.example.betterto_do:style/Base.Widget.MaterialComponents.PopupMenu.Overflow 
 com.example.betterto_do:id/all = 0x7f080046
 com.example.betterto_do:drawable/navigation_empty_icon = 0x7f07008e
 com.example.betterto_do:attr/fastScrollVerticalTrackDrawable = 0x7f03015c
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_announce_current_selection = 0x7f0f0059
+=======
+com.example.betterto_do:string/mtrl_picker_announce_current_selection = 0x7f0f0058
+>>>>>>> Stashed changes
 com.example.betterto_do:animator/mtrl_extended_fab_show_motion_spec = 0x7f020014
 com.example.betterto_do:id/material_clock_period_toggle = 0x7f0800dd
 com.example.betterto_do:attr/errorIconTintMode = 0x7f030141
@@ -3106,7 +3398,11 @@ com.example.betterto_do:style/MaterialAlertDialog.MaterialComponents.Title.Panel
 com.example.betterto_do:attr/clockNumberTextColor = 0x7f0300a9
 com.example.betterto_do:attr/nullable = 0x7f03027c
 com.example.betterto_do:attr/motionEasingStandard = 0x7f030267
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_range_header_unselected = 0x7f0f006a
+=======
+com.example.betterto_do:string/mtrl_picker_range_header_unselected = 0x7f0f0069
+>>>>>>> Stashed changes
 com.example.betterto_do:dimen/design_navigation_item_horizontal_padding = 0x7f060077
 com.example.betterto_do:attr/collapsedSize = 0x7f0300b4
 com.example.betterto_do:style/Base.Animation.AppCompat.DropDownUp = 0x7f10000b
@@ -3117,7 +3413,11 @@ com.example.betterto_do:color/foreground_material_dark = 0x7f05005f
 com.example.betterto_do:attr/clockIcon = 0x7f0300a8
 com.example.betterto_do:style/Theme.MaterialComponents = 0x7f1001a5
 com.example.betterto_do:attr/chipStrokeWidth = 0x7f03009f
+<<<<<<< Updated upstream
 com.example.betterto_do:string/fab_transformation_sheet_behavior = 0x7f0f0039
+=======
+com.example.betterto_do:string/fab_transformation_sheet_behavior = 0x7f0f0038
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/layoutDescription = 0x7f0301d1
 com.example.betterto_do:attr/clearTop = 0x7f0300a4
 com.example.betterto_do:attr/brightness = 0x7f03006d
@@ -3134,7 +3434,11 @@ com.example.betterto_do:style/Test.ShapeAppearanceOverlay.MaterialComponents.Mat
 com.example.betterto_do:attr/layout_keyline = 0x7f03020d
 com.example.betterto_do:color/background_material_dark = 0x7f050020
 com.example.betterto_do:id/graph = 0x7f0800b0
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_hour_selection = 0x7f0f0041
+=======
+com.example.betterto_do:string/material_hour_selection = 0x7f0f0040
+>>>>>>> Stashed changes
 com.example.betterto_do:id/content = 0x7f080073
 com.example.betterto_do:attr/route = 0x7f0302c7
 com.example.betterto_do:attr/closeIconEnabled = 0x7f0300ab
@@ -3200,7 +3504,11 @@ com.example.betterto_do:string/abc_capital_off = 0x7f0f0006
 com.example.betterto_do:drawable/material_ic_keyboard_arrow_right_black_24dp = 0x7f070081
 com.example.betterto_do:style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small = 0x7f100021
 com.example.betterto_do:styleable/CardView = 0x7f11001c
+<<<<<<< Updated upstream
 com.example.betterto_do:string/in_progress = 0x7f0f003c
+=======
+com.example.betterto_do:string/in_progress = 0x7f0f003b
+>>>>>>> Stashed changes
 com.example.betterto_do:anim/abc_slide_out_top = 0x7f010009
 com.example.betterto_do:layout/abc_list_menu_item_layout = 0x7f0b0010
 com.example.betterto_do:attr/colorControlHighlight = 0x7f0300bd
@@ -3233,10 +3541,17 @@ com.example.betterto_do:attr/wavePeriod = 0x7f03039f
 com.example.betterto_do:dimen/mtrl_tooltip_minHeight = 0x7f06017d
 com.example.betterto_do:style/AndroidThemeColorAccentYellow = 0x7f100002
 com.example.betterto_do:attr/lineSpacing = 0x7f030215
+<<<<<<< Updated upstream
 com.example.betterto_do:string/indeterminate = 0x7f0f003d
 com.example.betterto_do:attr/behavior_autoShrink = 0x7f030052
 com.example.betterto_do:attr/radioButtonStyle = 0x7f0302b8
 com.example.betterto_do:integer/material_motion_duration_medium_2 = 0x7f09000e
+=======
+com.example.betterto_do:string/indeterminate = 0x7f0f003c
+com.example.betterto_do:attr/behavior_autoShrink = 0x7f030052
+com.example.betterto_do:attr/radioButtonStyle = 0x7f0302b8
+com.example.betterto_do:integer/material_motion_duration_medium_2 = 0x7f09000d
+>>>>>>> Stashed changes
 com.example.betterto_do:anim/abc_slide_in_bottom = 0x7f010006
 com.example.betterto_do:attr/dividerPadding = 0x7f030118
 com.example.betterto_do:attr/actionDropDownStyle = 0x7f03000d
@@ -3277,9 +3592,12 @@ com.example.betterto_do:id/snapMargins = 0x7f080160
 com.example.betterto_do:attr/flow_lastHorizontalStyle = 0x7f03016a
 com.example.betterto_do:attr/argType = 0x7f030034
 com.example.betterto_do:attr/firstBaselineToTopHeight = 0x7f03015f
+<<<<<<< Updated upstream
 com.example.betterto_do:style/Widget.MaterialComponents.TextInputEditText.FilledBox.Dense = 0x7f1002bc
 com.example.betterto_do:style/Widget.MaterialComponents.CircularProgressIndicator.Small = 0x7f100287
 com.example.betterto_do:attr/enforceTextAppearance = 0x7f03013a
+=======
+>>>>>>> Stashed changes
 com.example.betterto_do:style/Widget.MaterialComponents.MaterialCalendar.Day.Today = 0x7f100296
 com.example.betterto_do:style/Widget.AppCompat.Light.ActivityChooserView = 0x7f10022e
 com.example.betterto_do:id/deltaRelative = 0x7f080081
@@ -3311,7 +3629,11 @@ com.example.betterto_do:attr/buttonBarNeutralButtonStyle = 0x7f030070
 com.example.betterto_do:dimen/mtrl_navigation_rail_margin = 0x7f06014c
 com.example.betterto_do:attr/actionButtonStyle = 0x7f03000c
 com.example.betterto_do:dimen/mtrl_calendar_header_content_padding_fullscreen = 0x7f0600f7
+<<<<<<< Updated upstream
 com.example.betterto_do:string/mtrl_picker_text_input_date_range_start_hint = 0x7f0f006e
+=======
+com.example.betterto_do:string/mtrl_picker_text_input_date_range_start_hint = 0x7f0f006d
+>>>>>>> Stashed changes
 com.example.betterto_do:style/Theme.AppCompat.DayNight.Dialog.MinWidth = 0x7f10018e
 com.example.betterto_do:color/design_bottom_navigation_shadow_color = 0x7f050033
 com.example.betterto_do:style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu = 0x7f1000dc
@@ -3345,7 +3667,11 @@ com.example.betterto_do:style/Widget.Design.FloatingActionButton = 0x7f100256
 com.example.betterto_do:dimen/abc_search_view_preferred_width = 0x7f060037
 com.example.betterto_do:string/bottom_sheet_behavior = 0x7f0f001e
 com.example.betterto_do:id/end = 0x7f08009b
+<<<<<<< Updated upstream
 com.example.betterto_do:string/material_clock_display_divider = 0x7f0f003f
+=======
+com.example.betterto_do:string/material_clock_display_divider = 0x7f0f003e
+>>>>>>> Stashed changes
 com.example.betterto_do:attr/behavior_overlapTop = 0x7f030058
 com.example.betterto_do:attr/tickMarkTintMode = 0x7f030367
 com.example.betterto_do:string/abc_action_bar_up_description = 0x7f0f0001
@@ -3404,7 +3730,11 @@ com.example.betterto_do:color/material_timepicker_button_stroke = 0x7f050084
 com.example.betterto_do:style/ThemeOverlay.Design.TextInputEditText = 0x7f1001df
 com.example.betterto_do:animator/mtrl_btn_state_list_anim = 0x7f02000d
 com.example.betterto_do:attr/textAppearanceHeadline1 = 0x7f03033e
+<<<<<<< Updated upstream
 com.example.betterto_do:string/icon_content_description = 0x7f0f003b
+=======
+com.example.betterto_do:string/icon_content_description = 0x7f0f003a
+>>>>>>> Stashed changes
 com.example.betterto_do:color/design_icon_tint = 0x7f050057
 com.example.betterto_do:id/accessibility_custom_action_11 = 0x7f080013
 com.example.betterto_do:attr/saturation = 0x7f0302c8
@@ -3415,7 +3745,11 @@ com.example.betterto_do:attr/region_widthLessThan = 0x7f0302c0
 com.example.betterto_do:attr/arrowShaftLength = 0x7f030036
 com.example.betterto_do:attr/daySelectedStyle = 0x7f030107
 com.example.betterto_do:style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle = 0x7f100152
+<<<<<<< Updated upstream
 com.example.betterto_do:string/fab_transformation_scrim_behavior = 0x7f0f0038
+=======
+com.example.betterto_do:string/fab_transformation_scrim_behavior = 0x7f0f0037
+>>>>>>> Stashed changes
 com.example.betterto_do:anim/abc_popup_exit = 0x7f010004
 com.example.betterto_do:anim/btn_checkbox_to_unchecked_icon_null_animation = 0x7f010011
 com.example.betterto_do:id/month_navigation_next = 0x7f0800f1

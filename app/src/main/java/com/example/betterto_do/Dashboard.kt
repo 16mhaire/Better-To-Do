@@ -14,60 +14,72 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
-
 data class Task(val name: String)
+
 @Composable
 fun Dashboard() {
-    // Task list data
-    val tasks by remember { mutableStateOf(listOf(Task("Task 1"), Task("Task 2"), Task("Task 3"))) }
+    val tasks = remember { mutableStateOf(listOf(Task("Task 1"), Task("Task 2"), Task("Task 3"))) }
+    var currentScreen by remember { mutableStateOf("Dashboard") }
 
     Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
+        modifier = Modifier.fillMaxSize().padding(16.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(text = "Welcome to the Dashboard")
 
-        // Task List
-        LazyColumn {
-            items(tasks) { task ->
-                TaskToDo(Task = task)
+        if (currentScreen == "Dashboard") {
+            // Task List
+            LazyColumn {
+                items(tasks.value) { task ->
+                    TaskToDo()
+                }
             }
-        }
 
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(vertical = 16.dp),
-            horizontalArrangement = Arrangement.SpaceBetween // Space the buttons evenly
-        ) {
-            // Button for adding new tasks
-            Button(
-                onClick = { /* Handle button click to add a new task */ },
-                modifier = Modifier.weight(1f), // Expand to fill available space
-                content = {
-                    Text(text = "Add Task", color = Color.White)
-                }
-            )
-
-            Button(
-                onClick = { /* Handle button click to create a new To-Do List */ },
-                modifier = Modifier.weight(1f), // Expand to fill available space
-                content = {
-                    Text(text = "To-Do List", color = Color.White)
-                }
-            )
+            Row(
+                modifier = Modifier.fillMaxWidth().padding(vertical = 16.dp),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Button(
+                    onClick = {
+                        // Handle button click to add a new task
+                    },
+                    modifier = Modifier.weight(1f),
+                    content = {
+                        Text(text = "Add Task", color = Color.White)
+                    }
+                )
+                Button(
+                    onClick = {
+                        currentScreen = "Login" // Navigate to the Login screen
+                    },
+                    modifier = Modifier.weight(1f),
+                    content = {
+                        Text(text = "Login", color = Color.White)
+                    }
+                )
+                Button(
+                    onClick = {
+                        currentScreen = "Register" // Navigate to the Register screen
+                    },
+                    modifier = Modifier.weight(1f),
+                    content = {
+                        Text(text = "Register", color = Color.White)
+                    }
+                )
+            }
+        } else if (currentScreen == "Login") {
+            // Show the Login screen
+            Login()
+        } else if (currentScreen == "Register") {
+            // Show the Register screen
+            Register()
         }
     }
-}
-@Composable
-fun TaskToDo(Task: Task) {
-    // Your code here
 }

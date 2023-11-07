@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import com.example.betterto_do.ui.theme.BetterToDoTheme
 
 
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,4 +46,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-/// anita test

@@ -38,7 +38,7 @@ fun Dashboard() {
         // Task List
         LazyColumn {
             items(tasks) { task ->
-                TaskItem(task = task)
+                TaskToDo(Task = task)
             }
         }
 
@@ -68,6 +68,6 @@ fun Dashboard() {
     }
 }
 @Composable
-fun TaskItem(task: Task) {
+fun TaskToDo(Task: Task) {
     // Your code here
 }

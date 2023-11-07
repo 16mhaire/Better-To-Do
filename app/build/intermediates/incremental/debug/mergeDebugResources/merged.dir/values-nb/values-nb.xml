@@ -45,6 +45,7 @@
     <string msgid="406453423630273620" name="close_drawer">"Lukk navigasjonsmenyen"</string>
     <string msgid="7573152094250666567" name="close_sheet">"Lukk arket"</string>
     <string msgid="5389587048670450460" name="collapsed">"Skjult"</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
     <string msgid="8038256446254964252" name="default_error_message">"Ugyldige inndata"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Forgrunnsvindu"</string>
     <string msgid="4057925834421392736" name="dialog">"Dialogboks"</string>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1099247128764",
+    "project_id": "bettertodo-b49c9",
+    "storage_bucket": "bettertodo-b49c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099247128764:android:de257ba8175d72dc73c0b9",
+        "android_client_info": {
+          "package_name": "com.example.betterto_do"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbho-3ra_iYluJ8uGcRCLNZL4_1oCxq6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

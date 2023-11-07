@@ -6,42 +6,24 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.example.betterto_do.ui.theme.BetterToDoTheme
-
+import com.google.firebase.FirebaseApp
 
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        FirebaseApp.initializeApp(this)
         setContent {
             BetterToDoTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    color = MaterialTheme.colorScheme.background,
                 ) {
                     Dashboard() // Use the Dashboard Composable here
                 }
-            }
-        }
-
-
-        @Composable
-        fun Greeting(name: String, modifier: Modifier = Modifier) {
-            Text(
-                text = "Hello $name!",
-                modifier = modifier
-            )
-        }
-        //This preview here causes an error
-        //@Preview(showBackground = true)
-        @Composable
-        fun GreetingPreview() {
-            BetterToDoTheme {
-                Greeting("Android")
             }
         }
     }

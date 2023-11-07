@@ -1,12 +1,11 @@
 package com.example.betterto_do
 
+//import androidx.compose.foundation.gestures.ModifierLocalScrollableContainerProvider.value
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
-//import androidx.compose.foundation.gestures.ModifierLocalScrollableContainerProvider.value
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -111,7 +110,7 @@ fun NewUserField(){
 
 @Composable
 fun RegisterButton(){
-    var buttonState by remember { mutableStateOf("") }
+    val buttonState by remember { mutableStateOf("") }
 
     Column(
         modifier = Modifier

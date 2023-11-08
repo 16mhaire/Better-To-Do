@@ -17,12 +17,11 @@ class MainActivity : ComponentActivity() {
         FirebaseApp.initializeApp(this)
         setContent {
             BetterToDoTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {
-                    Dashboard() // Use the Dashboard Composable here
+                    Dashboard()
                 }
             }
         }

@@ -45,6 +45,7 @@
     <string msgid="406453423630273620" name="close_drawer">"Tutup menu navigasi"</string>
     <string msgid="7573152094250666567" name="close_sheet">"Tutup sheet"</string>
     <string msgid="5389587048670450460" name="collapsed">"Diciutkan"</string>
+    <string name="common_google_play_services_unknown_issue">%1$s mengalami masalah dengan layanan Google Play. Coba lagi.</string>
     <string msgid="8038256446254964252" name="default_error_message">"Input tidak valid"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"Jendela Pop-Up"</string>
     <string msgid="4057925834421392736" name="dialog">"Dialog"</string>

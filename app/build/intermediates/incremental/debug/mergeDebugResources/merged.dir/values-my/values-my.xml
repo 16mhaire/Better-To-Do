@@ -45,6 +45,7 @@
     <string msgid="406453423630273620" name="close_drawer">"လမ်းညွှန် မီနူး ပိတ်ရန်"</string>
     <string msgid="7573152094250666567" name="close_sheet">"စာမျက်နှာ ပိတ်ရန်"</string>
     <string msgid="5389587048670450460" name="collapsed">"ခေါက်ထားသည်"</string>
+    <string name="common_google_play_services_unknown_issue">%1$s သည် Google Play ဝန်ဆောင်မှုများနှင့် ပြဿနာအနည်းငယ် ရှိနေပါသည်။ ထပ်လုပ်ကြည့်ပါ။</string>
     <string msgid="8038256446254964252" name="default_error_message">"ထည့်သွင်းမှု မမှန်ကန်ပါ"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"ပေါ့ပ်အပ် ဝင်းဒိုး"</string>
     <string msgid="4057925834421392736" name="dialog">"ဒိုင်ယာလော့"</string>

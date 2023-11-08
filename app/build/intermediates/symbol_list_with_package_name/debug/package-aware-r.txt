@@ -2259,6 +2259,7 @@ integer config_navAnimTime
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
+integer google_play_services_version
 integer hide_password_duration
 integer material_motion_duration_long_1
 integer material_motion_duration_long_2
@@ -2408,6 +2409,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
+raw firebase_common_keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2455,6 +2457,7 @@ string clear_text_end_icon_content_description
 string close_drawer
 string close_sheet
 string collapsed
+string common_google_play_services_unknown_issue
 string default_error_message
 string default_popup_window_title
 string dest_title

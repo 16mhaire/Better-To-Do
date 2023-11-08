@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Wed Nov 08 12:56:06 EST 2023
-=======
-#Tue Nov 07 16:26:39 EST 2023
->>>>>>> testMain
+#Wed Nov 08 13:23:24 EST 2023
 base.0=C\:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex

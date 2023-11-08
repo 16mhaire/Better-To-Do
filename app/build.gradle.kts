@@ -77,4 +77,8 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     implementation ("com.google.firebase:firebase-analytics:21.5.0")
     implementation ("com.firebaseui:firebase-ui-auth:7.2.0")
+    implementation ("androidx.compose.ui:ui:1.0.0")
+    implementation ("androidx.compose.foundation:foundation:1.0.0")
+    implementation ("androidx.compose.material:material:1.0.0")
+
 }

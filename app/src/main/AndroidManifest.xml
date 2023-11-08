@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.betterto_do">
+
+    <dist:module dist:instant="true" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +16,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BetterToDo"
         tools:targetApi="31">
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".Services"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.BetterToDo" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.BetterToDo" />
         <activity
             android:name=".Register"
             android:exported="false"

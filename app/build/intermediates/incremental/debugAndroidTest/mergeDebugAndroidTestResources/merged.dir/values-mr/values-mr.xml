@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="881409763997275156" name="call_notification_answer_action">"उत्तर द्या"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"व्हिडिओ"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"नकार द्या"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"कॉल बंद करा"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"इनकमिंग कॉल"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"सुरू असलेला कॉल"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"इनकमिंग कॉल स्क्रीन करत आहे"</string>
     <string msgid="406453423630273620" name="close_drawer">"नेव्हिगेशन मेनू बंद करा"</string>
     <string msgid="7573152094250666567" name="close_sheet">"शीट बंद करा"</string>
     <string msgid="8038256446254964252" name="default_error_message">"इनपुट चुकीचे आहे"</string>

@@ -1,4 +1,8 @@
-#Thu Nov 02 15:09:37 EDT 2023
+<<<<<<< HEAD
+#Wed Nov 08 12:52:17 EST 2023
+=======
+#Tue Nov 07 16:26:37 EST 2023
+>>>>>>> testMain
 base.0=C\:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=C\:\\Users\\anita\\source\\repos\\Better-To-Do\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 path.0=classes.dex

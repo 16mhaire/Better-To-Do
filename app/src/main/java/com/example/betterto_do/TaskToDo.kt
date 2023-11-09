@@ -6,7 +6,7 @@ import java.time.LocalTime
 import java.util.UUID
 
 //Class to handle tasks
-class Task(_taskName: String) { //intended for taskName to be *Mandatory* for all Tasks
+class TaskToDo(_taskName: String) { //intended for taskName to be *Mandatory* for all Tasks
     //Class Properties
     var taskName: String = _taskName
     private var taskDescription: String = ""
@@ -18,12 +18,12 @@ class Task(_taskName: String) { //intended for taskName to be *Mandatory* for al
     private val taskID: UUID = UUID.randomUUID()
 
     //Class Functions
-    fun createNewTask(taskName: String): Task {
+    fun createNewTask(taskName: String): TaskToDo {
         //intended for the User to be prompted to give a name for the Task when creating a new Task
         val newTask = object {
             val taskName = readln()
         }
-        return Task(readln())
+        return TaskToDo(readln())
     }
     fun changeTaskDescription(newTaskDescription: String): String {
         this.taskDescription = newTaskDescription

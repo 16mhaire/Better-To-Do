@@ -1,7 +1,7 @@
 package com.example.betterto_do
 
 import android.os.Bundle
-import android.widget.Button
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
@@ -11,13 +11,10 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
@@ -37,8 +34,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.betterto_do.ui.theme.BetterToDoTheme
 import com.google.firebase.auth.FirebaseAuth
-import java.time.format.TextStyle
-import kotlin.time.measureTime
 
 class Login : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -103,9 +98,7 @@ fun LoginHeading(){
             textAlign = TextAlign.Center
         )
     }
-
 }
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TextInputField(value:String, isPassword:Boolean, onValueChanged: (String) -> Unit) {
@@ -128,8 +121,8 @@ fun TextInputField(value:String, isPassword:Boolean, onValueChanged: (String) ->
 @Composable
 fun LoginButton(){
     val auth = FirebaseAuth.getInstance()
-    var email by remember { mutableStateOf("") }
-    var password by remember { mutableStateOf("") }
+    val email by remember { mutableStateOf("") }
+    val password by remember { mutableStateOf("") }
     var buttonState by remember { mutableStateOf("") }
 
     Column(
@@ -140,6 +133,7 @@ fun LoginButton(){
         ) {
         Button(
             onClick = {
+                Log.d("MyApp", "Login button clicked") // Add this log statement
                       auth.signInWithEmailAndPassword(email, password).addOnCompleteListener{ task ->
                           if (task.isSuccessful){
                               buttonState = "Login successful"
@@ -147,9 +141,11 @@ fun LoginButton(){
                           else{
                               val exception = task.exception
                               buttonState = "Login failed: ${exception?.message}"
+                              Log.d("MyApp", "Login failed: ${exception?.message}")
                           }
                       }
-            },
+
+                      },
             modifier = Modifier.fillMaxWidth(),
             colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
             ) {

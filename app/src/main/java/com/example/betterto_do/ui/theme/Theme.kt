@@ -28,24 +28,24 @@ fun BetterToDoTheme(
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
         darkTheme -> darkColorScheme(
-            background = PrimaryPink,
-            surface = Color.White,
-            onPrimary = SecondaryLightPink,
-            onSecondary = PrimaryGrey,
-            onTertiary = PrimaryBlue,
+            background = Color.Black,
+            surface = Color.Black,
+            onPrimary = Color.Black,
+            onSecondary = Color.Black,
+            onTertiary = Color.Black,
             onBackground = Color.Black,
-            onSurface = PrimaryOrange,
-            onPrimaryContainer = SecondaryGreen,)
+            onSurface = Color.Black,
+            onPrimaryContainer = Color.Black,)
 
         else -> lightColorScheme(
-            background = PrimaryPink,
-            surface = Color.White,
-            onPrimary = SecondaryLightPink,
-            onSecondary = PrimaryGrey,
-            onTertiary = PrimaryBlue,
+            background = Color.Black,
+            surface = Color.Black,
+            onPrimary = Color.Black,
+            onSecondary = Color.Black,
+            onTertiary = Color.Black,
             onBackground = Color.Black,
-            onSurface = PrimaryOrange,
-            onPrimaryContainer = SecondaryGreen
+            onSurface = Color.Black,
+            onPrimaryContainer = Color.Black
         )
     }
     val view = LocalView.current

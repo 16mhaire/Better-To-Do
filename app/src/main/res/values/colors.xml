@@ -13,4 +13,12 @@
     <color name="amber">#F2B05E</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    //style guide theme
+    <color name="PrimaryPink">#B02B6A</color>
+    <color name="SecondaryLightPink">#F25CAF</color>
+    <color name="PrimaryGrey">#3C4659</color>
+    <color name="PrimaryBlue">#04B2D9</color>
+    <color name="SecondaryGreen">#99BF60</color>
+    <color name="PrimaryOrange">#F2B05E</color>
 </resources>

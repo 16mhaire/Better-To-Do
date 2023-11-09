@@ -42,13 +42,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.google.firebase.inappmessaging.model.Button
 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 @Preview
 fun ListCreationScreen() {
+    var currentScreen: String by remember { mutableStateOf("Dashboard") }
 
     var listTitle by remember { mutableStateOf("") }
     var listBody by remember { mutableStateOf("") }
@@ -56,7 +56,6 @@ fun ListCreationScreen() {
     var isDropdownExpanded by remember { mutableStateOf(false) }
     var labels by remember { mutableStateOf(value = "") }
     var selectedLabel by remember { mutableStateOf("") }
-
 
     Card(
         modifier = Modifier
@@ -78,7 +77,7 @@ fun ListCreationScreen() {
                     .padding(16.dp)
                     .width(180.dp)
             )
-
+//Save button
             Button(
                 onClick = { /* Save this List */ },
                 modifier = Modifier.padding(16.dp)

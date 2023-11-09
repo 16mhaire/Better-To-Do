@@ -12,10 +12,11 @@ import androidx.compose.material3.TextField
 import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 data class Task(val name: String)
-
+@Preview(showBackground = true)
 @Composable
 fun Dashboard() {
     val tasks = remember { mutableStateOf(listOf(Task("Task 1"), Task("Task 2"), Task("Task 3"))) }

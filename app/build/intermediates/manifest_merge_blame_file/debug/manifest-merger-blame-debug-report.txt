@@ -10,8 +10,8 @@
 10        android:targetSdkVersion="34" />
 11
 12    <dist:module dist:instant="true" />
-12-->C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:7:5-40
-12-->C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:7:18-37
+12-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:7:5-40
+12-->C:\Users\anita\source\repos\Better-To-Do\app\src\main\AndroidManifest.xml:7:18-37
 13
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 14-->[com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\anita\.gradle\caches\transforms-3\3a6ef31ba8297d4e7856c268e156eb5e\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:12:5-79

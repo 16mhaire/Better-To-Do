@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun Dashboard() {
     // Task list data
-    val tasks by remember { mutableStateOf(listOf(Task("Task 1"), Task("Task 2"), Task("Task 3"))) }
+    val tasks by remember { mutableStateOf(listOf(TaskToDo("Task 1"), TaskToDo("Task 2"), TaskToDo("Task 3"))) }
 
     Column(
         modifier = Modifier
@@ -66,6 +66,6 @@ fun Dashboard() {
     }
 }
 @Composable
-fun TaskItem(task: Task) {
+fun TaskItem(task: TaskToDo) {
     // Your code here
 }

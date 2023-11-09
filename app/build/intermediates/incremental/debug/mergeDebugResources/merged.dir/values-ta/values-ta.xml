@@ -45,6 +45,7 @@
     <string msgid="406453423630273620" name="close_drawer">"வழிசெலுத்தல் மெனுவை மூடும்"</string>
     <string msgid="7573152094250666567" name="close_sheet">"ஷீட்டை மூடும்"</string>
     <string msgid="5389587048670450460" name="collapsed">"சுருக்கப்பட்டது"</string>
+    <string name="common_google_play_services_unknown_issue">Google Play சேவைகளில் சிக்கல் ஏற்பட்டதால், %1$s ஆப்ஸை அணுக முடியவில்லை. மீண்டும் முயலவும்.</string>
     <string msgid="8038256446254964252" name="default_error_message">"தவறான உள்ளீடு"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"பாப்-அப் சாளரம்"</string>
     <string msgid="4057925834421392736" name="dialog">"உரையாடல்"</string>

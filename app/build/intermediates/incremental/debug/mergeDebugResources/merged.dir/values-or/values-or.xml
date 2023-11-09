@@ -45,6 +45,7 @@
     <string msgid="406453423630273620" name="close_drawer">"ନାଭିଗେସନ୍ ମେନୁ ବନ୍ଦ କରନ୍ତୁ"</string>
     <string msgid="7573152094250666567" name="close_sheet">"ସିଟ୍ ବନ୍ଦ କରନ୍ତୁ"</string>
     <string msgid="5389587048670450460" name="collapsed">"ସଙ୍କୁଚିତ କରାଯାଇଛି"</string>
+    <string name="common_google_play_services_unknown_issue">%1$sର Google Play ସେବା ସହ ଏକ ସମସ୍ୟା ରହିଛି। ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</string>
     <string msgid="8038256446254964252" name="default_error_message">"ଅବୈଧ ଇନପୁଟ୍"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"ପପ୍-ଅପ୍ ୱିଣ୍ଡୋ"</string>
     <string msgid="4057925834421392736" name="dialog">"ଡାଏଲଗ"</string>

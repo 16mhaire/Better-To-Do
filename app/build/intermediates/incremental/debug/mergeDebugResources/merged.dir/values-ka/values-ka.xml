@@ -45,6 +45,7 @@
     <string msgid="406453423630273620" name="close_drawer">"ნავიგაციის მენიუს დახურვა"</string>
     <string msgid="7573152094250666567" name="close_sheet">"ფურცლის დახურვა"</string>
     <string msgid="5389587048670450460" name="collapsed">"ჩაკეცილი"</string>
+    <string name="common_google_play_services_unknown_issue">%1$s-ს Google Play Services-თან პრობლემა შეექმნა. გთხოვთ, ცადოთ ხელახლა.</string>
     <string msgid="8038256446254964252" name="default_error_message">"შენატანი არასწორია"</string>
     <string msgid="6312721426453364202" name="default_popup_window_title">"ამომხტარი ფანჯარა"</string>
     <string msgid="4057925834421392736" name="dialog">"დიალოგი"</string>

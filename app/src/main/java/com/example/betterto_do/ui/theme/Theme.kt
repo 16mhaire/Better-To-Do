@@ -28,7 +28,7 @@ fun BetterToDoTheme(
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
         darkTheme -> darkColorScheme(
-            background = Color.Black,
+            background = Color.White,
             surface = Color.Black,
             onPrimary = Color.Black,
             onSecondary = Color.Black,

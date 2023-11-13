@@ -2,7 +2,10 @@
 
 package com.example.betterto_do
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement.SpaceEvenly
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
@@ -12,87 +15,83 @@ import androidx.compose.material3.TextField
 import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
 
 data class Task(val name: String)
 
 @Composable
 fun Dashboard() {
-    val tasks = remember { mutableStateOf(listOf(Task("Task 1"), Task("Task 2"), Task("Task 3"))) }
+    var showAddTaskUI by remember { mutableStateOf(false) }
     var currentScreen: String by remember { mutableStateOf("Dashboard") }
+    val tasks = remember { mutableStateOf(listOf<Task>()) }
 
-    Column(
-        modifier = Modifier.fillMaxSize().padding(16.dp),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Text(text = "Welcome to the Landing page (Dashboard)")
-
-        Button(
-            onClick = {
-                // Handle button click here
-                currentScreen = "Tasks"
-            },
-            modifier = Modifier.padding(16.dp)
+    if (showAddTaskUI) {
+        AddTaskUI(onTaskAdded = { task ->
+            tasks.value = tasks.value + task
+            showAddTaskUI = false
+        })
+    } else {
+        Column(
+            modifier = Modifier.fillMaxSize().padding(16.dp),
+            verticalArrangement = Arrangement.Top,
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text("Go to Tasks")
-        }
-
-        LazyColumn {
-            items(tasks.value) { task ->
-                TaskWidget(task)
-            }
-        }
-
-        if (currentScreen == "Dashboard") {
             Row(
-                modifier = Modifier.fillMaxWidth().padding(vertical = 16.dp),
-                horizontalArrangement = Arrangement.SpaceBetween
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceEvenly
             ) {
-                Button(
-                    onClick = {
-                        // Handle button click to add a new task
-                    },
-                    modifier = Modifier.weight(1f),
-                ) {
-                    Text(text = "Add Task", color = Color.White)
+                Button(onClick = { showAddTaskUI = true }) {
+                    Text("Add New Task")
                 }
-
-                Button(
-                    onClick = {
-                        currentScreen = "Login" // Navigate to the Login screen
-                    },
-                    modifier = Modifier.weight(1f),
-                ) {
-                    Text(text = "Login", color = Color.White)
-                }
-
-                Button(
-                    onClick = {
-                        currentScreen = "Register" // Navigate to the Register screen
-                    },
-                    modifier = Modifier.weight(1f),
-                ) {
-                    Text(text = "Register", color = Color.White)
+                Button(onClick = { currentScreen = "Today {1}" }) {
+                    Text("Today {1}")
                 }
             }
-        } else if (currentScreen == "Login") {
-            // Show the Login screen
-            Login()
-        } else if (currentScreen == "Register") {
-            // Show the Register screen
-            Register()
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = SpaceEvenly
+            ) {
+                Button(onClick = { currentScreen = "Scheduled {2}" }) {
+                    Text("Scheduled {2}")
+                }
+                Button(onClick = { currentScreen = "Urgent {3}" }) {
+                    Text("Urgent {3}")
+                }
+                Button(onClick = { currentScreen = "All {6}" }) {
+                    Text("All {6}")
+                }
+            }
+            //@kevin this is where I added the listscreen from your code.
+            ListCreationScreen( onListCreated = {}
+
+            )
+            LazyColumn {
+                items(tasks.value) { task ->
+                    TaskWidget(task)
+                }
+            }
+
+            // Rest of your Dashboard UI...
         }
     }
+// Rest of the Dashboard logic for handling different screens...
 }
 
 @Composable
 fun TaskWidget(task: Task) {
     // Custom widget to display a task
-    Text(text = task.name)
+    Text(
+        text = task.name,
+        modifier = Modifier
+            .background(Color.LightGray)
+            .padding(8.dp)
+            .border(1.dp, Color.Black)
+            .fillMaxWidth()
+    )
     // Add more elements as needed
 }
-
+//@Matthew and @Jaiten, I was able to just use this composable for the task buttons
 @ExperimentalMaterial3Api
 @Composable
 fun AddTaskUI(onTaskAdded: (Task) -> Unit) {
@@ -102,18 +101,16 @@ fun AddTaskUI(onTaskAdded: (Task) -> Unit) {
         TextField(
             value = taskName,
             onValueChange = { taskName = it },
-            label = {
-                Text("Task Name")
-            })
-       Spacer(modifier = Modifier.height(16.dp))
-    }
-    Button(onClick = {
-        // Create a new Task and pass it to the callback function
-        onTaskAdded(Task(taskName))
-        // Clear the input field
-        taskName = ""
-    }) {
-        Text("Add Task")
+            label = { Text("Task Name") }
+        )
+        Spacer(modifier = Modifier.height(16.dp))
+        Button(onClick = {
+            if (taskName.isNotBlank()) {
+                onTaskAdded(Task(taskName))
+                taskName = ""
+            }
+        }) {
+            Text("Add Task")
+        }
     }
 }
-

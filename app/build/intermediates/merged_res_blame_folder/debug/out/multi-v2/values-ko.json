@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-78:/values-ko/values-ko.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-82:/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\674d69249ed3b479e610671c2680f91d\\transformed\\appcompat-1.2.0\\res\\values-ko\\values-ko.xml",

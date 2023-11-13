@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-78:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-82:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\694f5f0552becfde3a5320392d234c4a\\transformed\\play-services-auth-19.0.0\\res\\values-watch-v20\\values.xml",

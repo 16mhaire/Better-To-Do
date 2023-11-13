@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-78:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-82:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\cbf117bb5df28d52efd342f79fda23cf\\transformed\\material-1.4.0-beta01\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",

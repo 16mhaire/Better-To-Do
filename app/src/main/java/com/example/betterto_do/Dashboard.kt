@@ -13,16 +13,19 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-
-data class Task(val name: String)
+import com.example.betterto_do.tasks.Priority
+import com.example.betterto_do.tasks.Task
+import com.example.betterto_do.tasks.createNewTask
 
 @Composable
 fun Dashboard() {
-    val tasks = remember { mutableStateOf(listOf(Task("Task 1"), Task("Task 2"), Task("Task 3"))) }
+    val tasks = remember { mutableStateOf(listOf(createNewTask("Task", "words",Priority.NONE ))) }
     var currentScreen: String by remember { mutableStateOf("Dashboard") }
 
     Column(
-        modifier = Modifier.fillMaxSize().padding(16.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -46,12 +49,16 @@ fun Dashboard() {
 
         if (currentScreen == "Dashboard") {
             Row(
-                modifier = Modifier.fillMaxWidth().padding(vertical = 16.dp),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 16.dp),
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Button(
                     onClick = {
                         // Handle button click to add a new task
+                        val newTask = createNewTask("Task", "words",Priority.NONE )
+                        listOf(tasks) + newTask
                     },
                     modifier = Modifier.weight(1f),
                 ) {
@@ -89,7 +96,7 @@ fun Dashboard() {
 @Composable
 fun TaskWidget(task: Task) {
     // Custom widget to display a task
-    Text(text = task.name)
+    Text(text = task.taskName)
     // Add more elements as needed
 }
 
@@ -109,11 +116,10 @@ fun AddTaskUI(onTaskAdded: (Task) -> Unit) {
     }
     Button(onClick = {
         // Create a new Task and pass it to the callback function
-        onTaskAdded(Task(taskName))
+        onTaskAdded(createNewTask(taskName,taskDescription = null, taskPriority = Priority.NONE))
         // Clear the input field
         taskName = ""
     }) {
         Text("Add Task")
     }
 }
-

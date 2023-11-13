@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-78:/values-v17/values-v17.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-82:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\674d69249ed3b479e610671c2680f91d\\transformed\\appcompat-1.2.0\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\674d69249ed3b479e610671c2680f91d\\transformed\\appcompat-1.2.0\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

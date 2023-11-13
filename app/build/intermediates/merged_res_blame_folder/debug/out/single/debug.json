@@ -1,30 +1,30 @@
 [
     {
-        "merged": "com.example.betterto_do.app-merged_res-80:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.betterto_do.app-main-82:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.betterto_do.app-merged_res-84:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.betterto_do.app-main-86:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.betterto_do.app-merged_res-80:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.betterto_do.app-main-82:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.betterto_do.app-merged_res-84:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.betterto_do.app-main-86:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.betterto_do.app-merged_res-80:/xml_backup_rules.xml.flat",
-        "source": "com.example.betterto_do.app-main-82:/xml/backup_rules.xml"
+        "merged": "com.example.betterto_do.app-merged_res-84:/xml_backup_rules.xml.flat",
+        "source": "com.example.betterto_do.app-main-86:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.betterto_do.app-merged_res-80:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.betterto_do.app-main-82:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.betterto_do.app-merged_res-84:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.betterto_do.app-main-86:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.betterto_do.app-merged_res-80:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.betterto_do.app-main-82:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.betterto_do.app-merged_res-84:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.betterto_do.app-main-86:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.betterto_do.app-merged_res-80:/navigation_nav_graph.xml.flat",
-        "source": "com.example.betterto_do.app-main-82:/navigation/nav_graph.xml"
+        "merged": "com.example.betterto_do.app-merged_res-84:/navigation_nav_graph.xml.flat",
+        "source": "com.example.betterto_do.app-main-86:/navigation/nav_graph.xml"
     },
     {
-        "merged": "com.example.betterto_do.app-merged_res-80:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.betterto_do.app-main-82:/xml/data_extraction_rules.xml"
+        "merged": "com.example.betterto_do.app-merged_res-84:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.betterto_do.app-main-86:/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]

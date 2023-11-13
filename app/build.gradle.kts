@@ -66,6 +66,8 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
     implementation("com.google.firebase:firebase-auth-ktx:22.2.0")
+    implementation("androidx.room:room-common:2.6.0")
+    implementation("androidx.room:room-ktx:2.6.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

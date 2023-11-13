@@ -33,23 +33,29 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.betterto_do.ui.theme.BetterToDoTheme
+import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
+
 
 class Login : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        FirebaseApp.initializeApp(this)
+        val auth = FirebaseAuth.getInstance()
+
         setContent {
             BetterToDoTheme {
                 // A surface container using the 'background' color from the theme
-                LoginScreen()
+                LoginScreen(Modifier, auth)
                 }
             }
         }
     }
 
 
+
 @Composable
-fun LoginScreen(modifier: Modifier = Modifier) {
+fun LoginScreen(modifier: Modifier = Modifier, auth: FirebaseAuth) {
     Surface(
         Modifier.fillMaxSize()
     ) {
@@ -66,7 +72,7 @@ fun LoginScreen(modifier: Modifier = Modifier) {
             )
             TextInputField("Email", false) { var email = it }
             TextInputField("Password", true) { var password = it }
-            LoginButton()
+            LoginButton(auth)
         }
     }
 
@@ -76,7 +82,8 @@ fun LoginScreen(modifier: Modifier = Modifier) {
 @Composable
 fun LoginPreview() {
     BetterToDoTheme {
-        LoginScreen()
+        val auth = FirebaseAuth.getInstance()
+        LoginScreen(Modifier, auth)
     }
 }
 
@@ -105,10 +112,10 @@ fun TextInputField(value:String, isPassword:Boolean, onValueChanged: (String) ->
     var text by remember { mutableStateOf("") }
     TextField(
         value = text,
-        onValueChange = { newText -> text = newText },
+        onValueChange = { newText ->
+            text = newText },
         label = {
-            //text = it
-            //onValueChanged(it)
+            Text(value)
                 },
         modifier = Modifier
             .padding(10.dp)
@@ -119,10 +126,9 @@ fun TextInputField(value:String, isPassword:Boolean, onValueChanged: (String) ->
 }
 
 @Composable
-fun LoginButton(){
-    val auth = FirebaseAuth.getInstance()
-    val email by remember { mutableStateOf("") }
-    val password by remember { mutableStateOf("") }
+fun LoginButton(auth: FirebaseAuth){
+    var email by remember { mutableStateOf("") }
+    var password by remember { mutableStateOf("") }
     var buttonState by remember { mutableStateOf("") }
 
     Column(
@@ -133,7 +139,7 @@ fun LoginButton(){
         ) {
         Button(
             onClick = {
-                Log.d("MyApp", "Login button clicked") // Add this log statement
+                Log.d("MyApp", "Login button clicked")
                       auth.signInWithEmailAndPassword(email, password).addOnCompleteListener{ task ->
                           if (task.isSuccessful){
                               buttonState = "Login successful"
@@ -153,6 +159,5 @@ fun LoginButton(){
             }
             Spacer(modifier = Modifier.height(16.dp))
             Text(text = buttonState)
-
         }
 }

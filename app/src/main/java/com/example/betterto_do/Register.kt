@@ -1,7 +1,10 @@
 package com.example.betterto_do
 
 //import androidx.compose.foundation.gestures.ModifierLocalScrollableContainerProvider.value
+import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.util.Log
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
@@ -31,10 +34,19 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.betterto_do.ui.theme.BetterToDoTheme
+import com.google.firebase.FirebaseApp
+import com.google.firebase.auth.FirebaseAuth
 
 class Register : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        FirebaseApp.initializeApp(this)
+        val auth = FirebaseAuth.getInstance()
+        val currentUser = auth.currentUser
+        if (currentUser != null){
+            //something happens
+        }
+
         setContent {
             BetterToDoTheme {
                 // A surface container using the 'background' color from the theme
@@ -42,25 +54,45 @@ class Register : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    RegisterScreen("Android")
+                    RegisterScreen(Modifier, auth)
                 }
             }
         }
     }
+
+    companion object {
+        fun CreateUser(email: String, pass: String, auth: FirebaseAuth, activity: Register){
+            auth.createUserWithEmailAndPassword(email, pass)
+                .addOnCompleteListener(activity) {  task ->
+                    if (task.isSuccessful){
+                        Log.d(TAG, "User created")
+                        val user = auth.currentUser
+                        //updateUI(user)
+                    } else{
+                        Log.w(TAG, "User creation failure", task.exception)
+                        Toast.makeText(
+                            activity,
+                            "Creation failed",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                        //updateUI(null)
+                    }
+                }
+        }
+    }
+
 }
 
 @Composable
-fun RegisterScreen(name: String, modifier: Modifier = Modifier) {
+fun RegisterScreen(modifier: Modifier = Modifier, auth: FirebaseAuth) {
     Surface (
         modifier = Modifier.fillMaxSize()
     ){
         Column {
-            RegisterHeader();
-            NewUserField();
-            NewUserField();
-            NewUserField();
-            NewUserField();
-            RegisterButton();
+            RegisterHeader()
+            NewUserField("email")
+            NewUserField("Password")
+            RegisterButton(auth, Register())
         }
     }
 }
@@ -96,8 +128,8 @@ fun RegisterHeader(){
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun NewUserField(){
-    var text by remember { mutableStateOf("")}
+fun NewUserField(field:String){
+    var text by remember { mutableStateOf(field)}
     TextField(
         value = text,
         onValueChange = { newText -> text = newText },
@@ -109,8 +141,12 @@ fun NewUserField(){
 }
 
 @Composable
-fun RegisterButton(){
-    val buttonState by remember { mutableStateOf("") }
+fun RegisterButton(auth: FirebaseAuth, activity: Register){
+    var email by remember { mutableStateOf("")}
+    var pass by remember { mutableStateOf("")}
+    var buttonState by remember { mutableStateOf("") }
+
+
 
     Column(
         modifier = Modifier
@@ -129,12 +165,15 @@ fun RegisterButton(){
         Text(text = buttonState)
 
     }
+    Register.CreateUser(email, pass, auth, activity)
 }
+
+
 
 @Preview(showBackground = true)
 @Composable
 fun RegisterPreview() {
     BetterToDoTheme {
-        RegisterScreen("Android")
+        RegisterScreen(auth = FirebaseAuth.getInstance())
     }
 }

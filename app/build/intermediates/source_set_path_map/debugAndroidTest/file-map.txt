@@ -29,7 +29,7 @@ com.example.betterto_do.test.app-core-runtime-2.2.0-27 C:\Users\anita\.gradle\ca
 com.example.betterto_do.test.app-savedstate-1.2.1-28 C:\Users\anita\.gradle\caches\transforms-3\e5c9d911a3c5d90df0d6c76d6427bfd1\transformed\savedstate-1.2.1\res
 com.example.betterto_do.test.app-customview-poolingcontainer-1.0.0-29 C:\Users\anita\.gradle\caches\transforms-3\e82f35e93d84a1e3f4229ca96db2aad3\transformed\customview-poolingcontainer-1.0.0\res
 com.example.betterto_do.test.app-runtime-1.4.0-30 C:\Users\anita\.gradle\caches\transforms-3\ea95197b2123bdbc51ed969d9b15249c\transformed\runtime-1.4.0\res
-com.example.betterto_do.test.app-androidTest-31 C:\Users\anita\source\repos\Better-To-Do\app\build\generated\res\resValues\androidTest\debug
-com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32 C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.betterto_do.test.app-mergeDebugAndroidTestResources-33 C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.betterto_do.test.app-merged_res-34 C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\merged_res\debugAndroidTest
+com.example.betterto_do.test.app-androidTest-31 C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\generated\res\resValues\androidTest\debug
+com.example.betterto_do.test.app-mergeDebugAndroidTestResources-32 C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.betterto_do.test.app-mergeDebugAndroidTestResources-33 C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.betterto_do.test.app-merged_res-34 C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\merged_res\debugAndroidTest

@@ -3,45 +3,24 @@
 3    package="com.example.betterto_do.test" >
 4
 5    <uses-sdk
-<<<<<<< HEAD
-5-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:5:5-74
+5-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:5:15-41
+6-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:5:42-71
+7-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:11:5-15:73
+9-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:11:5-15:73
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:11:22-76
+10-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:14:22-52
+11-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:13:22-53
+12-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:13:22-53
 13        android:label="Tests for com.example.betterto_do"
-13-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:15:22-71
+13-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:15:22-71
 14        android:targetPackage="com.example.betterto_do" />
-14-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:12:22-69
-=======
-5-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:5:5-74
-6        android:minSdkVersion="24"
-6-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:5:15-41
-7        android:targetSdkVersion="34" />
-7-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:5:42-71
-8
-9    <instrumentation
-9-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:11:5-15:73
-10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:11:22-76
-11        android:functionalTest="false"
-11-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:14:22-52
-12        android:handleProfiling="false"
-12-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:13:22-53
-13        android:label="Tests for com.example.betterto_do"
-13-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:15:22-71
-14        android:targetPackage="com.example.betterto_do" />
-14-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:12:22-69
->>>>>>> testMain
+14-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:12:22-69
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.5.0] C:\Users\anita\.gradle\caches\transforms-3\7d7dc3b5b335a09ea559ea765324bc4a\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
@@ -61,21 +40,12 @@
 22    </queries>
 23
 24    <application
-<<<<<<< HEAD
-24-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:7:5-9:19
+24-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:7:5-9:19
 25        android:debuggable="true"
 26        android:extractNativeLibs="false" >
 27        <uses-library android:name="android.test.runner" />
-27-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:8:9-60
-27-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest983350100231272668.xml:8:23-57
-=======
-24-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:7:5-9:19
-25        android:debuggable="true"
-26        android:extractNativeLibs="false" >
-27        <uses-library android:name="android.test.runner" />
-27-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:8:9-60
-27-->C:\Users\anita\source\repos\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17838778229968995987.xml:8:23-57
->>>>>>> testMain
+27-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:8:9-60
+27-->C:\Users\anita\AndroidStudioProjects\Better-To-Do\Better-To-Do\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4646334179786101453.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.5.0] C:\Users\anita\.gradle\caches\transforms-3\7d7dc3b5b335a09ea559ea765324bc4a\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20

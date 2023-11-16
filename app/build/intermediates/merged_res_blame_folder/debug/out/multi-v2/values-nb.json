@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-102:/values-nb/values-nb.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-103:/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\bb974892c7654a4e8ecbd506432a3b9e\\transformed\\material-1.10.0\\res\\values-nb\\values-nb.xml",

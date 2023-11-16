@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-102:/values-es-rPY/values-es-rPY.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-103:/values-es-rPY/values-es-rPY.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\2451ce7c8204fe8c7666aeae7dc58589\\transformed\\firebase-ui-auth-7.2.0\\res\\values-es-rPY\\values-es-rPY.xml",

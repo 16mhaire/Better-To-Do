@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-102:/values/values.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-103:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\1e40ce14a5c572d718a6973af36bc5bd\\transformed\\cardview-1.0.0\\res\\values\\values.xml",
@@ -381,23 +381,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\943bc3bd25146ca3dbe4cfc73b363238\\transformed\\work-runtime-2.3.4\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,120,190,254",
-                        "endColumns": "64,69,63,60",
-                        "endOffsets": "115,185,249,310"
-                    },
-                    "to": {
-                        "startLines": "634,635,636,638",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "32092,32157,32227,32353",
-                        "endColumns": "64,69,63,60",
-                        "endOffsets": "32152,32222,32286,32409"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\4569800e3819e46c762e4345e907422c\\transformed\\transition-1.4.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -611,6 +594,23 @@
                         "startOffsets": "35011,35101,35181,35271,35361,35441,35522,35602,138507,138612,138793,138918,139025,139205,139328,139444,139714,139902,140007,140188,140313,140488,140636,140699,140761",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78",
                         "endOffsets": "35096,35176,35266,35356,35436,35517,35597,35677,138607,138788,138913,139020,139200,139323,139439,139542,139897,140002,140183,140308,140483,140631,140694,140756,140835"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\464ba7dc9ec6d59aec876ce5f978c13a\\transformed\\work-runtime-2.8.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,120,190,254",
+                        "endColumns": "64,69,63,60",
+                        "endOffsets": "115,185,249,310"
+                    },
+                    "to": {
+                        "startLines": "634,635,636,638",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "32092,32157,32227,32353",
+                        "endColumns": "64,69,63,60",
+                        "endOffsets": "32152,32222,32286,32409"
                     }
                 },
                 {

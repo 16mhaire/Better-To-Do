@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-102:/values-v23/values-v23.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-103:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\bb974892c7654a4e8ecbd506432a3b9e\\transformed\\material-1.10.0\\res\\values-v23\\values-v23.xml",
@@ -20,6 +20,16 @@
                         "endLines": "57,61,65,68,73,77,80,83,86,91,94,98,102",
                         "endColumns": "10,10,10,10,10,10,10,10,10,10,10,10,10",
                         "endOffsets": "3722,3864,4025,4235,4555,4792,4999,5206,5409,5741,5943,6208,6481"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\464ba7dc9ec6d59aec876ce5f978c13a\\transformed\\work-runtime-2.8.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
                     }
                 },
                 {
@@ -58,16 +68,6 @@
                         "endLines": "54",
                         "endColumns": "12",
                         "endOffsets": "3506"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\943bc3bd25146ca3dbe4cfc73b363238\\transformed\\work-runtime-2.3.4\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
                     }
                 }
             ]

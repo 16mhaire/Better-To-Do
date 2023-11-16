@@ -1,10 +1,21 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-82:/values-v26/values-v26.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-102:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\3a6ef31ba8297d4e7856c268e156eb5e\\transformed\\firebase-ui-auth-7.2.0\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\01686689240e2664d711abc8a8c37dc7\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,381,557,796",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,376,552,791,884"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\2451ce7c8204fe8c7666aeae7dc58589\\transformed\\firebase-ui-auth-7.2.0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6,10,14",
                         "startColumns": "4,4,4,4",
@@ -20,25 +31,6 @@
                         "endLines": "20,24,28,32",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "1082,1267,1460,1640"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\674d69249ed3b479e610671c2680f91d\\transformed\\appcompat-1.2.0\\res\\values-v26\\values-v26.xml",
-                    "from": {
-                        "startLines": "2,3,4,8,12,16",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,130,217,431,657,896",
-                        "endLines": "2,3,7,11,15,16",
-                        "endColumns": "74,86,12,12,12,92",
-                        "endOffsets": "125,212,426,652,891,984"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,8,12,16",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,130,217,381,557,796",
-                        "endLines": "2,3,7,11,15,16",
-                        "endColumns": "74,86,12,12,12,92",
-                        "endOffsets": "125,212,376,552,791,884"
                     }
                 }
             ]

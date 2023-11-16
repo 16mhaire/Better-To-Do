@@ -36,6 +36,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.BetterToDo" >
         <service
             android:name="com.example.betterto_do.MyService"
@@ -239,6 +240,9 @@
             android:resource="@xml/ga_ad_services_config" />
 
         <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true" />
+        <activity
             android:name="androidx.activity.ComponentActivity"
             android:exported="true" />
         <activity
@@ -287,10 +291,6 @@
         <uses-library
             android:name="android.ext.adservices"
             android:required="false" />
-
-        <activity
-            android:name="androidx.compose.ui.tooling.PreviewActivity"
-            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

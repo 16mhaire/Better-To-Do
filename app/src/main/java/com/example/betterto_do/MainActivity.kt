@@ -22,8 +22,8 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background,
                 ) {
                     //Need to figure out how to go between them
-                    //Dashboard()
-                    ListCreationScreen()
+                    Dashboard()
+                    //ListCreationScreen()
                 }
             }
         }

@@ -184,6 +184,15 @@ fun ListCreationScreen() {
     }
 }
 
+data class SavedItems(
+    val title: String,
+    val importance: Boolean,
+    val label: String,
+    val notes: String
+)
+val Save = listOf<SavedItems>()
+
+
 //First version of the drop down bar
     /*Row(
             modifier = Modifier

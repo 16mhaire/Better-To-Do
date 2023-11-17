@@ -40,7 +40,7 @@ import com.google.firebase.auth.FirebaseAuth
 class Register : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        FirebaseApp.initializeApp(this)
+        //FirebaseApp.initializeApp(this)
         val auth = FirebaseAuth.getInstance()
         val currentUser = auth.currentUser
         if (currentUser != null){
@@ -61,15 +61,15 @@ class Register : ComponentActivity() {
     }
 
     companion object {
-        fun CreateUser(email: String, pass: String, auth: FirebaseAuth, activity: Register){
+        fun createUser(email: String, pass: String, auth: FirebaseAuth, activity: Register){
             auth.createUserWithEmailAndPassword(email, pass)
                 .addOnCompleteListener(activity) {  task ->
                     if (task.isSuccessful){
-                        Log.d(TAG, "User created")
+                        //Log.d(TAG, "User created")
                         val user = auth.currentUser
                         //updateUI(user)
                     } else{
-                        Log.w(TAG, "User creation failure", task.exception)
+                        //Log.w(TAG, "User creation failure", task.exception)
                         Toast.makeText(
                             activity,
                             "Creation failed",
@@ -81,6 +81,15 @@ class Register : ComponentActivity() {
         }
     }
 
+}
+
+@Preview(showBackground = true)
+@Composable
+fun RegisterPreview() {
+    BetterToDoTheme {
+        val auth = FirebaseAuth.getInstance()
+        RegisterScreen(auth = auth)
+    }
 }
 
 @Composable
@@ -129,7 +138,7 @@ fun RegisterHeader(){
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun NewUserField(field:String){
-    var text by remember { mutableStateOf(field)}
+    var text by remember { mutableStateOf("")}
     TextField(
         value = text,
         onValueChange = { newText -> text = newText },
@@ -144,7 +153,7 @@ fun NewUserField(field:String){
 fun RegisterButton(auth: FirebaseAuth, activity: Register){
     var email by remember { mutableStateOf("")}
     var pass by remember { mutableStateOf("")}
-    var buttonState by remember { mutableStateOf("") }
+    var buttonState by remember { mutableStateOf("Register now") }
 
 
 
@@ -157,7 +166,7 @@ fun RegisterButton(auth: FirebaseAuth, activity: Register){
         Button(
             onClick = { /*To-Do Implement this function*/},
             modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
+            //colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
         ) {
             Text(text = "Register")
         }
@@ -165,15 +174,5 @@ fun RegisterButton(auth: FirebaseAuth, activity: Register){
         Text(text = buttonState)
 
     }
-    Register.CreateUser(email, pass, auth, activity)
-}
-
-
-
-@Preview(showBackground = true)
-@Composable
-fun RegisterPreview() {
-    BetterToDoTheme {
-        RegisterScreen(auth = FirebaseAuth.getInstance())
-    }
+    Register.createUser(email, pass, auth, activity)
 }

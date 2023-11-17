@@ -40,7 +40,7 @@ import com.google.firebase.auth.FirebaseAuth
 class Login : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        FirebaseApp.initializeApp(this)
+        //FirebaseApp.initializeApp(this)
         val auth = FirebaseAuth.getInstance()
 
         setContent {
@@ -72,7 +72,7 @@ fun LoginScreen(modifier: Modifier = Modifier, auth: FirebaseAuth) {
             )
             TextInputField("Email", false) { var email = it }
             TextInputField("Password", true) { var password = it }
-            LoginButton(auth)
+            //LoginButton(auth)
         }
     }
 

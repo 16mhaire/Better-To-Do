@@ -19,16 +19,17 @@ data class Task(val name: String)
 @Preview(showBackground = true)
 @Composable
 fun Dashboard() {
-    val tasks = remember { mutableStateOf(listOf(Task("Task 1"), Task("Task 2"), Task("Task 3"))) }
+    val tasks = remember { mutableStateOf(listOf(
+        Task("Today 2"),
+        Task("Scheduled 12"),
+        Task("All 3"),
+        Task("Important 7"))) }
     var currentScreen: String by remember { mutableStateOf("Dashboard") }
-
     Column(
         modifier = Modifier.fillMaxSize().padding(16.dp),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
+        verticalArrangement = Arrangement.Top,
+        horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Text(text = "Welcome to the Landing page (Dashboard)")
-
         Button(
             onClick = {
                 // Handle button click here

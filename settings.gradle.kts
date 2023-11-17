@@ -1,3 +1,4 @@
+
 pluginManagement {
     repositories {
         google()
@@ -16,4 +17,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "BetterTo-Do"
 include(":app")
- 

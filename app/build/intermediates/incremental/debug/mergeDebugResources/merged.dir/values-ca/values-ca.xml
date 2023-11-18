@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="fui_error_weak_password"> <item quantity="one">La contrasenya no és prou segura. Utilitza com a mínim %1$d caràcter i combina lletres i números.</item> <item quantity="other">La contrasenya no és prou segura. Utilitza com a mínim %1$d caràcters i combina lletres i números.</item> </plurals>
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d notificació nova</item>
@@ -32,7 +32,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Comparteix amb"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Comparteix amb <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Replega"</string>
+    <string name="bottomsheet_action_collapse">Replega el full inferior</string>
+    <string name="bottomsheet_action_expand">Desplega el full inferior</string>
     <string name="bottomsheet_action_expand_halfway">Desplega fins a la meitat</string>
+    <string name="bottomsheet_drag_handle_clicked">Has fet doble toc a l\'ansa per arrossegar</string>
+    <string name="bottomsheet_drag_handle_content_description">Ansa per arrossegar</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Respon"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Rebutja"</string>
@@ -171,6 +175,7 @@
     <string msgid="7933458017204019916" name="indeterminate">"Marcat parcialment"</string>
     <string name="item_view_role_description">Tabulador</string>
     <string name="material_clock_toggle_content_description">Selecciona a. m. o p. m.</string>
+    <string name="material_hour_24h_suffix">%1$s hores</string>
     <string name="material_hour_selection">Seleccioneu l\'hora</string>
     <string name="material_hour_suffix">%1$s en punt</string>
     <string name="material_minute_selection">Selecciona els minuts</string>
@@ -184,20 +189,25 @@
     <string name="material_timepicker_text_input_mode_description">Canvia al mode d\'introducció de text per introduir l\'hora.</string>
     <string name="mtrl_badge_numberless_content_description">Notificació nova</string>
     <string name="mtrl_chip_close_icon_content_description">Suprimeix %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Més de %1$d notificacions noves</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Més de %1$d notificacions noves</string>
     <string name="mtrl_picker_a11y_next_month">Canvia al mes següent</string>
     <string name="mtrl_picker_a11y_prev_month">Canvia al mes anterior</string>
+    <string name="mtrl_picker_announce_current_range_selection">Selecció de la data d\'inici: %1$s – Selecció de la data de finalització: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Selecció actual: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">cap</string>
+    <string name="mtrl_picker_cancel">Cancel·la</string>
+    <string name="mtrl_picker_confirm">D’acord</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Selecciona una data</string>
     <string name="mtrl_picker_date_header_unselected">Data seleccionada</string>
     <string name="mtrl_picker_day_of_week_column_header">Columna de dies: %1$s</string>
+    <string name="mtrl_picker_end_date_description">Data de finalització: %1$s</string>
     <string name="mtrl_picker_invalid_format">El format no és vàlid.</string>
     <string name="mtrl_picker_invalid_format_example">Exemple: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Utilitza: %1$s</string>
     <string name="mtrl_picker_invalid_range">L\'interval no és vàlid.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Canvia a l\'any %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navega fins a l\'any actual %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Canvia a l\'any %1$d</string>
     <string name="mtrl_picker_out_of_range">La data està fora de l\'interval: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Data d\'inici - %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s - data de finalització</string>
@@ -205,16 +215,20 @@
     <string name="mtrl_picker_range_header_title">Selecciona un interval</string>
     <string name="mtrl_picker_range_header_unselected">Data d\'inici - data de finalització</string>
     <string name="mtrl_picker_save">Desa</string>
+    <string name="mtrl_picker_start_date_description">Data d\'inici: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Data</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Data de finalització</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Data d\'inici</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_today_description">Avui, dia %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Canvia al mode d\'introducció de dades del calendari</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Toca per canviar a la selecció del dia</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca per canviar a la visualització de calendari</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Canvia al mode d\'introducció de text</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Toca per canviar a la selecció de l\'any</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca per canviar a la visualització d\'any</string>
+    <string name="mtrl_timepicker_cancel">Cancel·la</string>
+    <string name="mtrl_timepicker_confirm">D’acord</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Navega cap amunt"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Obre el tauler de navegació"</string>
     <string msgid="542007171693138492" name="navigation_menu">"Menú de navegació"</string>

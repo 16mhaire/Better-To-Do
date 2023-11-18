@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="fui_error_weak_password"> <item quantity="one">पासवर्ड काफ़ी रूप से मजबूत नहीं है. कम से कम %1$d वर्णों का उपयोग करें जो अक्षरों और नंबरों दोनों को मिलाकर बना हो</item> <item quantity="other">पासवर्ड काफ़ी रूप से मजबूत नहीं है. कम से कम %1$d वर्णों का उपयोग करें जो अक्षरों और नंबरों दोनों को मिलाकर बना हो</item> </plurals>
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d नई सूचनाएं</item>
@@ -32,7 +32,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> से शेयर करें"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"छोटा करें"</string>
+    <string name="bottomsheet_action_collapse">बॉटम शीट को छोटा करें</string>
+    <string name="bottomsheet_action_expand">बॉटम शीट को बड़ा करें</string>
     <string name="bottomsheet_action_expand_halfway">पूरी तरह बड़ा करें</string>
+    <string name="bottomsheet_drag_handle_clicked">खींचकर छोड़ने वाले हैंडल पर दो बार टैप किया गया</string>
+    <string name="bottomsheet_drag_handle_content_description">खींचकर छोड़ने वाला हैंडल</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"जवाब दें"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"वीडियो"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"अस्वीकार करें"</string>
@@ -171,6 +175,7 @@
     <string msgid="7933458017204019916" name="indeterminate">"कुछ विकल्पों को चुना गया"</string>
     <string name="item_view_role_description">टैब</string>
     <string name="material_clock_toggle_content_description">AM या PM चुनें</string>
+    <string name="material_hour_24h_suffix">%1$s घंटे</string>
     <string name="material_hour_selection">घंटा चुनें</string>
     <string name="material_hour_suffix">%1$s बजे</string>
     <string name="material_minute_selection">मिनट चुनें</string>
@@ -184,37 +189,46 @@
     <string name="material_timepicker_text_input_mode_description">समय इनपुट के लिए लेख इनपुट मोड पर जाएं.</string>
     <string name="mtrl_badge_numberless_content_description">नई सूचना</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s हटाएं</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">%1$d से ज़्यादा नई सूचनाएं</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d से ज़्यादा नई सूचनाएं</string>
     <string name="mtrl_picker_a11y_next_month">अगले महीने पर जाएं</string>
     <string name="mtrl_picker_a11y_prev_month">पिछले महीने पर जाएं</string>
+    <string name="mtrl_picker_announce_current_range_selection">शुरू होने की तारीख चुनें: %1$s – खत्म होने की तारीख चुनें: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">फ़िलहाल, यह चुना गया है: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">कोई भी तारीख नहीं चुनी गई</string>
+    <string name="mtrl_picker_cancel">रद्द करें</string>
+    <string name="mtrl_picker_confirm">ठीक है</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">तारीख चुनें</string>
     <string name="mtrl_picker_date_header_unselected">चुनी गई तारीख</string>
     <string name="mtrl_picker_day_of_week_column_header">दिनों का कॉलम: %1$s</string>
+    <string name="mtrl_picker_end_date_description">खत्म होने की तारीख %1$s</string>
     <string name="mtrl_picker_invalid_format">गलत फ़ॉर्मैट.</string>
     <string name="mtrl_picker_invalid_format_example">उदाहरण: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">%1$s का इस्तेमाल करें</string>
     <string name="mtrl_picker_invalid_range">तारीखों की अमान्य सीमा.</string>
-    <string name="mtrl_picker_navigate_to_year_description">साल %1$s पर जाएं</string>
-    <string name="mtrl_picker_out_of_range">तारीख की मान्य सीमा से बाहर: %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">मौजूदा साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_navigate_to_year_description">साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_out_of_range">चुनी गई तारीख मान्य नहीं है: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">शुरू होने की तारीख – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – खत्म होने की तारीख</string>
     <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
     <string name="mtrl_picker_range_header_title">रेंज चुनें</string>
     <string name="mtrl_picker_range_header_unselected">शुरू होने की तारीख – खत्म होने की तारीख</string>
     <string name="mtrl_picker_save">सेव करें</string>
+    <string name="mtrl_picker_start_date_description">शुरू होने की तारीख %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">तारीख</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">खत्म होने की तारीख</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">शुरू होने की तारीख</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">आज %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">कैलेंडर के इनपुट मोड पर स्विच करें</string>
-    <string name="mtrl_picker_toggle_to_day_selection">\'दिन चुनना\' पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_picker_toggle_to_day_selection">कैलेंडर के व्यू पर स्विच करने के लिए टैप करें</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">टेक्स्ट के इनपुट मोड पर स्विच करें</string>
-    <string name="mtrl_picker_toggle_to_year_selection">\'साल चुनना\' पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_picker_toggle_to_year_selection">साल के व्यू पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_timepicker_cancel">रद्द करें</string>
+    <string name="mtrl_timepicker_confirm">ठीक है</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"वापस जाएं"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"नेविगेशन पैनल खोलें"</string>
     <string msgid="542007171693138492" name="navigation_menu">"नेविगेशन मेन्यू"</string>

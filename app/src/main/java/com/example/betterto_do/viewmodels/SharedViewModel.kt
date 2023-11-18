@@ -12,11 +12,16 @@ import com.example.betterto_do.tasks.TaskRepository
 import com.example.betterto_do.util.DataStoreRepository
 import com.example.betterto_do.util.ListAppBarState
 import com.example.betterto_do.util.RequestState
+import com.example.betterto_do.util.Routes
+import com.example.betterto_do.util.TaskEvent
+import com.example.betterto_do.util.UiEvent
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -222,4 +227,61 @@ class SharedViewModel @Inject constructor(
              Priority.NONE -> getAllTask()
          }
      }
+    //These will help handle events that can be called in the UI
+    private val _uiEvent = Channel<UiEvent> {  }
+    val uiEvent = _uiEvent.receiveAsFlow()
+
+    //This can cache the recently deleted task in case of an undo to reinstate the task
+    private var deletedTask: Task? = null
+
+    //Task Event handler with Ui
+    fun onEvent(event: TaskEvent){
+        when(event){
+            is TaskEvent.OnDeleteTaskClick-> {
+                viewModelScope.launch{
+                    //store the task before deleting
+                    deletedTask = event.task
+                    repository.deleteTask(event.task)
+                    //This will show the snack bar option to undo delete
+                    sendUiEvent(UiEvent.ShowSnackbar(
+                        message = "Task deleted",
+                        action = "Undo"
+                    ))
+                }
+            }
+            is TaskEvent.OnTaskClick -> {
+                //calling the coroutine (below) for navigation
+                sendUiEvent(UiEvent.Navigate(Routes.ADD_EDIT_TODO + "?taskId=${event.task.id}"))
+            }
+            is TaskEvent.OnAddTaskClick -> {
+                //calling the coroutine (below) for navigation
+                sendUiEvent(UiEvent.Navigate(Routes.ADD_EDIT_TODO))
+            }
+            is TaskEvent.OnDoneChange -> {
+                viewModelScope.launch {
+                    repository.insertTask(
+                        event.task.copy(
+                            taskCompleted = event.taskCompleted
+                        )
+                    )
+                }
+            }
+            is TaskEvent.OnUndoDeleteTaskClick -> {
+                //check to make sure deleted task isn't set to null
+                deletedTask?.let { task ->
+                    viewModelScope.launch {
+                        //reinsert the task into the repo
+                        repository.insertTask(task)
+                    }
+                }
+            }
+        }
+    }
+
+    //This will be the coroutine to handle the navigation events
+    private fun sendUiEvent(event: UiEvent) {
+        viewModelScope.launch{
+            _uiEvent.send(event)
+        }
+    }
 }

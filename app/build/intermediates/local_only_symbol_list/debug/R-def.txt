@@ -1,5 +1,11 @@
 R_DEF: Internal format may change without notice
 local
+color PrimaryBlue
+color PrimaryGrey
+color PrimaryOrange
+color PrimaryPink
+color SecondaryGreen
+color SecondaryLightPink
 color amber
 color black
 color cerulean

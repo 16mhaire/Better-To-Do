@@ -2,10 +2,10 @@
 
 package com.example.betterto_do
 
+// Ensure that these color resources exist in your colors.xml
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.layout.Arrangement.SpaceEvenly
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
@@ -14,7 +14,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.*
 import androidx.compose.ui.*
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
 
 data class Task(val name: String)
@@ -32,7 +32,9 @@ fun Dashboard() {
         })
     } else {
         Column(
-            modifier = Modifier.fillMaxSize().padding(16.dp),
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(16.dp),
             verticalArrangement = Arrangement.Top,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
@@ -49,7 +51,7 @@ fun Dashboard() {
             }
             Row(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = SpaceEvenly
+                horizontalArrangement = Arrangement.SpaceEvenly
             ) {
                 Button(onClick = { currentScreen = "Scheduled {2}" }) {
                     Text("Scheduled {2}")
@@ -61,46 +63,44 @@ fun Dashboard() {
                     Text("All {6}")
                 }
             }
-            //@kevin this is where I added the listscreen from your code.
+            // ListCreationScreen placeholder
             ListCreationScreen( onListCreated = {}
-
             )
             LazyColumn {
                 items(tasks.value) { task ->
                     TaskWidget(task)
                 }
             }
-
-            // Rest of your Dashboard UI...
         }
     }
-// Rest of the Dashboard logic for handling different screens...
 }
 
 @Composable
 fun TaskWidget(task: Task) {
-    // Custom widget to display a task
+    val backgroundColor = colorResource(id = R.color.gunmetal)
+    val borderColor = colorResource(id = R.color.mediumRedViolet)
+
     Text(
         text = task.name,
         modifier = Modifier
-            .background(Color.LightGray)
+            .background(backgroundColor)
             .padding(8.dp)
-            .border(1.dp, Color.Black)
+            .border(1.dp, borderColor)
             .fillMaxWidth()
     )
-    // Add more elements as needed
 }
-//@Matthew and @Jaiten, I was able to just use this composable for the task buttons
 @ExperimentalMaterial3Api
 @Composable
 fun AddTaskUI(onTaskAdded: (Task) -> Unit) {
     var taskName by remember { mutableStateOf("") }
+    val buttonTextColor = colorResource(id = R.color.black)
 
     Column {
         TextField(
             value = taskName,
             onValueChange = { taskName = it },
             label = { Text("Task Name") }
+            // Additional styling can be added here
         )
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = {
@@ -109,7 +109,7 @@ fun AddTaskUI(onTaskAdded: (Task) -> Unit) {
                 taskName = ""
             }
         }) {
-            Text("Add Task")
+            Text("Add Task", color = buttonTextColor)
         }
     }
 }

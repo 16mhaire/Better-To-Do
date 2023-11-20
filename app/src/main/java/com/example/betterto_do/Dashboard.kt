@@ -45,22 +45,22 @@ fun Dashboard() {
                 Button(onClick = { showAddTaskUI = true }) {
                     Text("Add New Task")
                 }
-                Button(onClick = { currentScreen = "Today {1}" }) {
-                    Text("Today {1}")
-                }
-            }
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceEvenly
-            ) {
-                Button(onClick = { currentScreen = "Scheduled {2}" }) {
-                    Text("Scheduled {2}")
-                }
-                Button(onClick = { currentScreen = "Urgent {3}" }) {
-                    Text("Urgent {3}")
-                }
-                Button(onClick = { currentScreen = "All {6}" }) {
-                    Text("All {6}")
+                Column(
+                    verticalArrangement = Arrangement.Top,
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Button(onClick = { currentScreen = "Today {1}" }) {
+                        Text("Today {1}")
+                    }
+                    Button(onClick = { currentScreen = "Scheduled {2}" }) {
+                        Text("Scheduled {2}")
+                    }
+                    Button(onClick = { currentScreen = "Urgent {3}" }) {
+                        Text("Urgent {3}")
+                    }
+                    Button(onClick = { currentScreen = "All {6}" }) {
+                            Text("All {6}")
+                    }
                 }
             }
             // ListCreationScreen placeholder

@@ -22,8 +22,8 @@ val DarkColorScheme = darkColorScheme(
 )
 
 val LightColorScheme = lightColorScheme(
-    primary = amber,
-    secondary = cerulean,
+    primary = cerulean,
+    secondary = amber,
     tertiary = limeGreen
 
     /* Other default colors to override

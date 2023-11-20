@@ -19,12 +19,19 @@ val DarkColorScheme = darkColorScheme(
     primary = mediumRedViolet,
     secondary = frenchPink,
     tertiary = gunmetal,
+    background = cerulean,
+    surface = limeGreen,
+    onBackground = amber,
+
 )
 
 val LightColorScheme = lightColorScheme(
-    primary = cerulean,
-    secondary = amber,
-    tertiary = limeGreen
+    primary = mediumRedViolet,
+    secondary = frenchPink,
+    tertiary = gunmetal,
+    background = cerulean,
+    surface = limeGreen,
+    onBackground = amber,
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),

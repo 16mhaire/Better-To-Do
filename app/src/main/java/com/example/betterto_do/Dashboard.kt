@@ -2,13 +2,12 @@
 
 package com.example.betterto_do
 
-// Ensure that these color resources exist in your colors.xml
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
+
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
@@ -16,59 +15,80 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
+import com.example.betterto_do.ui.theme.BetterToDoTheme
 
 data class Task(val name: String)
 
 @Composable
 fun Dashboard() {
-    var showAddTaskUI by remember { mutableStateOf(false) }
-    var currentScreen: String by remember { mutableStateOf("Dashboard") }
-    val tasks = remember { mutableStateOf(listOf<Task>()) }
+    BetterToDoTheme {
+        var showAddTaskUI by remember { mutableStateOf(false) }
+        var currentScreen: String by remember { mutableStateOf("Dashboard") }
+        val tasks = remember { mutableStateOf(listOf<Task>()) }
 
-    if (showAddTaskUI) {
-        AddTaskUI(onTaskAdded = { task ->
-            tasks.value = tasks.value + task
-            showAddTaskUI = false
-        })
-    } else {
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(16.dp),
-            verticalArrangement = Arrangement.Top,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceEvenly
+        if (showAddTaskUI) {
+            AddTaskUI(onTaskAdded = { task ->
+                tasks.value = tasks.value + task
+                showAddTaskUI = false
+            })
+        } else {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(16.dp),
+                verticalArrangement = Arrangement.Top,
+                horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Button(onClick = { showAddTaskUI = true }) {
-                    Text("Add New Task")
-                }
-                Column(
-                    verticalArrangement = Arrangement.Top,
-                    horizontalAlignment = Alignment.CenterHorizontally
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Button(onClick = { currentScreen = "Today {1}" }) {
-                        Text("Today {1}")
+                    Button(
+                        onClick = { showAddTaskUI = true },
+                        colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.limeGreen))
+                    ) {
+                        Text("Add New Task")
                     }
-                    Button(onClick = { currentScreen = "Scheduled {2}" }) {
-                        Text("Scheduled {2}")
-                    }
-                    Button(onClick = { currentScreen = "Urgent {3}" }) {
-                        Text("Urgent {3}")
-                    }
-                    Button(onClick = { currentScreen = "All {6}" }) {
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth(),
+                        verticalArrangement = Arrangement.Top,
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        Button(
+                            onClick = { currentScreen = "Today {1}" },
+                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.mediumRedViolet))
+                        ) {
+                            Text("Today {1}")
+                        }
+                        Button(
+                            onClick = { currentScreen = "Scheduled {2}" },
+                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.frenchPink))
+                        ) {
+                            Text("Scheduled {2}")
+                        }
+                        Button(
+                            onClick = { currentScreen = "Urgent {3}" },
+                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.amber))
+                        ) {
+                            Text("Urgent {3}")
+                        }
+                        Button(
+                            onClick = { currentScreen = "All {6}" },
+                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.gunmetal))
+                        ) {
                             Text("All {6}")
+                        }
                     }
                 }
-            }
-            // ListCreationScreen placeholder
-            ListCreationScreen( onListCreated = {}
-            )
-            LazyColumn {
-                items(tasks.value) { task ->
-                    TaskWidget(task)
+
+                // ListCreationScreen placeholder
+                ListCreationScreen(onListCreated = {})
+                LazyColumn {
+                    items(tasks.value) { task ->
+                        TaskWidget(task)
+                    }
                 }
             }
         }
@@ -77,15 +97,10 @@ fun Dashboard() {
 
 @Composable
 fun TaskWidget(task: Task) {
-    val backgroundColor = colorResource(id = R.color.gunmetal)
-    val borderColor = colorResource(id = R.color.mediumRedViolet)
-
     Text(
         text = task.name,
         modifier = Modifier
-            .background(backgroundColor)
             .padding(8.dp)
-            .border(1.dp, borderColor)
             .fillMaxWidth()
     )
 }
@@ -93,14 +108,11 @@ fun TaskWidget(task: Task) {
 @Composable
 fun AddTaskUI(onTaskAdded: (Task) -> Unit) {
     var taskName by remember { mutableStateOf("") }
-    val buttonTextColor = colorResource(id = R.color.black)
-
     Column {
         TextField(
             value = taskName,
             onValueChange = { taskName = it },
-            label = { Text("Task Name") }
-            // Additional styling can be added here
+            label = { Text("Task Name")},
         )
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = {
@@ -109,7 +121,7 @@ fun AddTaskUI(onTaskAdded: (Task) -> Unit) {
                 taskName = ""
             }
         }) {
-            Text("Add Task", color = buttonTextColor)
+            Text("Add Task")
         }
     }
 }

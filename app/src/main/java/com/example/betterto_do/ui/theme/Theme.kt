@@ -19,7 +19,7 @@ val DarkColorScheme = darkColorScheme(
     primary = mediumRedViolet,
     secondary = frenchPink,
     tertiary = gunmetal,
-    background = cerulean,
+    background = white,
     surface = limeGreen,
     onBackground = amber,
 
@@ -29,7 +29,7 @@ val LightColorScheme = lightColorScheme(
     primary = mediumRedViolet,
     secondary = frenchPink,
     tertiary = gunmetal,
-    background = cerulean,
+    background = white,
     surface = limeGreen,
     onBackground = amber,
 

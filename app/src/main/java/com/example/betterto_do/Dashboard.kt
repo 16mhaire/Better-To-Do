@@ -3,6 +3,7 @@
 package com.example.betterto_do
 
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -25,6 +26,7 @@ fun Dashboard() {
         var showAddTaskUI by remember { mutableStateOf(false) }
         var currentScreen: String by remember { mutableStateOf("Dashboard") }
         val tasks = remember { mutableStateOf(listOf<Task>()) }
+        val backgroundColor = colorResource(id = R.color.white)
 
         if (showAddTaskUI) {
             AddTaskUI(onTaskAdded = { task ->
@@ -35,7 +37,8 @@ fun Dashboard() {
             Column(
                 modifier = Modifier
                     .fillMaxSize()
-                    .padding(16.dp),
+                    .padding(16.dp)
+                    .background(backgroundColor),
                 verticalArrangement = Arrangement.Top,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
@@ -46,55 +49,38 @@ fun Dashboard() {
                 ) {
                     Button(
                         onClick = { showAddTaskUI = true },
-                        colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.limeGreen))
+                        colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.mediumRedViolet)) // Change color here
                     ) {
-                        Text("Add New Task")
-                    }
+                        Text("Add New Task") }
                     Column(
                         modifier = Modifier
                             .fillMaxWidth(),
                         verticalArrangement = Arrangement.Top,
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
+                        horizontalAlignment = Alignment.CenterHorizontally) {
                         Button(
                             onClick = { currentScreen = "Today {1}" },
-                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.mediumRedViolet))
-                        ) {
-                            Text("Today {1}")
-                        }
+                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.limeGreen))) {
+                            Text("Today {1}") }
                         Button(
                             onClick = { currentScreen = "Scheduled {2}" },
-                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.frenchPink))
-                        ) {
-                            Text("Scheduled {2}")
-                        }
+                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.frenchPink))) {
+                            Text("Scheduled {2}") }
                         Button(
                             onClick = { currentScreen = "Urgent {3}" },
-                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.amber))
-                        ) {
-                            Text("Urgent {3}")
-                        }
+                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.amber))) {
+                            Text("Urgent {3}") }
                         Button(
                             onClick = { currentScreen = "All {6}" },
-                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.gunmetal))
-                        ) {
+                            colors = ButtonDefaults.buttonColors(containerColor = colorResource(id = R.color.gunmetal))) {
                             Text("All {6}")
-                        }
-                    }
-                }
+                        }}}
 
                 // ListCreationScreen placeholder
                 ListCreationScreen(onListCreated = {})
                 LazyColumn {
                     items(tasks.value) { task ->
                         TaskWidget(task)
-                    }
-                }
-            }
-        }
-    }
-}
-
+                    }}}}}}
 @Composable
 fun TaskWidget(task: Task) {
     Text(

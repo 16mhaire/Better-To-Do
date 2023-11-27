@@ -27,12 +27,12 @@
 
         <activity
             android:name=".Register"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_register"
             android:theme="@style/Theme.BetterToDo" />
         <activity
             android:name=".Login"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_login"
             android:theme="@style/Theme.BetterToDo" />
         <activity

@@ -14,6 +14,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">BetterTo-Do</string>
+    <string name="default_web_client_id" translatable="false">1099247128764-ui8k8hg6c5rhu1m4iusnv8tbfj17j7l9.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1099247128764</string>
+    <string name="google_api_key" translatable="false">AIzaSyDbho-3ra_iYluJ8uGcRCLNZL4_1oCxq6s</string>
+    <string name="google_app_id" translatable="false">1:1099247128764:android:de257ba8175d72dc73c0b9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDbho-3ra_iYluJ8uGcRCLNZL4_1oCxq6s</string>
+    <string name="google_storage_bucket" translatable="false">bettertodo-b49c9.appspot.com</string>
+    <string name="project_id" translatable="false">bettertodo-b49c9</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_register">Register</string>
     <style name="Theme.BetterToDo" parent="android:Theme.Material.Light.NoActionBar"/>

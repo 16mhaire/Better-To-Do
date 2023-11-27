@@ -2,11 +2,15 @@ package com.example.betterto_do
 
 //import androidx.compose.foundation.gestures.ModifierLocalScrollableContainerProvider.value
 import android.content.ContentValues.TAG
+import android.content.Intent
+import android.health.connect.datatypes.units.Length
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -27,8 +31,11 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -40,12 +47,12 @@ import com.google.firebase.auth.FirebaseAuth
 class Register : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //FirebaseApp.initializeApp(this)
+
         val auth = FirebaseAuth.getInstance()
         val currentUser = auth.currentUser
-        if (currentUser != null){
+        /*if (currentUser != null){
             //something happens
-        }
+        }*/
 
         setContent {
             BetterToDoTheme {
@@ -59,28 +66,6 @@ class Register : ComponentActivity() {
             }
         }
     }
-
-    companion object {
-        fun createUser(email: String, pass: String, auth: FirebaseAuth, activity: Register){
-            auth.createUserWithEmailAndPassword(email, pass)
-                .addOnCompleteListener(activity) {  task ->
-                    if (task.isSuccessful){
-                        //Log.d(TAG, "User created")
-                        val user = auth.currentUser
-                        //updateUI(user)
-                    } else{
-                        //Log.w(TAG, "User creation failure", task.exception)
-                        Toast.makeText(
-                            activity,
-                            "Creation failed",
-                            Toast.LENGTH_SHORT
-                        ).show()
-                        //updateUI(null)
-                    }
-                }
-        }
-    }
-
 }
 
 @Preview(showBackground = true)
@@ -99,8 +84,8 @@ fun RegisterScreen(modifier: Modifier = Modifier, auth: FirebaseAuth) {
     ){
         Column {
             RegisterHeader()
-            NewUserField("email")
-            NewUserField("Password")
+            NewUserField("Email", false) { var email = it }
+            NewUserField("Password", true) { var password = it }
             RegisterButton(auth, Register())
         }
     }
@@ -137,15 +122,21 @@ fun RegisterHeader(){
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun NewUserField(field:String){
-    var text by remember { mutableStateOf("")}
+fun NewUserField(value:String, isPassword:Boolean, onValueChanged: (String) -> Unit){
+    var text by remember { mutableStateOf("") }
+
     TextField(
         value = text,
-        onValueChange = { newText -> text = newText },
-        label = { Text(text)},
+        onValueChange = { newText ->
+            text = newText },
+        label = {
+            Text(value)
+        },
         modifier = Modifier
             .padding(10.dp)
-            .fillMaxWidth()
+            .fillMaxWidth(),
+        visualTransformation = if (isPassword) PasswordVisualTransformation() else VisualTransformation.None
+
     )
 }
 
@@ -153,9 +144,15 @@ fun NewUserField(field:String){
 fun RegisterButton(auth: FirebaseAuth, activity: Register){
     var email by remember { mutableStateOf("")}
     var pass by remember { mutableStateOf("")}
-    var buttonState by remember { mutableStateOf("Register now") }
+    var buttonState by remember { mutableStateOf(false) }
 
+    val context = LocalContext.current
 
+    val loginActivityLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartActivityForResult()
+    ) { activityResult ->
+        // Handle the result if needed
+    }
 
     Column(
         modifier = Modifier
@@ -164,15 +161,25 @@ fun RegisterButton(auth: FirebaseAuth, activity: Register){
         verticalArrangement = Arrangement.Bottom
     ) {
         Button(
-            onClick = { /*To-Do Implement this function*/},
+            onClick = {
+                //val toast = Toast.makeText(context, email, Toast.LENGTH_SHORT)
+                auth.createUserWithEmailAndPassword(email, pass)
+                .addOnCompleteListener(activity) { task ->
+                    if (task.isSuccessful) {
+                        buttonState = true
+                        //toast.show()
+                        val intent = Intent(context, Login::class.java)
+                        loginActivityLauncher.launch(intent)
+                    } else {
+                        buttonState = false
+                    }
+                }
+            },
             modifier = Modifier.fillMaxWidth(),
-            //colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
+            colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
         ) {
             Text(text = "Register")
         }
-        Spacer(modifier = Modifier.height(16.dp))
-        Text(text = buttonState)
-
     }
-    Register.createUser(email, pass, auth, activity)
 }
+

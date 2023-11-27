@@ -2106,7 +2106,7 @@
     <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="default_error_message">"Invalid input"</string>
     <string name="default_popup_window_title" ns1:ignore="ExtraTranslation">"Pop-Up Window"</string>
-    <string name="default_web_client_id" translatable="false">CHANGE-ME</string>
+    <string name="default_web_client_id" translatable="false">1099247128764-ui8k8hg6c5rhu1m4iusnv8tbfj17j7l9.apps.googleusercontent.com</string>
     <string name="dest_title">destination title</string>
     <string name="dialog">"Dialog"</string>
     <string name="dropdown_menu">"Dropdown menu"</string>
@@ -2229,6 +2229,11 @@
         You\'ve already used <ns2:g example="jane.doe@example.com" id="email_addr" translation_description="">%1$s</ns2:g>
         to sign in. Enter your password for that account.
     </string>
+    <string name="gcm_defaultSenderId" translatable="false">1099247128764</string>
+    <string name="google_api_key" translatable="false">AIzaSyDbho-3ra_iYluJ8uGcRCLNZL4_1oCxq6s</string>
+    <string name="google_app_id" translatable="false">1:1099247128764:android:de257ba8175d72dc73c0b9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDbho-3ra_iYluJ8uGcRCLNZL4_1oCxq6s</string>
+    <string name="google_storage_bucket" translatable="false">bettertodo-b49c9.appspot.com</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="in_progress">In progress</string>
@@ -2351,6 +2356,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="project_id" translatable="false">bettertodo-b49c9</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
     <string name="search_menu_title">Search</string>

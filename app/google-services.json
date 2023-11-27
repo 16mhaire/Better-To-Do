@@ -12,7 +12,12 @@
           "package_name": "com.example.betterto_do"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1099247128764-ui8k8hg6c5rhu1m4iusnv8tbfj17j7l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDbho-3ra_iYluJ8uGcRCLNZL4_1oCxq6s"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099247128764-ui8k8hg6c5rhu1m4iusnv8tbfj17j7l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

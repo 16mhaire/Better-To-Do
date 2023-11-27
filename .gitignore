@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_8/graph.bin
+/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_9/graph.bin
+/app/build/tmp/
+/app/build/intermediates/project_dex_archive/debug/
+

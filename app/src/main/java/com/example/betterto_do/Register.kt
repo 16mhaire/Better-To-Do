@@ -1,11 +1,8 @@
 package com.example.betterto_do
 
 //import androidx.compose.foundation.gestures.ModifierLocalScrollableContainerProvider.value
-import android.content.ContentValues.TAG
 import android.content.Intent
-import android.health.connect.datatypes.units.Length
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -26,6 +23,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -37,11 +35,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.betterto_do.ui.theme.BetterToDoTheme
-import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 
 class Register : ComponentActivity() {
@@ -49,10 +45,8 @@ class Register : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         val auth = FirebaseAuth.getInstance()
-        val currentUser = auth.currentUser
-        /*if (currentUser != null){
-            //something happens
-        }*/
+        //val currentUser = auth.currentUser
+        val userCredentials = mutableStateOf(UserCredentials())
 
         setContent {
             BetterToDoTheme {
@@ -61,41 +55,93 @@ class Register : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    RegisterScreen(Modifier, auth)
+                    RegisterScreen(Modifier, auth, userCredentials,
+                        onEmailChanged = { email ->
+                            userCredentials.value = userCredentials.value.copy(email = email)
+                        },
+                        onPasswordChanged = { password ->
+                            userCredentials.value = userCredentials.value.copy(password = password)
+                        })
                 }
             }
         }
     }
-}
 
-@Preview(showBackground = true)
-@Composable
-fun RegisterPreview() {
-    BetterToDoTheme {
-        val auth = FirebaseAuth.getInstance()
-        RegisterScreen(auth = auth)
-    }
-}
+    data class UserCredentials(var email: String = "", var password: String = "")
 
+
+}
+/*
 @Composable
-fun RegisterScreen(modifier: Modifier = Modifier, auth: FirebaseAuth) {
-    Surface (
+fun RegisterScreen(
+    modifier: Modifier = Modifier,
+    auth: FirebaseAuth,
+    userCredentials: MutableState<Register.UserCredentials>,
+    onEmailChanged: (String) -> Unit,
+    onPasswordChanged: (String) -> Unit
+) {
+    Surface(
         modifier = Modifier.fillMaxSize()
-    ){
-        Column {
+    ) {
+        Column (
+            verticalArrangement = Arrangement.Top
+        ){
             RegisterHeader()
-            NewUserField("Email", false) { var email = it }
-            NewUserField("Password", true) { var password = it }
-            RegisterButton(auth, Register())
+            NewUserField("Email", false) { onEmailChanged(it) }
+            NewUserField("Password", true) { onPasswordChanged(it) }
+        }
+
+        Column(
+            verticalArrangement = Arrangement.Bottom
+        ) {
+            RegisterButton(
+                auth,
+                Register(),
+                userCredentials.value.email,
+                userCredentials.value.password
+            )
+            Spacer(Modifier.height(16.dp))
+            ReturningUserButton()
         }
     }
 }
+*/
 
 @Composable
-fun RegisterHeader(){
-    Column (
+fun RegisterScreen(modifier: Modifier = Modifier, auth: FirebaseAuth, userCredentials: MutableState<Register.UserCredentials>, onEmailChanged: (String) -> Unit, onPasswordChanged: (String) -> Unit) {
+    Surface(
+        Modifier.fillMaxSize()
+    ) {
+        Column(
+            verticalArrangement = Arrangement.Top
+        ) {
+            RegisterHeader()
+            NewUserField("Email", false, onEmailChanged)
+            NewUserField("Password",false, onPasswordChanged)
+
+
+        }
+
+        Column(
+            verticalArrangement = Arrangement.Bottom
+        ) {
+            RegisterButton(
+                auth,
+                Register(),
+                userCredentials.value.email,
+                userCredentials.value.password
+            )
+            ReturningUserButton()
+        }
+    }
+
+}
+
+@Composable
+fun RegisterHeader() {
+    Column(
         modifier = Modifier.fillMaxWidth()
-    ){
+    ) {
         Text(
             modifier = Modifier.fillMaxWidth(),
             color = colorResource(R.color.cerulean),
@@ -122,13 +168,17 @@ fun RegisterHeader(){
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun NewUserField(value:String, isPassword:Boolean, onValueChanged: (String) -> Unit){
+fun NewUserField(value: String, isPassword: Boolean, onValueChanged: (String) -> Unit) {
     var text by remember { mutableStateOf("") }
 
     TextField(
         value = text,
-        onValueChange = { newText ->
-            text = newText },
+        onValueChange = {
+            text = it
+            if (it.isNotEmpty()) {
+                onValueChanged(it)
+            }
+        },
         label = {
             Text(value)
         },
@@ -141,10 +191,14 @@ fun NewUserField(value:String, isPassword:Boolean, onValueChanged: (String) -> U
 }
 
 @Composable
-fun RegisterButton(auth: FirebaseAuth, activity: Register){
-    var email by remember { mutableStateOf("")}
-    var pass by remember { mutableStateOf("")}
-    var buttonState by remember { mutableStateOf(false) }
+fun RegisterButton(
+    auth: FirebaseAuth,
+    activity: Register,
+    email: String,
+    password: String
+) {
+
+    //var buttonState by remember { mutableStateOf(false) }
 
     val context = LocalContext.current
 
@@ -162,24 +216,51 @@ fun RegisterButton(auth: FirebaseAuth, activity: Register){
     ) {
         Button(
             onClick = {
-                //val toast = Toast.makeText(context, email, Toast.LENGTH_SHORT)
-                auth.createUserWithEmailAndPassword(email, pass)
-                .addOnCompleteListener(activity) { task ->
-                    if (task.isSuccessful) {
-                        buttonState = true
-                        //toast.show()
-                        val intent = Intent(context, Login::class.java)
-                        loginActivityLauncher.launch(intent)
-                    } else {
-                        buttonState = false
+                auth.createUserWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(activity) { task ->
+                        if (task.isSuccessful) {
+                            //buttonState = true
+                            Toast.makeText(context, "Registration Successful", Toast.LENGTH_SHORT).show()
+
+                            val intent = Intent(context, Login::class.java)
+                            loginActivityLauncher.launch(intent)
+                        } else {
+                            //buttonState = false
+                            Toast.makeText(context, "Registration Failed", Toast.LENGTH_SHORT).show()
+                        }
                     }
-                }
             },
             modifier = Modifier.fillMaxWidth(),
             colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
         ) {
             Text(text = "Register")
+            Spacer(Modifier.height(16.dp))
         }
     }
 }
 
+@Composable
+fun ReturningUserButton(){
+    val context = LocalContext.current
+
+    val registerActivityLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartActivityForResult()
+    ) { activityResult ->
+        // Handle the result if needed
+    }
+
+    Button(
+        onClick = {
+            val intent = Intent(context, Register::class.java)
+            registerActivityLauncher.launch(intent)
+        },
+        modifier = Modifier.fillMaxWidth()
+    ) {
+        Text(
+            "Have an account? Login here!"
+        )
+        //Spacer(
+          //  modifier = Modifier.height(16.dp)
+        //)
+    }
+}

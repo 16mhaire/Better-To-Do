@@ -2,6 +2,10 @@
 
 package com.example.betterto_do
 
+import android.content.Intent
+import android.widget.Toast
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
@@ -15,7 +19,9 @@ import androidx.compose.material3.TextField
 import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import com.google.firebase.auth.FirebaseAuth
 
 data class Task(val name: String)
 
@@ -32,7 +38,9 @@ fun Dashboard() {
         })
     } else {
         Column(
-            modifier = Modifier.fillMaxSize().padding(16.dp),
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(16.dp),
             verticalArrangement = Arrangement.Top,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
@@ -72,6 +80,9 @@ fun Dashboard() {
             }
 
             // Rest of your Dashboard UI...
+            LogOutButton {
+                logOut()
+            }
         }
     }
 // Rest of the Dashboard logic for handling different screens...
@@ -112,4 +123,33 @@ fun AddTaskUI(onTaskAdded: (Task) -> Unit) {
             Text("Add Task")
         }
     }
+}
+
+//
+// I added this log out button. Spruce it up however you see fit. I made it return the user to mainActivity, where the control flow will send them back to the login screen. - Mason
+//
+@Composable
+fun LogOutButton(logout: () -> Unit){
+
+    val context = LocalContext.current
+
+    val loginActivityLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartActivityForResult()
+    ) { activityResult ->
+        // Handle the result if needed
+    }
+
+    Button(onClick = { logOut()
+        val intent = Intent(context, Login::class.java)
+        loginActivityLauncher.launch(intent)
+
+        Toast.makeText(context, "User signed out", Toast.LENGTH_SHORT).show() }
+    ) {
+
+        Text(text = "Log Out")
+    }
+}
+
+fun logOut(){
+    FirebaseAuth.getInstance().signOut()
 }

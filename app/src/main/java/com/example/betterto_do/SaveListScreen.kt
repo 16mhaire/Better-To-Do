@@ -11,8 +11,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-//import com.google.gson.Gson
-//import com.google.gson.reflect.TypeToken
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 
 data class SavedList(
     val title: String,
@@ -21,18 +21,18 @@ data class SavedList(
     val notes: String
 )
 
-//@Composable
-//fun getSavedListsFromStorage(): List<SavedList> {
-//    val prefs = LocalContext.current.getSharedPreferences("my_prefs", Context.MODE_PRIVATE)
-//    val gson = Gson()
-//    val json = prefs.getString("list_items", null) // Assuming you store lists in "list_items" key
-//
-//    return if (json != null) {
-//        gson.fromJson(json, object : TypeToken<List<SavedList>>() {}.type)
-//    } else {
-//        emptyList()
-//    }
-//}
+@Composable
+fun getSavedListsFromStorage(): List<SavedList> {
+    val prefs = LocalContext.current.getSharedPreferences("my_prefs", Context.MODE_PRIVATE)
+    val gson = Gson()
+    val json = prefs.getString("list_items", null) // Assuming you store lists in "list_items" key
+
+    return if (json != null) {
+        gson.fromJson(json, object : TypeToken<List<SavedList>>() {}.type)
+    } else {
+        emptyList()
+    }
+}
 
 @Composable
 fun SavedListsScreen(onListClick: (SavedList) -> Unit) {

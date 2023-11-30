@@ -1,5 +1,6 @@
 package com.example.betterto_do
 
+import android.content.Context
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -27,14 +28,16 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.material3.*
+import androidx.compose.ui.platform.LocalContext
+//import com.google.gson.Gson
+//import com.google.gson.reflect.TypeToken
 
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-@Preview
+@Preview(showBackground = true)
 fun ListCreationScreen() {
-    var currentScreen: String by remember { mutableStateOf("Dashboard") }
-
     var listTitle by remember { mutableStateOf("") }
     var listBody by remember { mutableStateOf("") }
     var isImportant by remember { mutableStateOf(false) }
@@ -63,10 +66,14 @@ fun ListCreationScreen() {
                     .width(180.dp)
             )
 //Save button
-            Button(
-                onClick = { /* Save this List */ },
+            SaveButton(listTitle, isImportant, selectedLabel, listBody){
+                //onSaveButtonClick(listTitle, isImportant, selectedLabel, listBody)
+            }
+
+            /*Button(
+                onClick = { onSaveButtonClick(listTitle, isImportant, selectedLabel, listBody)},
                 modifier = Modifier.padding(16.dp)
-            ) { Text("Save") }
+            ) { Text("Save") }*/
         }
 
         Row(
@@ -157,17 +164,18 @@ fun ListCreationScreen() {
 
             ){
 
-                    TextField(
-                        value = listBody,
-                        onValueChange = { newValue -> listBody = newValue },
-                        label = { Text("List Body") },
-                        modifier = Modifier
-                            .fillMaxHeight()
-                    )
+                TextField(
+                    value = listBody,
+                    onValueChange = { newValue -> listBody = newValue },
+                    label = { Text("List Body") },
+                    modifier = Modifier
+                        .fillMaxHeight()
+                )
             }
         }
     }
 }
+
 
 data class SavedItems(
     val title: String,
@@ -175,78 +183,45 @@ data class SavedItems(
     val label: String,
     val notes: String
 )
-val Save = listOf<SavedItems>()
+//@Composable
+//fun getSavedItemsFromStorage(): List<SavedItems> {
+//    val prefs = LocalContext.current.getSharedPreferences("my_prefs", Context.MODE_PRIVATE)
+//    val gson = Gson()
+//    val json = prefs.getString("item_list", null)
+//
+//    return if (json != null) {
+//        gson.fromJson(json, object : TypeToken<List<SavedItems>>() {}.type)
+//    } else {
+//        emptyList()
+//    }
+//}
+//@Composable
+//fun saveItemsToStorage(items: List<SavedItems>) {
+//    val prefs = LocalContext.current.getSharedPreferences("my_prefs", Context.MODE_PRIVATE)
+//    val gson = Gson()
+//    val json = gson.toJson(items)
+//
+//    prefs.edit().putString("item_list", json).apply()
+//}
 
+@Composable
+fun SaveButton(title: String, importance: Boolean, label: String, body: String, onSaveClick: () -> Unit
+){
+    Button(onClick = { onSaveClick() },
+        modifier = Modifier.padding(16.dp)
+    ) {
+        Text("Save")
+    }
+}
 
-//First version of the drop down bar
-    /*Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp)
-            ){
-            Text("Select a Label:")
-            OutlinedTextField(
-                value = selectedLabel,
-                onValueChange = { newValue -> selectedLabel = newValue },
-                singleLine = true,
-                readOnly = true, //Change when we want to make lables editable
-                trailingIcon = {
-                    IconButton(onClick = { isDropdownExpanded }) {
-                        Icon(imageVector = Icons.Default.ArrowDropDown, contentDescription = null)
-                    }
-                },
-                modifier = Modifier.fillMaxWidth()
-            )}*/
-
-
-//This is tied to the first version of the dropdown menu (I couldnt figure this part out)
-        /*DropdownMenu(
-            expanded = isDropdownExpanded,
-            onDismissRequest = { isDropdownExpanded = false }
-        ) {
-            labels.forEach { label ->
-                if (label.isNotBlank()) {
-                    DropdownMenuItem(
-                        onClick = {
-                            selectedLabel = label
-                            isDropdownExpanded = false
-                        }
-                    ) {
-                        Text(text = label)
-                    }
-                }
-            }
-        }*/
-
-
- //Original List Body code
-            /*Card(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(16.dp)
-            ) {
-                Column(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(16.dp)
-                ) {
-                    TextField(
-                        value = listBody,
-                        onValueChange = { newValue -> listBody = newValue },
-                        label = { Text("List Body") }
-                    )
-                }
-
-            }*/
-
-
-
-
-
-
-
-
-
+//@Composable
+//fun onSaveButtonClick(title: String, importance: Boolean, label: String, body: String) {
+//    val savedItem = SavedItems(title, importance, label, body)
+//    val existingSavedItems = getSavedItemsFromStorage().toMutableList()
+//
+//    existingSavedItems.add(savedItem)
+//    saveItemsToStorage(existingSavedItems)
+//}
 
 
 

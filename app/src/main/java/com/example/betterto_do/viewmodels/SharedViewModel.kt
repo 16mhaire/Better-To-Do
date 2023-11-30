@@ -227,6 +227,10 @@ class SharedViewModel @Inject constructor(
              Priority.NONE -> getAllTask()
          }
      }
+
+    //Grabbing Tasks
+    val tasks = repository.getAllTask
+
     //These will help handle events that can be called in the UI
     private val _uiEvent = Channel<UiEvent> {  }
     val uiEvent = _uiEvent.receiveAsFlow()

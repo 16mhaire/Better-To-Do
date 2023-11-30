@@ -90,6 +90,8 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.48")
     implementation("androidx.hilt:hilt-navigation-fragment:1.1.0")
     implementation("androidx.hilt:hilt-work:1.1.0")
+    //This is what was needed to inject the view model
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
 
     implementation ("com.google.firebase:firebase-analytics:21.5.0")
     implementation("com.google.firebase:firebase-auth-ktx:22.2.0")

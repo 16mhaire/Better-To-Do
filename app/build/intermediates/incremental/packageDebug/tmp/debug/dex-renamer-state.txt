@@ -1,13 +1,13 @@
-#Mon Nov 20 18:08:29 EST 2023
-base.0=C\:\\Users\\anita\\AndroidStudioProjects\\Better-To-Do\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\anita\\AndroidStudioProjects\\Better-To-Do\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\anita\\AndroidStudioProjects\\Better-To-Do\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.3=C\:\\Users\\anita\\AndroidStudioProjects\\Better-To-Do\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.4=C\:\\Users\\anita\\AndroidStudioProjects\\Better-To-Do\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.5=C\:\\Users\\anita\\AndroidStudioProjects\\Better-To-Do\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.6=C\:\\Users\\anita\\AndroidStudioProjects\\Better-To-Do\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.7=C\:\\Users\\anita\\AndroidStudioProjects\\Better-To-Do\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.8=C\:\\Users\\anita\\AndroidStudioProjects\\Better-To-Do\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Wed Nov 29 17:16:34 PST 2023
+base.0=C\:\\Users\\kstote\\AndroidStudioProjects\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\kstote\\AndroidStudioProjects\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\kstote\\AndroidStudioProjects\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\Users\\kstote\\AndroidStudioProjects\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.4=C\:\\Users\\kstote\\AndroidStudioProjects\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.5=C\:\\Users\\kstote\\AndroidStudioProjects\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.6=C\:\\Users\\kstote\\AndroidStudioProjects\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.7=C\:\\Users\\kstote\\AndroidStudioProjects\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.8=C\:\\Users\\kstote\\AndroidStudioProjects\\Better-To-Do\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex

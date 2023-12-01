@@ -51,18 +51,15 @@ class Register : ComponentActivity() {
         setContent {
             BetterToDoTheme {
                 // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    RegisterScreen(Modifier, auth, userCredentials,
-                        onEmailChanged = { email ->
-                            userCredentials.value = userCredentials.value.copy(email = email)
-                        },
-                        onPasswordChanged = { password ->
-                            userCredentials.value = userCredentials.value.copy(password = password)
-                        })
-                }
+
+                RegisterScreen(Modifier, auth, userCredentials,
+                    onEmailChanged = { email ->
+                        userCredentials.value = userCredentials.value.copy(email = email)
+                    },
+                    onPasswordChanged = { password ->
+                        userCredentials.value = userCredentials.value.copy(password = password)
+                    })
+
             }
         }
     }
@@ -108,7 +105,13 @@ fun RegisterScreen(
 */
 
 @Composable
-fun RegisterScreen(modifier: Modifier = Modifier, auth: FirebaseAuth, userCredentials: MutableState<Register.UserCredentials>, onEmailChanged: (String) -> Unit, onPasswordChanged: (String) -> Unit) {
+fun RegisterScreen(
+    modifier: Modifier = Modifier,
+    auth: FirebaseAuth,
+    userCredentials: MutableState<Register.UserCredentials>,
+    onEmailChanged: (String) -> Unit,
+    onPasswordChanged: (String) -> Unit
+) {
     Surface(
         Modifier.fillMaxSize()
     ) {
@@ -117,25 +120,26 @@ fun RegisterScreen(modifier: Modifier = Modifier, auth: FirebaseAuth, userCreden
         ) {
             RegisterHeader()
             NewUserField("Email", false, onEmailChanged)
-            NewUserField("Password",false, onPasswordChanged)
-
-
+            NewUserField("Password", false, onPasswordChanged)
         }
+
+
 
         Column(
             verticalArrangement = Arrangement.Bottom
         ) {
+            ReturningUserButton()
             RegisterButton(
                 auth,
                 Register(),
                 userCredentials.value.email,
                 userCredentials.value.password
             )
-            ReturningUserButton()
         }
     }
 
 }
+
 
 @Composable
 fun RegisterHeader() {
@@ -208,39 +212,36 @@ fun RegisterButton(
         // Handle the result if needed
     }
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        verticalArrangement = Arrangement.Bottom
-    ) {
-        Button(
-            onClick = {
-                auth.createUserWithEmailAndPassword(email, password)
-                    .addOnCompleteListener(activity) { task ->
-                        if (task.isSuccessful) {
-                            //buttonState = true
-                            Toast.makeText(context, "Registration Successful", Toast.LENGTH_SHORT).show()
 
-                            val intent = Intent(context, Login::class.java)
-                            loginActivityLauncher.launch(intent)
-                        } else {
-                            //buttonState = false
-                            Toast.makeText(context, "Registration Failed", Toast.LENGTH_SHORT).show()
-                        }
+    Button(
+        onClick = {
+            auth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(activity) { task ->
+                    if (task.isSuccessful) {
+                        //buttonState = true
+                        Toast.makeText(context, "Registration Successful", Toast.LENGTH_SHORT)
+                            .show()
+
+                        val intent = Intent(context, Login::class.java)
+                        loginActivityLauncher.launch(intent)
+                    } else {
+                        //buttonState = false
+                        Toast.makeText(context, "Registration Failed", Toast.LENGTH_SHORT)
+                            .show()
                     }
-            },
-            modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
-        ) {
-            Text(text = "Register")
-            Spacer(Modifier.height(16.dp))
-        }
+                }
+        },
+        modifier = Modifier.fillMaxWidth(),
+        colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
+    ) {
+        Text(text = "Register")
+        Spacer(Modifier.height(16.dp))
     }
+
 }
 
 @Composable
-fun ReturningUserButton(){
+fun ReturningUserButton() {
     val context = LocalContext.current
 
     val registerActivityLauncher = rememberLauncherForActivityResult(
@@ -259,8 +260,8 @@ fun ReturningUserButton(){
         Text(
             "Have an account? Login here!"
         )
-        //Spacer(
-          //  modifier = Modifier.height(16.dp)
-        //)
+        Spacer(
+            modifier = Modifier.height(16.dp)
+        )
     }
 }

@@ -51,14 +51,18 @@ class Login : ComponentActivity() {
             BetterToDoTheme {
                 // A surface container using the 'background' color from the theme
                 LoginScreen(Modifier, auth, userCredentials)
-                }
             }
         }
     }
+}
 
 
 @Composable
-fun LoginScreen(modifier: Modifier = Modifier, auth: FirebaseAuth, userCredentials: MutableState<Register.UserCredentials>) {
+fun LoginScreen(
+    modifier: Modifier = Modifier,
+    auth: FirebaseAuth,
+    userCredentials: MutableState<Register.UserCredentials>
+) {
     Surface(
         Modifier.fillMaxSize()
     ) {
@@ -88,10 +92,10 @@ fun LoginScreen(modifier: Modifier = Modifier, auth: FirebaseAuth, userCredentia
 }
 
 @Composable
-fun LoginHeading(){
-    Column (
+fun LoginHeading() {
+    Column(
         verticalArrangement = Arrangement.Center
-    ){
+    ) {
         Text(
             text = "Welcome to Better To-Do",
             color = colorResource(id = R.color.cerulean),
@@ -106,18 +110,20 @@ fun LoginHeading(){
         )
     }
 }
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TextInputField(value:String, isPassword:Boolean, onValueChanged: (String) -> Unit) {
+fun TextInputField(value: String, isPassword: Boolean, onValueChanged: (String) -> Unit) {
     var text by remember { mutableStateOf("") }
     TextField(
         value = text,
         onValueChange = {
             text = it
-            onValueChanged(it) },
+            onValueChanged(it)
+        },
         label = {
             Text(value)
-                },
+        },
         modifier = Modifier
             .padding(10.dp)
             .fillMaxWidth(),
@@ -127,7 +133,7 @@ fun TextInputField(value:String, isPassword:Boolean, onValueChanged: (String) ->
 }
 
 @Composable
-fun LoginButton(auth: FirebaseAuth){
+fun LoginButton(auth: FirebaseAuth) {
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
     //var buttonState by remember { mutableStateOf("") }
@@ -140,39 +146,38 @@ fun LoginButton(auth: FirebaseAuth){
         // Handle the result if needed
     }
 
-        Button(
-            onClick = {
-                Log.d("MyApp", "Login button clicked")
-                      auth.signInWithEmailAndPassword(email, password).addOnCompleteListener{ task ->
-                          if (task.isSuccessful){
-                              //buttonState = "Login successful"
-                              Toast.makeText(context, "Login Successful", Toast.LENGTH_SHORT).show()
+    Button(
+        onClick = {
+            Log.d("MyApp", "Login button clicked")
+            auth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
+                if (task.isSuccessful) {
+                    //buttonState = "Login successful"
+                    Toast.makeText(context, "Login Successful", Toast.LENGTH_SHORT).show()
 
-                              val intent = Intent(context, MainActivity::class.java)
-                              mainActivityLauncher.launch(intent)
-                          }
-                          else{
-                              val exception = task.exception
-                              //buttonState = "Login failed: ${exception?.message}"
+                    val intent = Intent(context, MainActivity::class.java)
+                    mainActivityLauncher.launch(intent)
+                } else {
+                    val exception = task.exception
+                    //buttonState = "Login failed: ${exception?.message}"
 
-                              Toast.makeText(context, "Login Failed", Toast.LENGTH_SHORT).show()
-                              Log.d("MyApp", "Login failed: ${exception?.message}")
-                          }
-                      }
-
-                      },
-            modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
-            ) {
-                Text(text = "Login")
+                    Toast.makeText(context, "Login Failed", Toast.LENGTH_SHORT).show()
+                    Log.d("MyApp", "Login failed: ${exception?.message}")
+                }
             }
-            Spacer(modifier = Modifier.height(16.dp))
-            //Text(text = buttonState)
+
+        },
+        modifier = Modifier.fillMaxWidth(),
+        colors = ButtonDefaults.buttonColors(colorResource(id = R.color.frenchPink))
+    ) {
+        Text(text = "Login")
+    }
+    Spacer(modifier = Modifier.height(16.dp))
+    //Text(text = buttonState)
 
 }
 
 @Composable
-fun NewUserButton(){
+fun NewUserButton() {
     val context = LocalContext.current
 
     val registerActivityLauncher = rememberLauncherForActivityResult(
@@ -181,19 +186,19 @@ fun NewUserButton(){
         // Handle the result if needed
     }
 
-        Button(
-            onClick = {
-                val intent = Intent(context, Register::class.java)
-                registerActivityLauncher.launch(intent)
-            },
-            modifier = Modifier.fillMaxWidth()
-        ) {
+    Button(
+        onClick = {
+            val intent = Intent(context, Register::class.java)
+            registerActivityLauncher.launch(intent)
+        },
+        modifier = Modifier.fillMaxWidth()
+    ) {
         Text(
             "New User? Click Here!"
         )
         Spacer(
             modifier = Modifier.height(16.dp)
         )
-        }
+    }
 
 }

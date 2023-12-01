@@ -76,7 +76,7 @@ fun Dashboard() {
                         }}}
 
                 // ListCreationScreen placeholder
-                ListCreationScreen(onListCreated = {})
+               // ListCreationScreen(onListCreated = {})
                 LazyColumn {
                     items(tasks.value) { task ->
                         TaskWidget(task)

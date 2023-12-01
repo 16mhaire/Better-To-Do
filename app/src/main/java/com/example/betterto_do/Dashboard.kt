@@ -15,12 +15,15 @@ import androidx.compose.material3.TextField
 import androidx.compose.runtime.*
 import androidx.compose.ui.*
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.betterto_do.ui.theme.BetterToDoTheme
 
 data class Task(val name: String)
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
+@Preview(showBackground = true)
 fun Dashboard() {
     BetterToDoTheme {
         var showAddTaskUI by remember { mutableStateOf(false) }

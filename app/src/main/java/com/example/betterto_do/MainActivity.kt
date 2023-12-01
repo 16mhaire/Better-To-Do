@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BetterToDoTheme {
                 Surface(
+
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {

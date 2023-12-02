@@ -16,9 +16,22 @@ class Dashboard : ComponentActivity() {
         // Set the content of the ComposeView
         composeView.setContent {
             BetterToDoTheme {
-                ListCreationScreen()
-                //TaskItem()
+           DashboardScreen()
             }
         }
     }
+}
+@Composable
+fun DashboardScreen() {
+    // You can switch between different screens or show them based on some condition
+    ListCreationScreen()
+    TaskItem()
+}
+@Composable
+fun ListCreationScreen() {
+    // Define the UI for creating lists
+}
+@Composable
+fun TaskItem() {
+    // Define the UI for displaying a task item
 }

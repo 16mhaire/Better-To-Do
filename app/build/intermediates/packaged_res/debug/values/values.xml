@@ -16,5 +16,5 @@
     <string name="app_name">BetterTo-Do</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_register">Register</string>
-    <style name="Theme.BetterToDo" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.BetterToDo" parent="Theme.AppCompat.Light.NoActionBar"/>
 </resources>

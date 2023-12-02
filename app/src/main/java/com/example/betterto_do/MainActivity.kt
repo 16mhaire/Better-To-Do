@@ -1,29 +1,32 @@
 package com.example.betterto_do
 
+import android.R
 import android.os.Bundle
+import android.view.View
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.ui.Modifier
-import com.example.betterto_do.ui.theme.BetterToDoTheme
-import com.google.firebase.FirebaseApp
+import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        FirebaseApp.initializeApp(this)
-        setContent {
-            BetterToDoTheme {
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background,
-                ) {
-                    Dashboard()
-                }
-            }
+    class YourActivity : AppCompatActivity() {
+        override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            setContentView(R.layout.activity_list_item) // replace with your layout file name
         }
+
+        // This method is linked with the button that has android:onClick="TasksItem"
+        fun Today(view: View?) {
+            // Handle the click event for TasksItem
+        }
+        // Define similar methods for other buttons
+        fun Important(view: View?) {
+            // Handle the click event for important
+        }
+        fun Scheduled(view: View?) {
+            // Handle the click event for important
+        }
+        fun getAllTask(view: View?) {
+            // Handle the click event for All
+        } // ... other methods ...
     }
 }

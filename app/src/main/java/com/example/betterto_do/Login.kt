@@ -85,7 +85,7 @@ fun LoginScreen(
             verticalArrangement = Arrangement.Bottom
         ) {
             NewUserButton()
-            LoginButton(auth)
+            LoginButton(auth, userCredentials)
         }
     }
 
@@ -133,9 +133,9 @@ fun TextInputField(value: String, isPassword: Boolean, onValueChanged: (String) 
 }
 
 @Composable
-fun LoginButton(auth: FirebaseAuth) {
-    var email by remember { mutableStateOf("") }
-    var password by remember { mutableStateOf("") }
+fun LoginButton(auth: FirebaseAuth, userCredentials: MutableState<Register.UserCredentials>) {
+    //var email by remember { mutableStateOf("") }
+    //var password by remember { mutableStateOf("") }
     //var buttonState by remember { mutableStateOf("") }
 
     val context = LocalContext.current
@@ -149,7 +149,7 @@ fun LoginButton(auth: FirebaseAuth) {
     Button(
         onClick = {
             Log.d("MyApp", "Login button clicked")
-            auth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
+            auth.signInWithEmailAndPassword(userCredentials.value.email, userCredentials.value.password).addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     //buttonState = "Login successful"
                     Toast.makeText(context, "Login Successful", Toast.LENGTH_SHORT).show()

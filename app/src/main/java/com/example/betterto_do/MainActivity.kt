@@ -43,6 +43,7 @@ class MainActivity : ComponentActivity() {
                         startActivity(intent)
                         finish()
                     }
+                    Dashboard()
                 }
             }
         }

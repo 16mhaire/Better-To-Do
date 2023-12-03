@@ -7,45 +7,37 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import com.example.betterto_do.ui.theme.BetterToDoTheme
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 
-
-
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         FirebaseApp.initializeApp(this)
+
         setContent {
             BetterToDoTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background,
+                    color = MaterialTheme.colorScheme.background
                 ) {
-                    var isLoggedIn = FirebaseAuth.getInstance().currentUser
-                    /*if (isLoggedIn != null){
+                    val isLoggedIn = FirebaseAuth.getInstance().currentUser != null
+                    if (isLoggedIn) {
                         Dashboard()
+                    } else {
+                        // Navigate to Login Activity
+                        navigateToLogin()
                     }
-                    else{
-                        val intent = Intent(this, Login::class.java)
-                        startActivity(intent)
-                        finish()
-                    }*/
-
-                    while(isLoggedIn == null){
-                        val intent = Intent(this, Login::class.java)
-                        startActivity(intent)
-                        finish()
-                    }
-                    Dashboard()
                 }
             }
         }
+    }
+
+    private fun navigateToLogin() {
+        val intent = Intent(this, Login::class.java)
+        startActivity(intent)
+        finish() // Finish MainActivity to prevent returning to it after logging in
     }
 }

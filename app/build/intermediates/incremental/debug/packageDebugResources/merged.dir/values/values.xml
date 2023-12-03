@@ -21,6 +21,7 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDbho-3ra_iYluJ8uGcRCLNZL4_1oCxq6s</string>
     <string name="google_storage_bucket" translatable="false">bettertodo-b49c9.appspot.com</string>
     <string name="project_id" translatable="false">bettertodo-b49c9</string>
+    <string name="title_activity_dashboard">Dashboard</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_register">Register</string>
     <style name="Theme.BetterToDo" parent="Theme.AppCompat.Light.NoActionBar"/>

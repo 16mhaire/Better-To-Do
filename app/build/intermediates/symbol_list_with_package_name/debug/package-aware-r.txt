@@ -3376,6 +3376,10 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_holder
+id button2
+id button3
+id button4
+id button5
 id buttonPanel
 id button_continue
 id button_create
@@ -3408,6 +3412,7 @@ id clockwise
 id closest
 id collapseActionView
 id color_indicator
+id compose_view
 id compose_view_saveable_id_tag
 id compress
 id confirm_button
@@ -4420,6 +4425,7 @@ string status_bar_notification_info_overflow
 string switch_role
 string tab
 string template_percent
+string title_activity_dashboard
 string title_activity_login
 string title_activity_register
 style AlertDialog_AppCompat

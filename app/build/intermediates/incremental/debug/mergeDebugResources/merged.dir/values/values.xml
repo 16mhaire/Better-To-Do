@@ -2372,6 +2372,7 @@
     <string name="switch_role">Switch</string>
     <string name="tab">Tab</string>
     <string name="template_percent"><ns2:g id="percentage">%1$d</ns2:g> percent.</string>
+    <string name="title_activity_dashboard">Dashboard</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_register">Register</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

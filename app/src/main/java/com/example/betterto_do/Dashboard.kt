@@ -97,6 +97,7 @@ fun TaskWidget(task: Task) {
             .padding(8.dp)
             .border(1.dp, Color.Black)
             .fillMaxWidth()
+
     )
     // Add more elements as needed
 }

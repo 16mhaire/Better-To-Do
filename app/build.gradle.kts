@@ -64,7 +64,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.ui:ui-tooling")
 
-    implementation("androidx.databinding:databinding-runtime:8.1.3")
+    implementation("androidx.databinding:databinding-runtime:8.2.0")
 
     implementation("androidx.datastore:datastore-core:1.0.0")
     implementation("androidx.datastore:datastore-preferences-core:1.0.0")
@@ -92,7 +92,7 @@ dependencies {
     implementation("androidx.hilt:hilt-work:1.1.0")
 
     implementation ("com.google.firebase:firebase-analytics:21.5.0")
-    implementation("com.google.firebase:firebase-auth-ktx:22.2.0")
+    implementation("com.google.firebase:firebase-auth-ktx:22.3.0")
     implementation ("com.firebaseui:firebase-ui-auth:7.2.0")
 
     implementation("com.airbnb.android:lottie:3.4.0")
@@ -100,8 +100,8 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
 
-    implementation("androidx.room:room-runtime:2.6.0")
-    implementation("androidx.room:room-ktx:2.6.0")
+    implementation("androidx.room:room-runtime:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1")
     
     implementation("com.github.QuadFlask:colorpicker:0.0.15")
 
@@ -114,7 +114,7 @@ dependencies {
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     
-    testImplementation("junit:junit:4.+")
+    testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
@@ -134,5 +134,5 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2")
 
-    implementation ("androidx.work:work-runtime-ktx:2.8.1")
+    implementation ("androidx.work:work-runtime-ktx:2.9.0")
 }

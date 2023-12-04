@@ -279,6 +279,12 @@
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.betterto_do.androidx-startup"
@@ -388,11 +394,6 @@
                 <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
             </intent-filter>
         </receiver>
-
-        <service
-            android:name="androidx.room.MultiInstanceInvalidationService"
-            android:directBootAware="true"
-            android:exported="false" />
 
         <uses-library
             android:name="android.ext.adservices"

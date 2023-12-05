@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-103:/values-ja/values-ja.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-105:/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\31aaed86389da8e6cf12c1e2d4524b49\\transformed\\ui-release\\res\\values-ja\\values-ja.xml",

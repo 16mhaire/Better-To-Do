@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-103:/values-de/values-de.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-105:/values-de/values-de.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\a61b68540d5b22d903536d5ee78ef0fa\\transformed\\play-services-base-18.0.1\\res\\values-de\\values.xml",

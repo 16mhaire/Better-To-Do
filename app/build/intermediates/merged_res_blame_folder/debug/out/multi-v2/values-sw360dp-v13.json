@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-103:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-105:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\1e05f8bbeb8addf9f7ef113e7f5bf25c\\transformed\\firebase-ui-auth-7.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",

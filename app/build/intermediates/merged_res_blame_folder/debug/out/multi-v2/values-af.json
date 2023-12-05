@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-103:/values-af/values-af.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-105:/values-af/values-af.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\df930cad8329c51d413dec3a1d8b2820\\transformed\\play-services-basement-18.1.0\\res\\values-af\\values.xml",

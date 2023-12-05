@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-103:/values-gl/values-gl.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-105:/values-gl/values-gl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\cd4c84cc2d8e5d33658b54ece87281ca\\transformed\\navigation-ui-2.7.5\\res\\values-gl\\values-gl.xml",

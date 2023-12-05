@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-103:/values-es-rCR/values-es-rCR.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-105:/values-es-rCR/values-es-rCR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jaite\\.gradle\\caches\\transforms-3\\1e05f8bbeb8addf9f7ef113e7f5bf25c\\transformed\\firebase-ui-auth-7.2.0\\res\\values-es-rCR\\values-es-rCR.xml",

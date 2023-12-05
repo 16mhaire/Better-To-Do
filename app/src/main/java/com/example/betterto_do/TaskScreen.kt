@@ -34,7 +34,7 @@ fun TaskScreen(
 ) {
     //grabbing the tasks with the initial start being an empty list
     val tasks = viewModel.tasks.collectAsState(initial = emptyList())
-    //scaffold state for the snackbar
+    //scaffold state for the snack bar
     var scaffoldState = rememberScaffoldState()
 
     LaunchedEffect(key1 = true) {

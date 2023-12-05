@@ -119,12 +119,12 @@ class SharedViewModel @Inject constructor(
     fun updateFieldsWithCurrentSelectedTask(task: Task?){
 
             if (task != null) {
-                id.value = task.id
+                id.value = task.id ?: -1
                 taskName.value = task.taskName
                 taskDescription.value = task.taskDescription
-                priority.value = task.taskPriority
+                priority.value = task.taskPriority ?: Priority.LOW
             } else {
-                id.value = 0
+                id.value = -1
                 taskName.value = ""
                 taskDescription.value = null
                 priority.value = Priority.LOW
@@ -255,11 +255,11 @@ class SharedViewModel @Inject constructor(
             }
             is TaskEvent.OnTaskClick -> {
                 //calling the coroutine (below) for navigation
-                sendUiEvent(UiEvent.Navigate(Routes.ADD_EDIT_TODO + "?taskId=${event.task.id}"))
+                sendUiEvent(UiEvent.Navigate(Routes.ADD_EDIT_TASK + "?taskId=${event.task.id}"))
             }
             is TaskEvent.OnAddTaskClick -> {
                 //calling the coroutine (below) for navigation
-                sendUiEvent(UiEvent.Navigate(Routes.ADD_EDIT_TODO))
+                sendUiEvent(UiEvent.Navigate(Routes.ADD_EDIT_TASK))
             }
             is TaskEvent.OnDoneChange -> {
                 viewModelScope.launch {

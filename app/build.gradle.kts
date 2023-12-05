@@ -85,7 +85,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     kapt("com.google.dagger:hilt-compiler:2.48.1")
-    implementation("com.google.dagger:hilt-android:2.48")
+    implementation("com.google.dagger:hilt-android:2.48.1")
     implementation ("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0")
     implementation("com.google.dagger:hilt-android:2.48")
     implementation("androidx.hilt:hilt-navigation-fragment:1.1.0")

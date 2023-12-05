@@ -6,10 +6,10 @@ import java.time.LocalTime
 
 @Entity(tableName = CONSTANTS.DATABASE_TABLE)
 data class Task(
-    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    @PrimaryKey val id: Int? = null,
     val taskName: String,
     val taskDescription: String?,
-    val taskPriority: Priority,
+    val taskPriority: Priority?,
     val taskDueDate: LocalTime? = null,
     val taskCompleted: Boolean = false,
 )
@@ -36,7 +36,7 @@ object CONSTANTS {
 fun createNewTask(
     taskName: String,
     taskDescription: String?,
-    taskPriority: Priority,
+    taskPriority: Priority? = null,
     taskDueDate: LocalTime? = null,
     taskCompleted: Boolean = false
 ): Task {

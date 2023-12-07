@@ -19,7 +19,6 @@ import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_andro
 import dagger.hilt.processor.internal.definecomponent.codegen._dagger_hilt_components_SingletonComponent;
 import hilt_aggregated_deps._androidx_hilt_work_HiltWrapper_WorkerFactoryModule;
 import hilt_aggregated_deps._com_example_betterto_do_BetterToDoApp_GeneratedInjector;
-import hilt_aggregated_deps._com_example_betterto_do_MainActivity_GeneratedInjector;
 import hilt_aggregated_deps._com_example_betterto_do_dependencyinjection_AppModule;
 import hilt_aggregated_deps._com_example_betterto_do_tasks_TaskRepository_HiltModules_BindsModule;
 import hilt_aggregated_deps._com_example_betterto_do_tasks_TaskRepository_HiltModules_KeyModule;
@@ -68,7 +67,6 @@ import hilt_aggregated_deps._dagger_hilt_android_internal_modules_HiltWrapper_Ac
     aggregatedDeps = {
         _androidx_hilt_work_HiltWrapper_WorkerFactoryModule.class,
         _com_example_betterto_do_BetterToDoApp_GeneratedInjector.class,
-        _com_example_betterto_do_MainActivity_GeneratedInjector.class,
         _com_example_betterto_do_dependencyinjection_AppModule.class,
         _com_example_betterto_do_tasks_TaskRepository_HiltModules_BindsModule.class,
         _com_example_betterto_do_tasks_TaskRepository_HiltModules_KeyModule.class,

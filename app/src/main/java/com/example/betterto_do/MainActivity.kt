@@ -10,20 +10,21 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.example.betterto_do.ui.theme.BetterToDoTheme
 import com.google.firebase.FirebaseApp
-import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         FirebaseApp.initializeApp(this)
-
+        //set screen
+        //setContentView()
         setContent {
             BetterToDoTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    val isLoggedIn = FirebaseAuth.getInstance().currentUser != null
+                    //val isLoggedIn = FirebaseAuth.getInstance().currentUser != null
+                    val isLoggedIn = true
                     if (isLoggedIn) {
                         Dashboard()
                     } else {

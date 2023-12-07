@@ -12,7 +12,30 @@ data class Task(
     val taskPriority: Priority?,
     val taskDueDate: LocalTime? = null,
     val taskCompleted: Boolean = false,
+
+    // SubTasks
+    val subTask: Any = object {
+        val subTaskName = "Name"
+        val subTaskDescription: String? = TODO()
+        val subTaskPriority: Priority= TODO()
+        val subTaskDueDate: LocalTime? = null
+        val subTaskCompleted: Boolean= TODO()
+
+        override fun toString() = subTaskName
+    }
 )
+
+
+
+
+
+
+
+
+
+
+
+
 
 object CONSTANTS {
     const val DATABASE_TABLE = "task_table"

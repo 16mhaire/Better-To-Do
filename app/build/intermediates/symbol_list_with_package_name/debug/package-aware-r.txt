@@ -3376,6 +3376,10 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_holder
+id button2
+id button3
+id button4
+id button5
 id buttonPanel
 id button_continue
 id button_create
@@ -3408,6 +3412,7 @@ id clockwise
 id closest
 id collapseActionView
 id color_indicator
+id compose_view
 id compose_view_saveable_id_tag
 id compress
 id confirm_button
@@ -3983,6 +3988,7 @@ layout color_preview
 layout color_selector
 layout color_widget
 layout custom_dialog
+layout dashboardlayout
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -4284,6 +4290,11 @@ string fui_welcome_back_email_link_prompt_body
 string fui_welcome_back_idp_header
 string fui_welcome_back_idp_prompt
 string fui_welcome_back_password_prompt_body
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string in_progress
@@ -4400,6 +4411,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string project_id
 string range_end
 string range_start
 string search_menu_title
@@ -4413,6 +4425,7 @@ string status_bar_notification_info_overflow
 string switch_role
 string tab
 string template_percent
+string title_activity_dashboard
 string title_activity_login
 string title_activity_register
 style AlertDialog_AppCompat

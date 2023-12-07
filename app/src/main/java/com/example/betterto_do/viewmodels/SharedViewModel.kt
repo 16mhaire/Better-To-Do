@@ -175,9 +175,35 @@ class SharedViewModel @Inject constructor(
         }
     }
 
+    private fun deleteSubTask() {
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.deleteSubTask(
+                Task(
+                    id = id.value,
+                    taskName = taskName.value,
+                    taskDescription = taskDescription.value,
+                    taskPriority = priority.value,
+                )
+            )
+        }
+    }
+
     private fun updateTask() {
         viewModelScope.launch(Dispatchers.IO) {
             repository.updateTask(
+                Task(
+                    id = id.value,
+                    taskName = taskName.value,
+                    taskDescription = taskDescription.value,
+                    taskPriority = priority.value,
+                )
+            )
+        }
+    }
+
+    private fun updateSubTask() {
+        viewModelScope.launch(Dispatchers.IO) {
+            repository.updateSubTask(
                 Task(
                     id = id.value,
                     taskName = taskName.value,
@@ -192,6 +218,14 @@ class SharedViewModel @Inject constructor(
         viewModelScope.launch(Dispatchers.IO) {
             val task = Task(taskName = taskName.value, taskDescription = taskDescription.value, taskPriority = priority.value)
             repository.insertTask(task)
+        }
+        listAppBarState.value = ListAppBarState.CLOSED
+    }
+
+    private fun addSubTask(){
+        viewModelScope.launch(Dispatchers.IO) {
+            val subTask = Task(taskName = taskName.value, taskDescription = taskDescription.value, taskPriority = priority.value)
+            repository.insertSubTask(subTask)
         }
         listAppBarState.value = ListAppBarState.CLOSED
     }

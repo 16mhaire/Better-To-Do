@@ -11,47 +11,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BetterToDo">
-
-        <!-- Service Declarations -->
+        <activity
+            android:name=".tasks.DashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.BetterToDo" /> <!-- Service Declarations -->
         <service
             android:name=".MyService"
             android:enabled="true"
-            android:exported="true"/>
-
-        <!-- Firebase Service -->
-        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:directBootAware="true">
+            android:exported="true" /> <!-- Firebase Service -->
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true">
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
-        </service>
-
-        <!-- Activity Declarations -->
-        <activity
-            android:name=".Register"
-            android:exported="true"
-            android:label="@string/title_activity_register"
-            android:theme="@style/Theme.BetterToDo" />
-        <activity
-            android:name=".Login"
-            android:exported="true"
-            android:label="@string/title_activity_login"
-            android:theme="@style/Theme.BetterToDo" />
+        </service> <!-- Activity Declarations -->
+        <!-- <activity -->
+        <!-- android:name=".Register" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_register" -->
+        <!-- android:theme="@style/Theme.BetterToDo" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Login" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_login" -->
+        <!-- android:theme="@style/Theme.BetterToDo" /> -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.BetterToDo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Dashboard Activity Declaration -->
-        <activity
-            android:name=".Dashboard"
-            android:exported="true"
-            android:label="@string/title_activity_dashboard"
-            android:theme="@style/Theme.BetterToDo" />
     </application>
 
 </manifest>

@@ -12,30 +12,7 @@ data class Task(
     val taskPriority: Priority,
     val taskDueDate: LocalTime? = null,
     val taskCompleted: Boolean = false,
-
-    // SubTasks
-    val subTask: Any = object {
-        val subTaskName = "Name"
-        val subTaskDescription: String? = TODO()
-        val subTaskPriority: Priority= TODO()
-        val subTaskDueDate: LocalTime? = null
-        val subTaskCompleted: Boolean= TODO()
-
-        override fun toString() = subTaskName
-    }
 )
-
-
-
-
-
-
-
-
-
-
-
-
 
 object CONSTANTS {
     const val DATABASE_TABLE = "task_table"
@@ -53,23 +30,6 @@ object CONSTANTS {
 
     const val PREFERENCE_NAME = "todo_preference"
     const val PREFERENCE_KEY = "sort_order"
-}
-
-//Feel free to edit/delete/change everything below this line. I was just testing
-fun createNewTask(
-    taskName: String,
-    taskDescription: String?,
-    taskPriority: Priority,
-    taskDueDate: LocalTime? = null,
-    taskCompleted: Boolean = false
-): Task {
-    return Task(
-        taskName = taskName,
-        taskDescription = taskDescription,
-        taskPriority = taskPriority,
-        taskDueDate = taskDueDate,
-        taskCompleted = taskCompleted
-    )
 }
 
 enum class Action {

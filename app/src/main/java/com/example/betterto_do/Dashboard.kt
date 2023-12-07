@@ -1,5 +1,6 @@
 package com.example.betterto_do
 
+import androidx.activity.ComponentActivity
 import android.content.Intent
 import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -79,9 +80,9 @@ fun Dashboard() {
             }
 
             // Rest of your Dashboard UI...
-            LogOutButton {
-                logOut()
-            }
+//            LogOutButton {
+//                logOut()
+//            }
         }
     }
 // Rest of the Dashboard logic for handling different screens...
@@ -128,28 +129,28 @@ fun AddTaskUI(onTaskAdded: (Task) -> Unit) {
 //
 // I added this log out button. Spruce it up however you see fit. I made it return the user to mainActivity, where the control flow will send them back to the login screen. - Mason
 //
-@Composable
-fun LogOutButton(logout: () -> Unit){
-
-    val context = LocalContext.current
-
-    val loginActivityLauncher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.StartActivityForResult()
-    ) { activityResult ->
-        // Handle the result if needed
-    }
-
-    Button(onClick = { logOut()
-        val intent = Intent(context, Login::class.java)
-        loginActivityLauncher.launch(intent)
-
-        Toast.makeText(context, "User signed out", Toast.LENGTH_SHORT).show() }
-    ) {
-
-        Text(text = "Log Out")
-    }
-}
-
-fun logOut(){
-    FirebaseAuth.getInstance().signOut()
-}
+//@Composable
+//fun LogOutButton(logout: () -> Unit){
+//
+//    val context = LocalContext.current
+//
+//    val loginActivityLauncher = rememberLauncherForActivityResult(
+//        contract = ActivityResultContracts.StartActivityForResult()
+//    ) { activityResult ->
+//        // Handle the result if needed
+//    }
+//
+//    Button(onClick = { logOut()
+//        val intent = Intent(context, Login::class.java)
+//        loginActivityLauncher.launch(intent)
+//
+//        Toast.makeText(context, "User signed out", Toast.LENGTH_SHORT).show() }
+//    ) {
+//
+//        Text(text = "Log Out")
+//    }
+//}
+//
+//fun logOut(){
+//    FirebaseAuth.getInstance().signOut()
+//}

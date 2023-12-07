@@ -4,7 +4,17 @@
             "outputFile": "com.example.betterto_do.app-mergeDebugResources-104:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\3b426df17369fca898a1294d23792365\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\78aff1e302b85eaaa34766261c6102f4\\transformed\\work-runtime-2.9.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\999c95ee5b92d2ca505aec20a366c61f\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +33,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\898d55b55b744b85be594d6d59d4ee89\\transformed\\material-1.10.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\3edc50a1531922786ae14f5a2e28fc6d\\transformed\\material-1.10.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,21,25,28,31,34,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -33,26 +43,16 @@
                         "endOffsets": "266,408,569,779,1099,1336,1543,1750,1953,2285,2487,2752,3025"
                     },
                     "to": {
-                        "startLines": "55,58,62,66,69,74,78,81,84,87,92,95,99",
+                        "startLines": "61,64,68,72,75,80,84,87,90,93,98,101,105",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3511,3727,3869,4030,4240,4560,4797,5004,5211,5414,5746,5948,6213",
-                        "endLines": "57,61,65,68,73,77,80,83,86,91,94,98,102",
+                        "startOffsets": "3836,4052,4194,4355,4565,4885,5122,5329,5536,5739,6071,6273,6538",
+                        "endLines": "63,67,71,74,79,83,86,89,92,97,100,104,108",
                         "endColumns": "10,10,10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "3722,3864,4025,4235,4555,4792,4999,5206,5409,5741,5943,6208,6481"
+                        "endOffsets": "4047,4189,4350,4560,4880,5117,5324,5531,5734,6066,6268,6533,6806"
                     }
                 },
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\e5196578a413d65963a2422d0ce16e9b\\transformed\\work-runtime-2.8.1\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\2c7fe5a76aa2a144c8c73656b482d9ae\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\8b0919571b4b4a00cf2450dfd47f2089\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -68,6 +68,25 @@
                         "endLines": "4,5,6,7,21,35,36,37,40,44,45,46,47,51",
                         "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
                         "endOffsets": "314,449,524,611,1349,2099,2218,2345,2567,2791,2906,3013,3126,3356"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Groobles\\AndroidStudioProjects\\Better-To-Do\\app\\src\\main\\res\\values-v23\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "64",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "434"
+                    },
+                    "to": {
+                        "startLines": "55",
+                        "startColumns": "4",
+                        "startOffsets": "3511",
+                        "endLines": "60",
+                        "endColumns": "12",
+                        "endOffsets": "3831"
                     }
                 }
             ]

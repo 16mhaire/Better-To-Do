@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="24"
+        android:minSdkVersion="31"
         android:targetSdkVersion="34" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -37,14 +37,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.BetterToDo" >
-
-        <!-- Service Declarations -->
+        <activity
+            android:name="com.example.betterto_do.tasks.DashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.BetterToDo" /> <!-- Service Declarations -->
         <service
             android:name="com.example.betterto_do.MyService"
             android:enabled="true"
-            android:exported="true" />
-
-        <!-- Firebase Service -->
+            android:exported="true" /> <!-- Firebase Service -->
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
             android:directBootAware="true"
@@ -70,19 +71,17 @@
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
-        </service>
-
-        <!-- Activity Declarations -->
-        <activity
-            android:name="com.example.betterto_do.Register"
-            android:exported="true"
-            android:label="@string/title_activity_register"
-            android:theme="@style/Theme.BetterToDo" />
-        <activity
-            android:name="com.example.betterto_do.Login"
-            android:exported="true"
-            android:label="@string/title_activity_login"
-            android:theme="@style/Theme.BetterToDo" />
+        </service> <!-- Activity Declarations -->
+        <!-- <activity -->
+        <!-- android:name=".Register" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_register" -->
+        <!-- android:theme="@style/Theme.BetterToDo" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Login" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_login" -->
+        <!-- android:theme="@style/Theme.BetterToDo" /> -->
         <activity
             android:name="com.example.betterto_do.MainActivity"
             android:exported="true"
@@ -93,13 +92,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Dashboard Activity Declaration -->
-        <activity
-            android:name="com.example.betterto_do.Dashboard"
-            android:exported="true"
-            android:label="@string/title_activity_dashboard"
-            android:theme="@style/Theme.BetterToDo" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -198,21 +190,6 @@
             android:name="androidx.activity.ComponentActivity"
             android:exported="true" />
         <activity
-            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <!--
-            Service handling Google Sign-In user revocation. For apps that do not integrate with
-            Google Sign-In, this service will never be started.
-        -->
-        <service
-            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-            android:exported="true"
-            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-            android:visibleToInstantApps="true" />
-
-        <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -248,6 +225,20 @@
                     android:scheme="recaptcha" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -275,6 +266,12 @@
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.betterto_do.androidx-startup"
@@ -384,11 +381,6 @@
                 <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
             </intent-filter>
         </receiver>
-
-        <service
-            android:name="androidx.room.MultiInstanceInvalidationService"
-            android:directBootAware="true"
-            android:exported="false" />
 
         <uses-library
             android:name="android.ext.adservices"

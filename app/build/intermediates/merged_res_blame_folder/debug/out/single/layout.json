@@ -12,8 +12,8 @@
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\layout\\fragment_dialog.xml"
     },
     {
-        "merged": "com.example.betterto_do.app-mergeDebugResources-105:/layout/fragment_item_list.xml",
-        "source": "com.example.betterto_do.app-main-108:/layout/fragment_item_list.xml"
+        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-105:\\layout\\fragment_item_list.xml",
+        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\layout\\fragment_item_list.xml"
     },
     {
         "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-105:\\layout\\activity_dashboard.xml",
@@ -26,6 +26,10 @@
     {
         "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-105:\\layout\\fragment_list.xml",
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-105:\\layout\\fragment_item.xml",
+        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\layout\\fragment_item.xml"
     },
     {
         "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-105:\\layout\\task_list_item.xml",
@@ -48,7 +52,7 @@
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\layout\\fragment_edit.xml"
     },
     {
-        "merged": "com.example.betterto_do.app-mergeDebugResources-105:/layout/fragment_item.xml",
-        "source": "com.example.betterto_do.app-main-108:/layout/fragment_item.xml"
+        "merged": "com.example.betterto_do.app-mergeDebugResources-105:/layout/fragment_list.xml",
+        "source": "com.example.betterto_do.app-main-108:/layout/fragment_list.xml"
     }
 ]

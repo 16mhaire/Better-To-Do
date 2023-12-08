@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\drawable\\ic_prio_low.xml"
     },
     {
+        "merged": "com.example.betterto_do.app-merged_res-106:/layout_fragment_list.xml.flat",
+        "source": "com.example.betterto_do.app-main-108:/layout/fragment_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-106:\\layout_task_list_item.xml.flat",
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\layout\\task_list_item.xml"
     },
@@ -38,10 +42,6 @@
     {
         "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-106:\\layout_fragment_second.xml.flat",
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\layout\\fragment_second.xml"
-    },
-    {
-        "merged": "com.example.betterto_do.app-merged_res-106:/layout_fragment_item_list.xml.flat",
-        "source": "com.example.betterto_do.app-main-108:/layout/fragment_item_list.xml"
     },
     {
         "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-106:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -104,6 +104,10 @@
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-106:\\layout_fragment_item.xml.flat",
+        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\layout\\fragment_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-106:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\layout\\activity_main.xml"
     },
@@ -140,16 +144,16 @@
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\font\\rubik_bold.ttf"
     },
     {
+        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-106:\\layout_fragment_item_list.xml.flat",
+        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\layout\\fragment_item_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-106:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-106:\\drawable_ic_notifications.xml.flat",
         "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-108:\\drawable\\ic_notifications.xml"
-    },
-    {
-        "merged": "com.example.betterto_do.app-merged_res-106:/layout_fragment_item.xml.flat",
-        "source": "com.example.betterto_do.app-main-108:/layout/fragment_item.xml"
     },
     {
         "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-106:\\layout_settings_activity.xml.flat",

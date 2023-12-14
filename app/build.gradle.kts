@@ -41,6 +41,7 @@ android {
     }
     buildFeatures {
         compose = true
+        dataBinding = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
@@ -137,5 +138,6 @@ dependencies {
 
     implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
     implementation("com.google.firebase:firebase-analytics:21.5.0")
+    implementation("com.google.code.gson:gson:2.10")
 
 }

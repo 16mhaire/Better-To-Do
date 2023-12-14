@@ -14,12 +14,12 @@ import androidx.compose.ui.unit.dp
 //import com.google.gson.Gson
 //import com.google.gson.reflect.TypeToken
 
-data class SavedList(
-    val title: String,
-    val importance: Boolean,
-    val label: String,
-    val notes: String
-)
+//data class SavedList(
+//    val title: String,
+//    val importance: Boolean,
+//    val label: String,
+//    val notes: String
+//)
 
 //@Composable
 //fun getSavedListsFromStorage(): List<SavedList> {

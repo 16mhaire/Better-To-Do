@@ -11,11 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BetterToDo">
-        <activity
-            android:name=".tasks.DashboardActivity"
-            android:exported="false"
-            android:label="@string/title_activity_dashboard"
-            android:theme="@style/Theme.BetterToDo" /> <!-- Service Declarations -->
+<!--        <activity-->
+<!--            android:name=".tasks.DashboardActivity"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/title_activity_dashboard"-->
+<!--            android:theme="@style/Theme.BetterToDo" /> &lt;!&ndash; Service Declarations &ndash;&gt;-->
         <service
             android:name=".MyService"
             android:enabled="true"

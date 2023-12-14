@@ -15,6 +15,10 @@
         android:name="com.example.betterto_do.NewDestinationFragment">
         <!-- Add your actions or arguments here -->
     </fragment>
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.betterto_do.Login"
+        android:label="Login" />
 
     <!-- Add more fragments and actions as needed for your app's screens -->
 

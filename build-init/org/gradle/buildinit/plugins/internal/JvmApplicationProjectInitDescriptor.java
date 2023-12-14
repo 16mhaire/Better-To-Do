@@ -32,8 +32,8 @@ import static com.google.common.collect.Lists.newArrayList;
 
 public class JvmApplicationProjectInitDescriptor extends JvmProjectInitDescriptor {
 
-    public JvmApplicationProjectInitDescriptor(Description description, TemplateLibraryVersionProvider libraryVersionProvider, DocumentationRegistry documentationRegistry) {
-        super(description, libraryVersionProvider, documentationRegistry);
+    public JvmApplicationProjectInitDescriptor(Description descriptionription, TemplateLibraryVersionProvider libraryVersionProvider, DocumentationRegistry documentationRegistry) {
+        super(descriptionription, libraryVersionProvider, documentationRegistry);
     }
 
     @Override

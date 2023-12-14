@@ -30,37 +30,37 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class CompositeProjectInitDescriptor implements BuildInitializer {
-    private final ProjectGenerator descriptor;
+    private final ProjectGenerator descriptionriptor;
     private final List<? extends BuildContentGenerator> generators;
 
     public CompositeProjectInitDescriptor(ProjectGenerator projectGenerator, List<? extends BuildContentGenerator> generators) {
         this.generators = generators;
-        this.descriptor = projectGenerator;
+        this.descriptionriptor = projectGenerator;
     }
 
     @Override
     public String getId() {
-        return descriptor.getId();
+        return descriptionriptor.getId();
     }
 
     @Override
     public ComponentType getComponentType() {
-        return descriptor.getComponentType();
+        return descriptionriptor.getComponentType();
     }
 
     @Override
     public Language getLanguage() {
-        return descriptor.getLanguage();
+        return descriptionriptor.getLanguage();
     }
 
     @Override
     public boolean supportsJavaTargets() {
-        return descriptor.isJvmLanguage();
+        return descriptionriptor.isJvmLanguage();
     }
 
     @Override
     public Set<ModularizationOption> getModularizationOptions() {
-        return descriptor.getModularizationOptions();
+        return descriptionriptor.getModularizationOptions();
     }
 
     @Override
@@ -70,12 +70,12 @@ public class CompositeProjectInitDescriptor implements BuildInitializer {
 
     @Override
     public boolean supportsPackage() {
-        return descriptor.supportsPackage();
+        return descriptionriptor.supportsPackage();
     }
 
     @Override
     public BuildInitDsl getDefaultDsl() {
-        return descriptor.getDefaultDsl();
+        return descriptionriptor.getDefaultDsl();
     }
 
     @Override
@@ -85,17 +85,17 @@ public class CompositeProjectInitDescriptor implements BuildInitializer {
 
     @Override
     public BuildInitTestFramework getDefaultTestFramework() {
-        return descriptor.getDefaultTestFramework();
+        return descriptionriptor.getDefaultTestFramework();
     }
 
     @Override
     public Set<BuildInitTestFramework> getTestFrameworks() {
-        return descriptor.getTestFrameworks();
+        return descriptionriptor.getTestFrameworks();
     }
 
     @Override
     public Optional<String> getFurtherReading(InitSettings settings) {
-        return descriptor.getFurtherReading(settings);
+        return descriptionriptor.getFurtherReading(settings);
     }
 
     @Override
@@ -103,11 +103,11 @@ public class CompositeProjectInitDescriptor implements BuildInitializer {
         for (BuildContentGenerator generator : generators) {
             generator.generate(settings);
         }
-        descriptor.generate(settings);
+        descriptionriptor.generate(settings);
     }
 
     public Map<String, List<String>> generateWithExternalComments(InitSettings settings) {
-        if (!(descriptor instanceof LanguageSpecificAdaptor)) {
+        if (!(descriptionriptor instanceof LanguageSpecificAdaptor)) {
             throw new UnsupportedOperationException();
         }
         for (BuildContentGenerator generator : generators) {
@@ -117,6 +117,6 @@ public class CompositeProjectInitDescriptor implements BuildInitializer {
                 generator.generate(settings);
             }
         }
-        return ((LanguageSpecificAdaptor) descriptor).generateWithExternalComments(settings);
+        return ((LanguageSpecificAdaptor) descriptionriptor).generateWithExternalComments(settings);
     }
 }

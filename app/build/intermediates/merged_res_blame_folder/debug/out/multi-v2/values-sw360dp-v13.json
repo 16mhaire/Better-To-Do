@@ -1,8 +1,18 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-104:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-106:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\331f320bcee4b3ac3d543646adc375a3\\transformed\\preference-1.2.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\0ac52616e049d9767385ca201eb909ad\\transformed\\firebase-ui-auth-7.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
@@ -11,6 +21,13 @@
                         "startOffsets": "55,125,186,247,302,356,414",
                         "endColumns": "69,60,60,54,53,57,56",
                         "endOffsets": "120,181,242,297,351,409,466"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "127,197,258,319,374,428,486",
+                        "endColumns": "69,60,60,54,53,57,56",
+                        "endOffsets": "192,253,314,369,423,481,538"
                     }
                 }
             ]

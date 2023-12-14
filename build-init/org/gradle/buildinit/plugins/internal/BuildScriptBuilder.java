@@ -132,7 +132,7 @@ public class BuildScriptBuilder {
     /**
      * Adds a plugin to be applied
      *
-     * @param comment A description of why the plugin is required
+     * @param comment A descriptionription of why the plugin is required
      */
     public BuildScriptBuilder plugin(@Nullable String comment, String pluginId) {
         block.plugins.add(new PluginSpec(pluginId, null, comment));
@@ -152,7 +152,7 @@ public class BuildScriptBuilder {
     /**
      * Adds a plugin to be applied
      *
-     * @param comment A description of why the plugin is required
+     * @param comment A descriptionription of why the plugin is required
      */
     public BuildScriptBuilder plugin(@Nullable String comment, String pluginId, String version) {
         block.plugins.add(new PluginSpec(pluginId, version, comment));
@@ -163,7 +163,7 @@ public class BuildScriptBuilder {
      * Adds one or more external dependencies to the specified configuration.
      *
      * @param configuration The configuration where the dependency should be added
-     * @param comment A description of why the dependencies are required
+     * @param comment A descriptionription of why the dependencies are required
      * @param dependencies the dependencies, in string notation
      */
     public BuildScriptBuilder dependency(String configuration, @Nullable String comment, String... dependencies) {
@@ -178,7 +178,7 @@ public class BuildScriptBuilder {
     /**
      * Adds one or more external implementation dependencies.
      *
-     * @param comment A description of why the dependencies are required
+     * @param comment A descriptionription of why the dependencies are required
      * @param dependencies The dependencies, in string notation
      */
     public BuildScriptBuilder implementationDependency(@Nullable String comment, String... dependencies) {
@@ -188,7 +188,7 @@ public class BuildScriptBuilder {
     /**
      * Adds one or more dependency constraints to the implementation scope.
      *
-     * @param comment A description of why the constraints are required
+     * @param comment A descriptionription of why the constraints are required
      * @param dependencies The constraints, in string notation
      */
     public BuildScriptBuilder implementationDependencyConstraint(@Nullable String comment, String... dependencies) {
@@ -199,7 +199,7 @@ public class BuildScriptBuilder {
     /**
      * Adds one or more external test implementation dependencies.
      *
-     * @param comment A description of why the dependencies are required
+     * @param comment A descriptionription of why the dependencies are required
      * @param dependencies The dependencies, in string notation
      */
     public BuildScriptBuilder testImplementationDependency(@Nullable String comment, String... dependencies) {
@@ -210,7 +210,7 @@ public class BuildScriptBuilder {
     /**
      * Adds one or more external test runtime only dependencies.
      *
-     * @param comment A description of why the dependencies are required
+     * @param comment A descriptionription of why the dependencies are required
      * @param dependencies The dependencies, in string notation
      */
     public BuildScriptBuilder testRuntimeOnlyDependency(@Nullable String comment, String... dependencies) {

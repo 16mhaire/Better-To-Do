@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.betterto_do.app-mergeDebugResources-104:/values-v23/values-v23.xml",
+            "outputFile": "com.example.betterto_do.app-mergeDebugResources-106:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Groobles\\.gradle\\caches\\transforms-3\\78aff1e302b85eaaa34766261c6102f4\\transformed\\work-runtime-2.9.0\\res\\values-v23\\values-v23.xml",
@@ -43,12 +43,12 @@
                         "endOffsets": "266,408,569,779,1099,1336,1543,1750,1953,2285,2487,2752,3025"
                     },
                     "to": {
-                        "startLines": "61,64,68,72,75,80,84,87,90,93,98,101,105",
+                        "startLines": "55,58,62,66,69,74,78,81,84,87,92,95,99",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3836,4052,4194,4355,4565,4885,5122,5329,5536,5739,6071,6273,6538",
-                        "endLines": "63,67,71,74,79,83,86,89,92,97,100,104,108",
+                        "startOffsets": "3511,3727,3869,4030,4240,4560,4797,5004,5211,5414,5746,5948,6213",
+                        "endLines": "57,61,65,68,73,77,80,83,86,91,94,98,102",
                         "endColumns": "10,10,10,10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "4047,4189,4350,4560,4880,5117,5324,5531,5734,6066,6268,6533,6806"
+                        "endOffsets": "3722,3864,4025,4235,4555,4792,4999,5206,5409,5741,5943,6208,6481"
                     }
                 },
                 {
@@ -68,25 +68,6 @@
                         "endLines": "4,5,6,7,21,35,36,37,40,44,45,46,47,51",
                         "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
                         "endOffsets": "314,449,524,611,1349,2099,2218,2345,2567,2791,2906,3013,3126,3356"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Groobles\\AndroidStudioProjects\\Better-To-Do\\app\\src\\main\\res\\values-v23\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "64",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "434"
-                    },
-                    "to": {
-                        "startLines": "55",
-                        "startColumns": "4",
-                        "startOffsets": "3511",
-                        "endLines": "60",
-                        "endColumns": "12",
-                        "endOffsets": "3831"
                     }
                 }
             ]

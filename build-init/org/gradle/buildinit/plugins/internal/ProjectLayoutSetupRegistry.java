@@ -40,12 +40,12 @@ public class ProjectLayoutSetupRegistry {
         add(converter);
     }
 
-    public void add(BuildInitializer descriptor) {
-        if (registeredProjectDescriptors.containsKey(descriptor.getId())) {
-            throw new GradleException(String.format("ProjectDescriptor with ID '%s' already registered.", descriptor.getId()));
+    public void add(BuildInitializer descriptionriptor) {
+        if (registeredProjectDescriptors.containsKey(descriptionriptor.getId())) {
+            throw new GradleException(String.format("ProjectDescriptor with ID '%s' already registered.", descriptionriptor.getId()));
         }
 
-        registeredProjectDescriptors.put(descriptor.getId(), descriptor);
+        registeredProjectDescriptors.put(descriptionriptor.getId(), descriptionriptor);
     }
 
     public TemplateOperationFactory getTemplateOperationFactory() {

@@ -28,8 +28,8 @@ public class JvmLibraryProjectInitDescriptor extends JvmProjectInitDescriptor {
 
     private final TemplateLibraryVersionProvider libraryVersionProvider;
 
-    public JvmLibraryProjectInitDescriptor(Description description, TemplateLibraryVersionProvider libraryVersionProvider, DocumentationRegistry documentationRegistry) {
-        super(description, libraryVersionProvider, documentationRegistry);
+    public JvmLibraryProjectInitDescriptor(Description descriptionription, TemplateLibraryVersionProvider libraryVersionProvider, DocumentationRegistry documentationRegistry) {
+        super(descriptionription, libraryVersionProvider, documentationRegistry);
         this.libraryVersionProvider = libraryVersionProvider;
     }
 

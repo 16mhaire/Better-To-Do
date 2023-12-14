@@ -4,6 +4,7 @@ package com.example.betterto_do.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -29,6 +30,9 @@ public final class FragmentListBinding implements ViewBinding {
   public final FloatingActionButton floatingActionButton;
 
   @NonNull
+  public final ImageView priorityIndicator;
+
+  @NonNull
   public final TextView subtitle;
 
   @NonNull
@@ -39,10 +43,12 @@ public final class FragmentListBinding implements ViewBinding {
 
   private FragmentListBinding(@NonNull ConstraintLayout rootView,
       @NonNull BottomAppBar bottomAppBar, @NonNull FloatingActionButton floatingActionButton,
-      @NonNull TextView subtitle, @NonNull RecyclerView tasksList, @NonNull TextView title) {
+      @NonNull ImageView priorityIndicator, @NonNull TextView subtitle,
+      @NonNull RecyclerView tasksList, @NonNull TextView title) {
     this.rootView = rootView;
     this.bottomAppBar = bottomAppBar;
     this.floatingActionButton = floatingActionButton;
+    this.priorityIndicator = priorityIndicator;
     this.subtitle = subtitle;
     this.tasksList = tasksList;
     this.title = title;
@@ -87,6 +93,12 @@ public final class FragmentListBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.priorityIndicator;
+      ImageView priorityIndicator = ViewBindings.findChildViewById(rootView, id);
+      if (priorityIndicator == null) {
+        break missingId;
+      }
+
       id = R.id.subtitle;
       TextView subtitle = ViewBindings.findChildViewById(rootView, id);
       if (subtitle == null) {
@@ -106,7 +118,7 @@ public final class FragmentListBinding implements ViewBinding {
       }
 
       return new FragmentListBinding((ConstraintLayout) rootView, bottomAppBar,
-          floatingActionButton, subtitle, tasksList, title);
+          floatingActionButton, priorityIndicator, subtitle, tasksList, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -28,10 +28,10 @@ public final class FragmentEditBinding implements ViewBinding {
   public final Button cancelbtn;
 
   @NonNull
-  public final TextInputLayout descTextField;
+  public final TextInputLayout descriptionTextField;
 
   @NonNull
-  public final TextInputEditText descTextInput;
+  public final TextInputEditText descriptionTextInput;
 
   @NonNull
   public final ConstraintLayout edittasklayout;
@@ -67,16 +67,17 @@ public final class FragmentEditBinding implements ViewBinding {
   public final TextInputEditText titleTextInput;
 
   private FragmentEditBinding(@NonNull ConstraintLayout rootView, @NonNull Button cancelbtn,
-      @NonNull TextInputLayout descTextField, @NonNull TextInputEditText descTextInput,
-      @NonNull ConstraintLayout edittasklayout, @NonNull TextView edittitle,
-      @NonNull ImageButton notificationButton, @NonNull ImageView priorityIndicator,
-      @NonNull TextView prioritySelect, @NonNull TextView priorityTitle, @NonNull Button savebtn,
-      @NonNull TextView taskDate, @NonNull TextView taskDateTitle,
-      @NonNull TextInputLayout titleTextField, @NonNull TextInputEditText titleTextInput) {
+      @NonNull TextInputLayout descriptionTextField,
+      @NonNull TextInputEditText descriptionTextInput, @NonNull ConstraintLayout edittasklayout,
+      @NonNull TextView edittitle, @NonNull ImageButton notificationButton,
+      @NonNull ImageView priorityIndicator, @NonNull TextView prioritySelect,
+      @NonNull TextView priorityTitle, @NonNull Button savebtn, @NonNull TextView taskDate,
+      @NonNull TextView taskDateTitle, @NonNull TextInputLayout titleTextField,
+      @NonNull TextInputEditText titleTextInput) {
     this.rootView = rootView;
     this.cancelbtn = cancelbtn;
-    this.descTextField = descTextField;
-    this.descTextInput = descTextInput;
+    this.descriptionTextField = descriptionTextField;
+    this.descriptionTextInput = descriptionTextInput;
     this.edittasklayout = edittasklayout;
     this.edittitle = edittitle;
     this.notificationButton = notificationButton;
@@ -123,15 +124,15 @@ public final class FragmentEditBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.descTextField;
-      TextInputLayout descTextField = ViewBindings.findChildViewById(rootView, id);
-      if (descTextField == null) {
+      id = R.id.descriptionTextField;
+      TextInputLayout descriptionTextField = ViewBindings.findChildViewById(rootView, id);
+      if (descriptionTextField == null) {
         break missingId;
       }
 
-      id = R.id.descTextInput;
-      TextInputEditText descTextInput = ViewBindings.findChildViewById(rootView, id);
-      if (descTextInput == null) {
+      id = R.id.descriptionTextInput;
+      TextInputEditText descriptionTextInput = ViewBindings.findChildViewById(rootView, id);
+      if (descriptionTextInput == null) {
         break missingId;
       }
 
@@ -197,8 +198,8 @@ public final class FragmentEditBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentEditBinding((ConstraintLayout) rootView, cancelbtn, descTextField,
-          descTextInput, edittasklayout, edittitle, notificationButton, priorityIndicator,
+      return new FragmentEditBinding((ConstraintLayout) rootView, cancelbtn, descriptionTextField,
+          descriptionTextInput, edittasklayout, edittitle, notificationButton, priorityIndicator,
           prioritySelect, priorityTitle, savebtn, taskDate, taskDateTitle, titleTextField,
           titleTextInput);
     }

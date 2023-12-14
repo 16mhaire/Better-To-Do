@@ -37,49 +37,49 @@ public class LanguageSpecificAdaptor implements ProjectGenerator {
 
     private final BuildScriptBuilderFactory scriptBuilderFactory;
     private final TemplateOperationFactory templateOperationFactory;
-    private final LanguageSpecificProjectGenerator descriptor;
+    private final LanguageSpecificProjectGenerator descriptionriptor;
     private final TemplateLibraryVersionProvider libraryVersionProvider;
 
-    public LanguageSpecificAdaptor(LanguageSpecificProjectGenerator descriptor, BuildScriptBuilderFactory scriptBuilderFactory, TemplateOperationFactory templateOperationFactory, TemplateLibraryVersionProvider libraryVersionProvider) {
+    public LanguageSpecificAdaptor(LanguageSpecificProjectGenerator descriptionriptor, BuildScriptBuilderFactory scriptBuilderFactory, TemplateOperationFactory templateOperationFactory, TemplateLibraryVersionProvider libraryVersionProvider) {
         this.scriptBuilderFactory = scriptBuilderFactory;
-        this.descriptor = descriptor;
+        this.descriptionriptor = descriptionriptor;
         this.templateOperationFactory = templateOperationFactory;
         this.libraryVersionProvider = libraryVersionProvider;
     }
 
     @Override
     public String getId() {
-        return descriptor.getId();
+        return descriptionriptor.getId();
     }
 
     @Override
     public ComponentType getComponentType() {
-        return descriptor.getComponentType();
+        return descriptionriptor.getComponentType();
     }
 
     @Override
     public Language getLanguage() {
-        return descriptor.getLanguage();
+        return descriptionriptor.getLanguage();
     }
 
     @Override
     public boolean isJvmLanguage() {
-        return descriptor.isJvmLanguage();
+        return descriptionriptor.isJvmLanguage();
     }
 
     @Override
     public Set<ModularizationOption> getModularizationOptions() {
-        return descriptor.getModularizationOptions();
+        return descriptionriptor.getModularizationOptions();
     }
 
     @Override
     public Optional<String> getFurtherReading(InitSettings settings) {
-        return descriptor.getFurtherReading(settings);
+        return descriptionriptor.getFurtherReading(settings);
     }
 
     @Override
     public BuildInitDsl getDefaultDsl() {
-        if (descriptor.getLanguage().equals(Language.GROOVY)) {
+        if (descriptionriptor.getLanguage().equals(Language.GROOVY)) {
             return BuildInitDsl.GROOVY;
         }
         return BuildInitDsl.KOTLIN;
@@ -87,17 +87,17 @@ public class LanguageSpecificAdaptor implements ProjectGenerator {
 
     @Override
     public Set<BuildInitTestFramework> getTestFrameworks() {
-        return descriptor.getTestFrameworks();
+        return descriptionriptor.getTestFrameworks();
     }
 
     @Override
     public BuildInitTestFramework getDefaultTestFramework() {
-        return descriptor.getDefaultTestFramework();
+        return descriptionriptor.getDefaultTestFramework();
     }
 
     @Override
     public boolean supportsPackage() {
-        return descriptor.supportsPackage();
+        return descriptionriptor.supportsPackage();
     }
 
     public Map<String, List<String>> generateWithExternalComments(InitSettings settings) {
@@ -131,8 +131,8 @@ public class LanguageSpecificAdaptor implements ProjectGenerator {
             builder.add(projectBuildScriptBuilder(subproject, settings, subproject + "/build"));
         }
 
-        TemplateFactory templateFactory = new TemplateFactory(settings, descriptor.getLanguage(), templateOperationFactory);
-        descriptor.generateSources(settings, templateFactory);
+        TemplateFactory templateFactory = new TemplateFactory(settings, descriptionriptor.getLanguage(), templateOperationFactory);
+        descriptionriptor.generateSources(settings, templateFactory);
 
         return builder;
     }
@@ -162,7 +162,7 @@ public class LanguageSpecificAdaptor implements ProjectGenerator {
 
     private BuildScriptBuilder projectBuildScriptBuilder(String projectName, InitSettings settings, String buildFile) {
         BuildScriptBuilder buildScriptBuilder = scriptBuilderFactory.scriptForNewProjects(settings.getDsl(), buildFile, settings.isUseIncubatingAPIs());
-        descriptor.generateProjectBuildScript(projectName, settings, buildScriptBuilder);
+        descriptionriptor.generateProjectBuildScript(projectName, settings, buildScriptBuilder);
         return buildScriptBuilder;
     }
 
@@ -171,7 +171,7 @@ public class LanguageSpecificAdaptor implements ProjectGenerator {
             pluginsBuildLocation(settings) + "/src/main/" + settings.getDsl().name().toLowerCase() + "/"
                 + settings.getPackageName() + "." + getLanguage().getName() + "-" + conventionPluginName + "-conventions",
             settings.isUseIncubatingAPIs());
-        descriptor.generateConventionPluginBuildScript(conventionPluginName, settings, buildScriptBuilder);
+        descriptionriptor.generateConventionPluginBuildScript(conventionPluginName, settings, buildScriptBuilder);
         return buildScriptBuilder;
     }
 

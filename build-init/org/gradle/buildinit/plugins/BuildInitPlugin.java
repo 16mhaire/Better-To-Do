@@ -41,7 +41,7 @@ public abstract class BuildInitPlugin implements Plugin<Project> {
     @Override
     public void apply(Project project) {
         if (project.getParent() == null) {
-            project.getTasks().register("init", InitBuild.class, initBuild -> {
+            project.getAllTasks().register("init", InitBuild.class, initBuild -> {
                 initBuild.notCompatibleWithConfigurationCache("Not applicable");
                 initBuild.setGroup("Build Setup");
                 initBuild.setDescription("Initializes a new Gradle build.");

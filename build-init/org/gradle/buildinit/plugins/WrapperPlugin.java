@@ -45,7 +45,7 @@ public abstract class WrapperPlugin implements Plugin<Project> {
             TextResource nightly = textFactory.fromUri(versionUrl + "/" + NIGHTLY);
             TextResource releaseNightly = textFactory.fromUri(versionUrl + "/" + RELEASE_NIGHTLY);
 
-            project.getTasks().register("wrapper", Wrapper.class, wrapper -> {
+            project.getAllTasks().register("wrapper", Wrapper.class, wrapper -> {
                 wrapper.setGroup("Build Setup");
                 wrapper.setDescription("Generates Gradle wrapper files.");
                 wrapper.getNetworkTimeout().convention(10000);

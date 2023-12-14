@@ -34,10 +34,10 @@ public final class FragmentAddBinding implements ViewBinding {
   public final Button cancelbtn;
 
   @NonNull
-  public final TextInputLayout descTextField;
+  public final TextInputLayout descriptionTextField;
 
   @NonNull
-  public final TextInputEditText descTextInput;
+  public final TextInputEditText descriptionTextInput;
 
   @NonNull
   public final ImageButton notificationButton;
@@ -68,8 +68,8 @@ public final class FragmentAddBinding implements ViewBinding {
 
   private FragmentAddBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout addtasklayout, @NonNull TextView addtitle,
-      @NonNull Button cancelbtn, @NonNull TextInputLayout descTextField,
-      @NonNull TextInputEditText descTextInput, @NonNull ImageButton notificationButton,
+      @NonNull Button cancelbtn, @NonNull TextInputLayout descriptionTextField,
+      @NonNull TextInputEditText descriptionTextInput, @NonNull ImageButton notificationButton,
       @NonNull ImageView priorityIndicator, @NonNull TextView prioritySelect,
       @NonNull TextView priorityTitle, @NonNull Button savebtn, @NonNull TextView taskDate,
       @NonNull TextView taskDateTitle, @NonNull TextInputLayout titleTextField,
@@ -78,8 +78,8 @@ public final class FragmentAddBinding implements ViewBinding {
     this.addtasklayout = addtasklayout;
     this.addtitle = addtitle;
     this.cancelbtn = cancelbtn;
-    this.descTextField = descTextField;
-    this.descTextInput = descTextInput;
+    this.descriptionTextField = descriptionTextField;
+    this.descriptionTextInput = descriptionTextInput;
     this.notificationButton = notificationButton;
     this.priorityIndicator = priorityIndicator;
     this.prioritySelect = prioritySelect;
@@ -132,15 +132,15 @@ public final class FragmentAddBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.descTextField;
-      TextInputLayout descTextField = ViewBindings.findChildViewById(rootView, id);
-      if (descTextField == null) {
+      id = R.id.descriptionTextField;
+      TextInputLayout descriptionTextField = ViewBindings.findChildViewById(rootView, id);
+      if (descriptionTextField == null) {
         break missingId;
       }
 
-      id = R.id.descTextInput;
-      TextInputEditText descTextInput = ViewBindings.findChildViewById(rootView, id);
-      if (descTextInput == null) {
+      id = R.id.descriptionTextInput;
+      TextInputEditText descriptionTextInput = ViewBindings.findChildViewById(rootView, id);
+      if (descriptionTextInput == null) {
         break missingId;
       }
 
@@ -199,8 +199,9 @@ public final class FragmentAddBinding implements ViewBinding {
       }
 
       return new FragmentAddBinding((ConstraintLayout) rootView, addtasklayout, addtitle, cancelbtn,
-          descTextField, descTextInput, notificationButton, priorityIndicator, prioritySelect,
-          priorityTitle, savebtn, taskDate, taskDateTitle, titleTextField, titleTextInput);
+          descriptionTextField, descriptionTextInput, notificationButton, priorityIndicator,
+          prioritySelect, priorityTitle, savebtn, taskDate, taskDateTitle, titleTextField,
+          titleTextInput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

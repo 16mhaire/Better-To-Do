@@ -137,7 +137,7 @@ public class Maven2Gradle {
                     }
                 }
 
-                descriptionForProject(module, moduleScriptBuilder);
+                descriptionriptionForProject(module, moduleScriptBuilder);
                 declareDependencies(moduleDependencies, moduleScriptBuilder);
                 testNg(moduleDependencies, moduleScriptBuilder);
 
@@ -162,7 +162,7 @@ public class Maven2Gradle {
             scriptBuilder.plugin(null, "java-library");
             scriptBuilder.plugin(null, "maven-publish");
             coordinatesForProject(this.rootProject, scriptBuilder);
-            descriptionForProject(this.rootProject, scriptBuilder);
+            descriptionriptionForProject(this.rootProject, scriptBuilder);
             compilerSettings(this.rootProject, scriptBuilder);
             globalExclusions(this.rootProject, scriptBuilder);
             boolean testsJarTaskGenerated = packageTests(this.rootProject, scriptBuilder);
@@ -287,9 +287,9 @@ public class Maven2Gradle {
         builder.propertyAssignment(null, "version", project.getVersion());
     }
 
-    private void descriptionForProject(MavenProject project, BuildScriptBuilder builder) {
+    private void descriptionriptionForProject(MavenProject project, BuildScriptBuilder builder) {
         if (StringUtils.isNotEmpty(project.getName())) {
-            builder.propertyAssignment(null, "description", project.getName());
+            builder.propertyAssignment(null, "descriptionription", project.getName());
         }
     }
 

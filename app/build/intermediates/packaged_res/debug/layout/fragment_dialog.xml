@@ -13,14 +13,14 @@
         android:text="@string/settings"
         android:paddingTop="25dp"
         android:paddingBottom="25dp"
-        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
         android:fontFamily="@font/rubik_medium"
         android:textColor="@color/mainText"
-        android:drawableStart="@drawable/ic_settings"
-        android:drawableTint="@color/mainText"
         android:drawablePadding="10dp"
         android:clickable="true"
-        android:background="?attr/selectableItemBackground"/>
+        android:background="?attr/selectableItemBackground"
+        app:drawableStartCompat="@drawable/ic_settings"
+        app:drawableTint="@color/mainText" />
 
     <TextView
         android:id="@+id/bugs_button"
@@ -30,14 +30,14 @@
         android:text="@string/bugs"
         android:paddingTop="25dp"
         android:paddingBottom="25dp"
-        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
         android:fontFamily="@font/rubik_medium"
         android:textColor="@color/mainText"
-        android:drawableStart="@drawable/ic_bug_report"
-        android:drawableTint="@color/mainText"
         android:drawablePadding="10dp"
         android:clickable="true"
-        android:background="?attr/selectableItemBackground"/>
+        android:background="?attr/selectableItemBackground"
+        app:drawableStartCompat="@drawable/ic_bug_report"
+        app:drawableTint="@color/mainText" />
 
     <TextView
         android:id="@+id/translate_button"
@@ -47,31 +47,14 @@
         android:text="@string/translate"
         android:paddingTop="25dp"
         android:paddingBottom="25dp"
-        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
         android:fontFamily="@font/rubik_medium"
         android:textColor="@color/mainText"
-        android:drawableStart="@drawable/ic_translate"
-        android:drawableTint="@color/mainText"
         android:drawablePadding="10dp"
         android:clickable="true"
-        android:background="?attr/selectableItemBackground"/>
-
-    <TextView
-        android:id="@+id/privacy_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:text="@string/privacy"
-        android:paddingTop="25dp"
-        android:paddingBottom="25dp"
-        android:paddingLeft="20dp"
-        android:fontFamily="@font/rubik_medium"
-        android:textColor="@color/mainText"
-        android:drawableStart="@drawable/ic_privacy"
-        android:drawableTint="@color/mainText"
-        android:drawablePadding="10dp"
-        android:clickable="true"
-        android:background="?attr/selectableItemBackground"/>
+        android:background="?attr/selectableItemBackground"
+        app:drawableStartCompat="@drawable/ic_translate"
+        app:drawableTint="@color/mainText" />
 
 
     <TextView
@@ -80,7 +63,7 @@
         android:text="@string/version"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
-        android:paddingLeft="25dp"
+        android:paddingStart="25dp"
         android:fontFamily="@font/rubik_medium"
         android:textColor="@color/altText"/>
 

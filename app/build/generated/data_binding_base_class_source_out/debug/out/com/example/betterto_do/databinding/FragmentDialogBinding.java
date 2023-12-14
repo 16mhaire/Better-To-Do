@@ -23,20 +23,15 @@ public final class FragmentDialogBinding implements ViewBinding {
   public final TextView bugsButton;
 
   @NonNull
-  public final TextView privacyButton;
-
-  @NonNull
   public final TextView settingsButton;
 
   @NonNull
   public final TextView translateButton;
 
   private FragmentDialogBinding(@NonNull LinearLayout rootView, @NonNull TextView bugsButton,
-      @NonNull TextView privacyButton, @NonNull TextView settingsButton,
-      @NonNull TextView translateButton) {
+      @NonNull TextView settingsButton, @NonNull TextView translateButton) {
     this.rootView = rootView;
     this.bugsButton = bugsButton;
-    this.privacyButton = privacyButton;
     this.settingsButton = settingsButton;
     this.translateButton = translateButton;
   }
@@ -74,12 +69,6 @@ public final class FragmentDialogBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.privacy_button;
-      TextView privacyButton = ViewBindings.findChildViewById(rootView, id);
-      if (privacyButton == null) {
-        break missingId;
-      }
-
       id = R.id.settings_button;
       TextView settingsButton = ViewBindings.findChildViewById(rootView, id);
       if (settingsButton == null) {
@@ -92,8 +81,8 @@ public final class FragmentDialogBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentDialogBinding((LinearLayout) rootView, bugsButton, privacyButton,
-          settingsButton, translateButton);
+      return new FragmentDialogBinding((LinearLayout) rootView, bugsButton, settingsButton,
+          translateButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

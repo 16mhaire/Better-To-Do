@@ -91,7 +91,7 @@ public abstract class InitBuild extends DefaultTask {
      */
     @Input
     @Optional
-    @Option(option = "split-project", description = "Split functionality across multiple subprojects?")
+    @Option(option = "split-project", descriptionription = "Split functionality across multiple subprojects?")
     public Property<Boolean> getSplitProject() {
         return splitProject;
     }
@@ -122,7 +122,7 @@ public abstract class InitBuild extends DefaultTask {
      */
     @Input
     @Optional
-    @Option(option = "incubating", description = "Allow the generated build to use new features and APIs.")
+    @Option(option = "incubating", descriptionription = "Allow the generated build to use new features and APIs.")
     public Property<Boolean> getUseIncubating() {
         return useIncubatingAPIs;
     }
@@ -171,7 +171,7 @@ public abstract class InitBuild extends DefaultTask {
      * @since 7.3
      */
     @Input
-    @Option(option = "insecure-protocol", description = "How to handle insecure URLs used for Maven Repositories.")
+    @Option(option = "insecure-protocol", descriptionription = "How to handle insecure URLs used for Maven Repositories.")
     public Property<InsecureProtocolOption> getInsecureProtocol() {
         return insecureProtocol;
     }
@@ -369,7 +369,7 @@ public abstract class InitBuild extends DefaultTask {
         return projectLayoutRegistry.get(componentType, language);
     }
 
-    @Option(option = "type", description = "Set the type of project to generate.")
+    @Option(option = "type", descriptionription = "Set the type of project to generate.")
     public void setType(String type) {
         this.type = type;
     }
@@ -384,7 +384,7 @@ public abstract class InitBuild extends DefaultTask {
      *
      * @since 4.5
      */
-    @Option(option = "dsl", description = "Set the build script DSL to be used in generated scripts.")
+    @Option(option = "dsl", descriptionription = "Set the build script DSL to be used in generated scripts.")
     public void setDsl(String dsl) {
         this.dsl = dsl;
     }
@@ -402,7 +402,7 @@ public abstract class InitBuild extends DefaultTask {
     /**
      * Set the test framework to be used.
      */
-    @Option(option = "test-framework", description = "Set the test framework to be used.")
+    @Option(option = "test-framework", descriptionription = "Set the test framework to be used.")
     public void setTestFramework(@Nullable String testFramework) {
         this.testFramework = testFramework;
     }
@@ -420,7 +420,7 @@ public abstract class InitBuild extends DefaultTask {
      *
      * @since 5.0
      */
-    @Option(option = "project-name", description = "Set the project name.")
+    @Option(option = "project-name", descriptionription = "Set the project name.")
     public void setProjectName(String projectName) {
         this.projectName = projectName;
     }
@@ -430,7 +430,7 @@ public abstract class InitBuild extends DefaultTask {
      *
      * @since 5.0
      */
-    @Option(option = "package", description = "Set the package for source files.")
+    @Option(option = "package", descriptionription = "Set the package for source files.")
     public void setPackageName(String packageName) {
         this.packageName = packageName;
     }

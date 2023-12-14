@@ -32,13 +32,13 @@ import static org.gradle.util.internal.GroovyDependencyUtil.groovyModuleDependen
 
 public abstract class JvmProjectInitDescriptor extends LanguageLibraryProjectInitDescriptor {
 
-    protected final Description description;
+    protected final Description descriptionription;
 
     protected final TemplateLibraryVersionProvider libraryVersionProvider;
     private final DocumentationRegistry documentationRegistry;
 
-    public JvmProjectInitDescriptor(Description description, TemplateLibraryVersionProvider libraryVersionProvider, DocumentationRegistry documentationRegistry) {
-        this.description = description;
+    public JvmProjectInitDescriptor(Description descriptionription, TemplateLibraryVersionProvider libraryVersionProvider, DocumentationRegistry documentationRegistry) {
+        this.descriptionription = descriptionription;
         this.libraryVersionProvider = libraryVersionProvider;
         this.documentationRegistry = documentationRegistry;
     }
@@ -66,7 +66,7 @@ public abstract class JvmProjectInitDescriptor extends LanguageLibraryProjectIni
 
     @Override
     public Language getLanguage() {
-        return description.getLanguage();
+        return descriptionription.getLanguage();
     }
 
     @Override
@@ -81,12 +81,12 @@ public abstract class JvmProjectInitDescriptor extends LanguageLibraryProjectIni
 
     @Override
     public BuildInitTestFramework getDefaultTestFramework() {
-        return description.getDefaultTestFramework();
+        return descriptionription.getDefaultTestFramework();
     }
 
     @Override
     public Set<BuildInitTestFramework> getTestFrameworks() {
-        return description.getSupportedTestFrameworks();
+        return descriptionription.getSupportedTestFrameworks();
     }
 
     @Override
@@ -103,8 +103,8 @@ public abstract class JvmProjectInitDescriptor extends LanguageLibraryProjectIni
 
         addMavenCentral(buildScriptBuilder);
 
-        description.getPluginName().ifPresent(languagePlugin -> {
-            String pluginVersionProperty = description.getPluginVersionProperty();
+        descriptionription.getPluginName().ifPresent(languagePlugin -> {
+            String pluginVersionProperty = descriptionription.getPluginVersionProperty();
             String pluginVersion = pluginVersionProperty == null ? null : libraryVersionProvider.getVersion(pluginVersionProperty);
             buildScriptBuilder.plugin("Apply the " + languagePlugin + " Plugin to add support for " + getLanguage() + ".", languagePlugin, pluginVersion);
         });
@@ -134,7 +134,7 @@ public abstract class JvmProjectInitDescriptor extends LanguageLibraryProjectIni
     public void generateConventionPluginBuildScript(String conventionPluginName, InitSettings settings, BuildScriptBuilder buildScriptBuilder) {
         if ("common".equals(conventionPluginName)) {
             addMavenCentral(buildScriptBuilder);
-            String languagePlugin = description.getPluginName().orElse("java");
+            String languagePlugin = descriptionription.getPluginName().orElse("java");
             buildScriptBuilder.plugin("Apply the " + languagePlugin + " Plugin to add support for " + getLanguage() + ".", languagePlugin);
             addStandardDependencies(buildScriptBuilder, true);
             addDependencyConstraints(buildScriptBuilder);

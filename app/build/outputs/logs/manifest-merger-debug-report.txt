@@ -1,53 +1,39 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:databinding-runtime:8.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\15b4282c7a8af1045ddc30e58e0512f6\transformed\databinding-runtime-8.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\2910ae4a9805c3bb8f3eb610f364a853\transformed\viewbinding-8.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\Groobles\.gradle\caches\transforms-3\dae108e50398ef2036b140c69a5caf6d\transformed\material3-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.hilt:hilt-work:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\a3b1cfda43ed65a590c931afbcae2243\transformed\hilt-work-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\Groobles\.gradle\caches\transforms-3\b1a4933be18b868258eb0bcffd2a6f8d\transformed\preference-ktx-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.hilt:hilt-navigation-fragment:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\8ecb2f4b100c5fbc5b1af798ad682399\transformed\hilt-navigation-fragment-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.hilt:hilt-navigation:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\c4a48a010561c57fbde95a298df1dc62\transformed\hilt-navigation-1.1.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.dagger:hilt-android:2.48.1] C:\Users\Groobles\.gradle\caches\transforms-3\34910ef4bb5a7dafec403e7e3e4482cc\transformed\hilt-android-2.48.1\AndroidManifest.xml:16:1-19:12
-MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:2:1-109:12
-MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\f8faa2d4f78290fc01ccc361c8f89f10\transformed\lottie-6.1.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.github.QuadFlask:colorpicker:0.0.15] C:\Users\Groobles\.gradle\caches\transforms-3\2775f031299b83a5e33272967cc0c5ea\transformed\colorpicker-0.0.15\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.navigation:navigation-common:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\2f738efaffd099f5e684abd5777cfcf1\transformed\navigation-common-2.7.5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\fbbbe5d3af5729be174f1f15575fe1e2\transformed\navigation-common-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\6c9cd15e917df5fb019ff36c22a0aa58\transformed\navigation-runtime-2.7.5\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\5c0770b1479beadd6ae6525922169107\transformed\navigation-runtime-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-fragment:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\9ee92c2f3fb256623f3863430959befe\transformed\navigation-fragment-2.7.5\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\765048922a5b2efaceb0d14174675141\transformed\navigation-fragment-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\cfb73fc30fe3b6270802d78c28d28c62\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\7cb92496b39d646e127489bc621b2066\transformed\navigation-ui-2.7.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\5c0770b1479beadd6ae6525922169107\transformed\navigation-runtime-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\cfb73fc30fe3b6270802d78c28d28c62\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\765048922a5b2efaceb0d14174675141\transformed\navigation-fragment-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\9ee92c2f3fb256623f3863430959befe\transformed\navigation-fragment-2.7.5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:2:1-109:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\22b0eaad642f6e2b7e76c96f20f14ee2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.hilt:hilt-work:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\a3b1cfda43ed65a590c931afbcae2243\transformed\hilt-work-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:hilt-android:2.48.1] C:\Users\Groobles\.gradle\caches\transforms-3\34910ef4bb5a7dafec403e7e3e4482cc\transformed\hilt-android-2.48.1\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:2:1-14:12
+MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\f8faa2d4f78290fc01ccc361c8f89f10\transformed\lottie-6.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.QuadFlask:colorpicker:0.0.15] C:\Users\Groobles\.gradle\caches\transforms-3\2775f031299b83a5e33272967cc0c5ea\transformed\colorpicker-0.0.15\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Groobles\.gradle\caches\transforms-3\3edc50a1531922786ae14f5a2e28fc6d\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Groobles\.gradle\caches\transforms-3\b6e600543a831a120e4d5eeb4d057fa7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\cd383b69c56b5c36b5b18058b396dcd0\transformed\library-1.6.1\AndroidManifest.xml:6:1-15:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\86000c1ad22a37bd897deb8c5c9c3d6b\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\Groobles\.gradle\caches\transforms-3\331f320bcee4b3ac3d543646adc375a3\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\8b0919571b4b4a00cf2450dfd47f2089\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\13baffea755f70fdc2ab8b22fc04fcd2\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\9fe073ab2883218c06191e69fdc27961\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.material:material-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d54d788dfc912e86a9fde5f2d4b404a3\transformed\material-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7606fd919c36ff5f9780bb5c54954632\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d552a20bde5bf10e517b077c1243ded6\transformed\animation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\17e42e0849a1841a22709de07b681156\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\cf1255bd77e0c02cf102ad946487e276\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\b9a6b8c4955d3f179b5ee3bdc6c47d9c\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\4f00e8130d485951c195f9ac5d84f917\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\a50234e4151305e5588f312c29e2a340\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\e4b2f552cd7823fdc81cdf6fd39a254d\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\1298d4bd88c767e28a0f996cb696d2d5\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\be479e46feda855d7782d699299584f5\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7ca0ffb34b219968145cbf9280dd386b\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\22b0eaad642f6e2b7e76c96f20f14ee2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f9a815c1f74a246e70934fcef8a7091c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\30e4fdfbbca1c75f0dd72414fc556224\transformed\firebase-auth-22.3.0\AndroidManifest.xml:17:1-75:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f9a815c1f74a246e70934fcef8a7091c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\fdf5f2d2fa8b833f687a647490eb4f48\transformed\play-services-auth-19.0.0\AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.play:review:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\16ee644480f60816c33cd21e92207108\transformed\review-2.0.1\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\22973085b83a5842662375accfc3f607\transformed\firebase-analytics-21.5.0\AndroidManifest.xml:2:1-9:12
@@ -67,10 +53,26 @@ MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Groobles\.gradle\caches\
 MERGED from [androidx.work:work-runtime-ktx:2.9.0] C:\Users\Groobles\.gradle\caches\transforms-3\7cf41763cce1c3b8c81bb1caeffc4755\transformed\work-runtime-ktx-2.9.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Groobles\.gradle\caches\transforms-3\78aff1e302b85eaaa34766261c6102f4\transformed\work-runtime-2.9.0\AndroidManifest.xml:17:1-145:12
 MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\d1426dc4de0149ec6ac38e1f4e32967e\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\13baffea755f70fdc2ab8b22fc04fcd2\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\9fe073ab2883218c06191e69fdc27961\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d54d788dfc912e86a9fde5f2d4b404a3\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7606fd919c36ff5f9780bb5c54954632\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d552a20bde5bf10e517b077c1243ded6\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\17e42e0849a1841a22709de07b681156\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\cf1255bd77e0c02cf102ad946487e276\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\b9a6b8c4955d3f179b5ee3bdc6c47d9c\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\4f00e8130d485951c195f9ac5d84f917\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\a50234e4151305e5588f312c29e2a340\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\e4b2f552cd7823fdc81cdf6fd39a254d\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\1298d4bd88c767e28a0f996cb696d2d5\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\be479e46feda855d7782d699299584f5\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7ca0ffb34b219968145cbf9280dd386b\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\00f5cf3f261128ab660c43901130b182\transformed\activity-1.8.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Groobles\.gradle\caches\transforms-3\7650baeb6548f4014e5119aef6318e51\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Groobles\.gradle\caches\transforms-3\fa315a996aa2f309ac69344d762979ca\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\5222bd21ab60d4d7728f2ac9d585522f\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Groobles\.gradle\caches\transforms-3\458cdf84baeef2f9df8e8673c199241b\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\f84a920ae264dfcb0629d985523fdebe\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\Groobles\.gradle\caches\transforms-3\c1e4a3369d39cc01bfd04fbc5457eb92\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Groobles\.gradle\caches\transforms-3\8ab4d5afca919cc60f82d3943a583f2e\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
@@ -131,7 +133,7 @@ MERGED from [com.google.android.gms:play-services-measurement-base:21.5.0] C:\Us
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\986b3b33031286f090728dbef9a55234\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\6fac974984b76771df4fc678275da64b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Groobles\.gradle\caches\transforms-3\a43b45dc31bc6157ab9ddeb353c7dc20\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\00f5cf3f261128ab660c43901130b182\transformed\activity-1.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Groobles\.gradle\caches\transforms-3\458cdf84baeef2f9df8e8673c199241b\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\b6c6ba460984810c94be8b49b7cfa92b\transformed\activity-ktx-1.8.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity-compose:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\972df1c624d667a1d214e4aaf897e544\transformed\activity-compose-1.8.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\2030476ab72e9afc9fef28b1189fd466\transformed\ui-release\AndroidManifest.xml:2:1-7:12
@@ -162,10 +164,12 @@ MERGED from [com.google.android.play:core-common:2.0.2] C:\Users\Groobles\.gradl
 	xmlns:android
 		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:5:5-50:19
-INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:5:5-50:19
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:5:5-26:19
+INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:15:5-107:19
+MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:11:5-12:19
 MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\f8faa2d4f78290fc01ccc361c8f89f10\transformed\lottie-6.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\f8faa2d4f78290fc01ccc361c8f89f10\transformed\lottie-6.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.github.QuadFlask:colorpicker:0.0.15] C:\Users\Groobles\.gradle\caches\transforms-3\2775f031299b83a5e33272967cc0c5ea\transformed\colorpicker-0.0.15\AndroidManifest.xml:11:5-20
@@ -174,18 +178,12 @@ MERGED from [com.google.android.material:material:1.10.0] C:\Users\Groobles\.gra
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Groobles\.gradle\caches\transforms-3\3edc50a1531922786ae14f5a2e28fc6d\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Groobles\.gradle\caches\transforms-3\b6e600543a831a120e4d5eeb4d057fa7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Groobles\.gradle\caches\transforms-3\b6e600543a831a120e4d5eeb4d057fa7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:11:5-12:19
-MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f9a815c1f74a246e70934fcef8a7091c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f9a815c1f74a246e70934fcef8a7091c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\30e4fdfbbca1c75f0dd72414fc556224\transformed\firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\30e4fdfbbca1c75f0dd72414fc556224\transformed\firebase-auth-22.3.0\AndroidManifest.xml:28:5-73:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f9a815c1f74a246e70934fcef8a7091c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f9a815c1f74a246e70934fcef8a7091c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\fdf5f2d2fa8b833f687a647490eb4f48\transformed\play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\fdf5f2d2fa8b833f687a647490eb4f48\transformed\play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.play:review:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\16ee644480f60816c33cd21e92207108\transformed\review-2.0.1\AndroidManifest.xml:11:5-12:19
@@ -214,6 +212,10 @@ MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Groobles\.gradle\caches\
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\6b18e4b2e719c3de3a1aae937d661608\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Groobles\.gradle\caches\transforms-3\78aff1e302b85eaaa34766261c6102f4\transformed\work-runtime-2.9.0\AndroidManifest.xml:28:5-143:19
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Groobles\.gradle\caches\transforms-3\78aff1e302b85eaaa34766261c6102f4\transformed\work-runtime-2.9.0\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\f84a920ae264dfcb0629d985523fdebe\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:29:5-30:19
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\f84a920ae264dfcb0629d985523fdebe\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:29:5-30:19
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Groobles\.gradle\caches\transforms-3\8ab4d5afca919cc60f82d3943a583f2e\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
@@ -253,87 +255,41 @@ MERGED from [com.google.android.play:core-common:2.0.2] C:\Users\Groobles\.gradl
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\Groobles\.gradle\caches\transforms-3\fae397a23786f5b8eaa48d37f62bc435\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:10:9-41
-	android:fullBackupContent
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:9:9-43
-	android:allowBackup
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:13:9-48
-	android:dataExtractionRules
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.betterto_do.tasks.DashboardActivity
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:14:9-18:55
-	android:label
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:17:13-61
-	android:exported
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:16:13-37
-	android:theme
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:18:13-52
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:11:9-40
 	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:15:13-52
-service#com.example.betterto_do.MyService
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:19:9-22:39
-	android:enabled
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:21:13-35
-	android:exported
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:22:13-36
-	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:20:13-38
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:23:9-29:19
-MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:8:9-14:19
-MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:8:9-14:19
-MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\30e4fdfbbca1c75f0dd72414fc556224\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\30e4fdfbbca1c75f0dd72414fc556224\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:34:9-40:19
-MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:34:9-40:19
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f5b9c0af6015a5876c0d4fcb3a9cd5e3\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
-MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f5b9c0af6015a5876c0d4fcb3a9cd5e3\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\2d2214c88cded7ccb0f28fd0959a272a\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\2d2214c88cded7ccb0f28fd0959a272a\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\0aa3b0149163c2bf1667005a5c22a48b\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\0aa3b0149163c2bf1667005a5c22a48b\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:10:13-37
-	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\0aa3b0149163c2bf1667005a5c22a48b\transformed\firebase-common-20.4.2\AndroidManifest.xml:34:13-32
-	android:directBootAware
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:25:13-43
-	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:24:13-84
-meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:26:13-28:85
-MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
-MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
-	android:value
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:28:17-82
-	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:27:17-139
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:6:9-69
 activity#com.example.betterto_do.MainActivity
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:40:9-49:20
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:12:9-21:20
 	android:exported
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:42:13-36
-	android:theme
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:43:13-52
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:15:13-36
+	android:configChanges
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:14:13-43
 	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:41:13-41
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:13:13-64
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:44:13-48:29
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:45:17-69
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:45:25-66
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:47:17-77
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:47:27-74
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:19:27-74
+meta-data#preloaded_fonts
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:23:9-25:57
+	android:resource
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:25:13-54
+	android:name
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:24:13-43
 uses-sdk
 INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml
@@ -344,36 +300,42 @@ MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\Groobles\.gradle\c
 MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\2910ae4a9805c3bb8f3eb610f364a853\transformed\viewbinding-8.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\Groobles\.gradle\caches\transforms-3\dae108e50398ef2036b140c69a5caf6d\transformed\material3-1.1.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\Groobles\.gradle\caches\transforms-3\dae108e50398ef2036b140c69a5caf6d\transformed\material3-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.hilt:hilt-work:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\a3b1cfda43ed65a590c931afbcae2243\transformed\hilt-work-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.hilt:hilt-work:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\a3b1cfda43ed65a590c931afbcae2243\transformed\hilt-work-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\Groobles\.gradle\caches\transforms-3\b1a4933be18b868258eb0bcffd2a6f8d\transformed\preference-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\Groobles\.gradle\caches\transforms-3\b1a4933be18b868258eb0bcffd2a6f8d\transformed\preference-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.hilt:hilt-navigation-fragment:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\8ecb2f4b100c5fbc5b1af798ad682399\transformed\hilt-navigation-fragment-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.hilt:hilt-navigation-fragment:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\8ecb2f4b100c5fbc5b1af798ad682399\transformed\hilt-navigation-fragment-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.hilt:hilt-navigation:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\c4a48a010561c57fbde95a298df1dc62\transformed\hilt-navigation-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.hilt:hilt-navigation:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\c4a48a010561c57fbde95a298df1dc62\transformed\hilt-navigation-1.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.dagger:hilt-android:2.48.1] C:\Users\Groobles\.gradle\caches\transforms-3\34910ef4bb5a7dafec403e7e3e4482cc\transformed\hilt-android-2.48.1\AndroidManifest.xml:18:3-42
-MERGED from [com.google.dagger:hilt-android:2.48.1] C:\Users\Groobles\.gradle\caches\transforms-3\34910ef4bb5a7dafec403e7e3e4482cc\transformed\hilt-android-2.48.1\AndroidManifest.xml:18:3-42
-MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\f8faa2d4f78290fc01ccc361c8f89f10\transformed\lottie-6.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\f8faa2d4f78290fc01ccc361c8f89f10\transformed\lottie-6.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.github.QuadFlask:colorpicker:0.0.15] C:\Users\Groobles\.gradle\caches\transforms-3\2775f031299b83a5e33272967cc0c5ea\transformed\colorpicker-0.0.15\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.QuadFlask:colorpicker:0.0.15] C:\Users\Groobles\.gradle\caches\transforms-3\2775f031299b83a5e33272967cc0c5ea\transformed\colorpicker-0.0.15\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.navigation:navigation-common:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\2f738efaffd099f5e684abd5777cfcf1\transformed\navigation-common-2.7.5\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\2f738efaffd099f5e684abd5777cfcf1\transformed\navigation-common-2.7.5\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\fbbbe5d3af5729be174f1f15575fe1e2\transformed\navigation-common-ktx-2.7.5\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\fbbbe5d3af5729be174f1f15575fe1e2\transformed\navigation-common-ktx-2.7.5\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\6c9cd15e917df5fb019ff36c22a0aa58\transformed\navigation-runtime-2.7.5\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\6c9cd15e917df5fb019ff36c22a0aa58\transformed\navigation-runtime-2.7.5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\5c0770b1479beadd6ae6525922169107\transformed\navigation-runtime-ktx-2.7.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\5c0770b1479beadd6ae6525922169107\transformed\navigation-runtime-ktx-2.7.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\9ee92c2f3fb256623f3863430959befe\transformed\navigation-fragment-2.7.5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\9ee92c2f3fb256623f3863430959befe\transformed\navigation-fragment-2.7.5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\765048922a5b2efaceb0d14174675141\transformed\navigation-fragment-ktx-2.7.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\765048922a5b2efaceb0d14174675141\transformed\navigation-fragment-ktx-2.7.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\cfb73fc30fe3b6270802d78c28d28c62\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\cfb73fc30fe3b6270802d78c28d28c62\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-ui:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\7cb92496b39d646e127489bc621b2066\transformed\navigation-ui-2.7.5\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\7cb92496b39d646e127489bc621b2066\transformed\navigation-ui-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\5c0770b1479beadd6ae6525922169107\transformed\navigation-runtime-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\5c0770b1479beadd6ae6525922169107\transformed\navigation-runtime-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\cfb73fc30fe3b6270802d78c28d28c62\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\cfb73fc30fe3b6270802d78c28d28c62\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\765048922a5b2efaceb0d14174675141\transformed\navigation-fragment-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\765048922a5b2efaceb0d14174675141\transformed\navigation-fragment-ktx-2.7.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\9ee92c2f3fb256623f3863430959befe\transformed\navigation-fragment-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.5] C:\Users\Groobles\.gradle\caches\transforms-3\9ee92c2f3fb256623f3863430959befe\transformed\navigation-fragment-2.7.5\AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\22b0eaad642f6e2b7e76c96f20f14ee2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\22b0eaad642f6e2b7e76c96f20f14ee2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-work:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\a3b1cfda43ed65a590c931afbcae2243\transformed\hilt-work-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-work:1.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\a3b1cfda43ed65a590c931afbcae2243\transformed\hilt-work-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.48.1] C:\Users\Groobles\.gradle\caches\transforms-3\34910ef4bb5a7dafec403e7e3e4482cc\transformed\hilt-android-2.48.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.48.1] C:\Users\Groobles\.gradle\caches\transforms-3\34910ef4bb5a7dafec403e7e3e4482cc\transformed\hilt-android-2.48.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\f8faa2d4f78290fc01ccc361c8f89f10\transformed\lottie-6.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\f8faa2d4f78290fc01ccc361c8f89f10\transformed\lottie-6.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.QuadFlask:colorpicker:0.0.15] C:\Users\Groobles\.gradle\caches\transforms-3\2775f031299b83a5e33272967cc0c5ea\transformed\colorpicker-0.0.15\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.QuadFlask:colorpicker:0.0.15] C:\Users\Groobles\.gradle\caches\transforms-3\2775f031299b83a5e33272967cc0c5ea\transformed\colorpicker-0.0.15\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Groobles\.gradle\caches\transforms-3\3edc50a1531922786ae14f5a2e28fc6d\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Groobles\.gradle\caches\transforms-3\3edc50a1531922786ae14f5a2e28fc6d\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Groobles\.gradle\caches\transforms-3\b6e600543a831a120e4d5eeb4d057fa7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -382,50 +344,16 @@ MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\Gro
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\cd383b69c56b5c36b5b18058b396dcd0\transformed\library-1.6.1\AndroidManifest.xml:11:5-13:41
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\86000c1ad22a37bd897deb8c5c9c3d6b\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\86000c1ad22a37bd897deb8c5c9c3d6b\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\Groobles\.gradle\caches\transforms-3\331f320bcee4b3ac3d543646adc375a3\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\Groobles\.gradle\caches\transforms-3\331f320bcee4b3ac3d543646adc375a3\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\8b0919571b4b4a00cf2450dfd47f2089\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\8b0919571b4b4a00cf2450dfd47f2089\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\13baffea755f70fdc2ab8b22fc04fcd2\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\13baffea755f70fdc2ab8b22fc04fcd2\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\9fe073ab2883218c06191e69fdc27961\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\9fe073ab2883218c06191e69fdc27961\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d54d788dfc912e86a9fde5f2d4b404a3\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.material:material-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d54d788dfc912e86a9fde5f2d4b404a3\transformed\material-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7606fd919c36ff5f9780bb5c54954632\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7606fd919c36ff5f9780bb5c54954632\transformed\animation-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d552a20bde5bf10e517b077c1243ded6\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d552a20bde5bf10e517b077c1243ded6\transformed\animation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\17e42e0849a1841a22709de07b681156\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\17e42e0849a1841a22709de07b681156\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\cf1255bd77e0c02cf102ad946487e276\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\cf1255bd77e0c02cf102ad946487e276\transformed\foundation-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\b9a6b8c4955d3f179b5ee3bdc6c47d9c\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\b9a6b8c4955d3f179b5ee3bdc6c47d9c\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\4f00e8130d485951c195f9ac5d84f917\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\4f00e8130d485951c195f9ac5d84f917\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\a50234e4151305e5588f312c29e2a340\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\a50234e4151305e5588f312c29e2a340\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\e4b2f552cd7823fdc81cdf6fd39a254d\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\e4b2f552cd7823fdc81cdf6fd39a254d\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\1298d4bd88c767e28a0f996cb696d2d5\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\1298d4bd88c767e28a0f996cb696d2d5\transformed\ui-util-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\be479e46feda855d7782d699299584f5\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\be479e46feda855d7782d699299584f5\transformed\ui-text-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7ca0ffb34b219968145cbf9280dd386b\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7ca0ffb34b219968145cbf9280dd386b\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\22b0eaad642f6e2b7e76c96f20f14ee2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\22b0eaad642f6e2b7e76c96f20f14ee2\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f9a815c1f74a246e70934fcef8a7091c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f9a815c1f74a246e70934fcef8a7091c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\30e4fdfbbca1c75f0dd72414fc556224\transformed\firebase-auth-22.3.0\AndroidManifest.xml:21:5-23:64
 MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\30e4fdfbbca1c75f0dd72414fc556224\transformed\firebase-auth-22.3.0\AndroidManifest.xml:21:5-23:64
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f9a815c1f74a246e70934fcef8a7091c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f9a815c1f74a246e70934fcef8a7091c\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\fdf5f2d2fa8b833f687a647490eb4f48\transformed\play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\fdf5f2d2fa8b833f687a647490eb4f48\transformed\play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.play:review:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\16ee644480f60816c33cd21e92207108\transformed\review-2.0.1\AndroidManifest.xml:7:5-9:41
@@ -464,14 +392,46 @@ MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Groobles\.gradle\caches\
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\Groobles\.gradle\caches\transforms-3\78aff1e302b85eaaa34766261c6102f4\transformed\work-runtime-2.9.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\d1426dc4de0149ec6ac38e1f4e32967e\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\Groobles\.gradle\caches\transforms-3\d1426dc4de0149ec6ac38e1f4e32967e\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\13baffea755f70fdc2ab8b22fc04fcd2\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\13baffea755f70fdc2ab8b22fc04fcd2\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\9fe073ab2883218c06191e69fdc27961\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\9fe073ab2883218c06191e69fdc27961\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d54d788dfc912e86a9fde5f2d4b404a3\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d54d788dfc912e86a9fde5f2d4b404a3\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7606fd919c36ff5f9780bb5c54954632\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7606fd919c36ff5f9780bb5c54954632\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d552a20bde5bf10e517b077c1243ded6\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\d552a20bde5bf10e517b077c1243ded6\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\17e42e0849a1841a22709de07b681156\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\17e42e0849a1841a22709de07b681156\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\cf1255bd77e0c02cf102ad946487e276\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\cf1255bd77e0c02cf102ad946487e276\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\b9a6b8c4955d3f179b5ee3bdc6c47d9c\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\b9a6b8c4955d3f179b5ee3bdc6c47d9c\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\4f00e8130d485951c195f9ac5d84f917\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\4f00e8130d485951c195f9ac5d84f917\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\a50234e4151305e5588f312c29e2a340\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\a50234e4151305e5588f312c29e2a340\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\e4b2f552cd7823fdc81cdf6fd39a254d\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\e4b2f552cd7823fdc81cdf6fd39a254d\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\1298d4bd88c767e28a0f996cb696d2d5\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\1298d4bd88c767e28a0f996cb696d2d5\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\be479e46feda855d7782d699299584f5\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\be479e46feda855d7782d699299584f5\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7ca0ffb34b219968145cbf9280dd386b\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\7ca0ffb34b219968145cbf9280dd386b\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\00f5cf3f261128ab660c43901130b182\transformed\activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\00f5cf3f261128ab660c43901130b182\transformed\activity-1.8.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Groobles\.gradle\caches\transforms-3\7650baeb6548f4014e5119aef6318e51\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Groobles\.gradle\caches\transforms-3\7650baeb6548f4014e5119aef6318e51\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Groobles\.gradle\caches\transforms-3\fa315a996aa2f309ac69344d762979ca\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Groobles\.gradle\caches\transforms-3\fa315a996aa2f309ac69344d762979ca\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\5222bd21ab60d4d7728f2ac9d585522f\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Groobles\.gradle\caches\transforms-3\5222bd21ab60d4d7728f2ac9d585522f\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Groobles\.gradle\caches\transforms-3\458cdf84baeef2f9df8e8673c199241b\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Groobles\.gradle\caches\transforms-3\458cdf84baeef2f9df8e8673c199241b\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\f84a920ae264dfcb0629d985523fdebe\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\f84a920ae264dfcb0629d985523fdebe\transformed\play-services-measurement-impl-21.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\Groobles\.gradle\caches\transforms-3\c1e4a3369d39cc01bfd04fbc5457eb92\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
@@ -592,8 +552,8 @@ MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Groo
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Groobles\.gradle\caches\transforms-3\6fac974984b76771df4fc678275da64b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Groobles\.gradle\caches\transforms-3\a43b45dc31bc6157ab9ddeb353c7dc20\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Groobles\.gradle\caches\transforms-3\a43b45dc31bc6157ab9ddeb353c7dc20\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\00f5cf3f261128ab660c43901130b182\transformed\activity-1.8.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\00f5cf3f261128ab660c43901130b182\transformed\activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Groobles\.gradle\caches\transforms-3\458cdf84baeef2f9df8e8673c199241b\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Groobles\.gradle\caches\transforms-3\458cdf84baeef2f9df8e8673c199241b\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\b6c6ba460984810c94be8b49b7cfa92b\transformed\activity-ktx-1.8.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\b6c6ba460984810c94be8b49b7cfa92b\transformed\activity-ktx-1.8.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-compose:1.8.1] C:\Users\Groobles\.gradle\caches\transforms-3\972df1c624d667a1d214e4aaf897e544\transformed\activity-compose-1.8.1\AndroidManifest.xml:5:5-44
@@ -858,18 +818,26 @@ ADDED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\cac
 		ADDED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:106:13-35
 	android:name
 		ADDED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:103:13-79
-activity#androidx.compose.ui.tooling.PreviewActivity
-ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\30e4fdfbbca1c75f0dd72414fc556224\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\30e4fdfbbca1c75f0dd72414fc556224\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f5b9c0af6015a5876c0d4fcb3a9cd5e3\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f5b9c0af6015a5876c0d4fcb3a9cd5e3\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\2d2214c88cded7ccb0f28fd0959a272a\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\2d2214c88cded7ccb0f28fd0959a272a\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\0aa3b0149163c2bf1667005a5c22a48b\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\0aa3b0149163c2bf1667005a5c22a48b\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
 	android:exported
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\0aa3b0149163c2bf1667005a5c22a48b\transformed\firebase-common-20.4.2\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\Groobles\.gradle\caches\transforms-3\0aa3b0149163c2bf1667005a5c22a48b\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
-activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:23:9-25:39
-	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:25:13-36
-	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:24:13-63
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:9:13-84
 meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
 ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] C:\Users\Groobles\.gradle\caches\transforms-3\ea79a785317aac39f805f693c7198935\transformed\firebase-auth-ktx-22.3.0\AndroidManifest.xml:11:13-13:85
 	android:value
@@ -1002,6 +970,12 @@ ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\User
 		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Groobles\.gradle\caches\transforms-3\e09d9ea04ecbf11d6d55bc1ba4de3363\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
 meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
 ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\f5b9c0af6015a5876c0d4fcb3a9cd5e3\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
 	android:value
@@ -1282,6 +1256,18 @@ action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
 ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Groobles\.gradle\caches\transforms-3\78aff1e302b85eaaa34766261c6102f4\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:17-88
 	android:name
 		ADDED from [androidx.work:work-runtime:2.9.0] C:\Users\Groobles\.gradle\caches\transforms-3\78aff1e302b85eaaa34766261c6102f4\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:25-85
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\935e258f2cb913f241b9e58e149caf5c\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\Groobles\.gradle\caches\transforms-3\f24457ea6cf960eb8c64ba9a60a52585\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:24:13-63
 uses-library#android.ext.adservices
 ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Groobles\.gradle\caches\transforms-3\8ab4d5afca919cc60f82d3943a583f2e\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
 	android:required

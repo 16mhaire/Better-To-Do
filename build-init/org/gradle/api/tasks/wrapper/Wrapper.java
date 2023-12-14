@@ -366,7 +366,7 @@ public abstract class Wrapper extends DefaultTask {
      *
      * <p>The resulting distribution url is validated before it is written to the gradle-wrapper.properties file.
      */
-    @Option(option = "gradle-version", description = "The version of the Gradle distribution required by the wrapper. " +
+    @Option(option = "gradle-version", descriptionription = "The version of the Gradle distribution required by the wrapper. " +
         "The following labels are allowed: latest, release-candidate, nightly, and release-nightly.")
     public void setGradleVersion(String gradleVersion) {
         distributionUrlConfigured = true;
@@ -389,7 +389,7 @@ public abstract class Wrapper extends DefaultTask {
      *
      * @see DistributionType
      */
-    @Option(option = "distribution-type", description = "The type of the Gradle distribution to be used by the wrapper.")
+    @Option(option = "distribution-type", descriptionription = "The type of the Gradle distribution to be used by the wrapper.")
     public void setDistributionType(DistributionType distributionType) {
         this.distributionType = distributionType;
     }
@@ -439,7 +439,7 @@ public abstract class Wrapper extends DefaultTask {
      *
      * <p>The distribution url is validated before it is written to the gradle-wrapper.properties file.
      */
-    @Option(option = "gradle-distribution-url", description = "The URL to download the Gradle distribution from.")
+    @Option(option = "gradle-distribution-url", descriptionription = "The URL to download the Gradle distribution from.")
     public void setDistributionUrl(String url) {
         distributionUrlConfigured = true;
         this.distributionUrl = url;
@@ -474,7 +474,7 @@ public abstract class Wrapper extends DefaultTask {
      *
      * @since 4.5
      */
-    @Option(option = "gradle-distribution-sha256-sum", description = "The SHA-256 hash sum of the gradle distribution.")
+    @Option(option = "gradle-distribution-sha256-sum", descriptionription = "The SHA-256 hash sum of the gradle distribution.")
     public void setDistributionSha256Sum(@Nullable String distributionSha256Sum) {
         this.distributionSha256Sum = distributionSha256Sum;
     }
@@ -539,7 +539,7 @@ public abstract class Wrapper extends DefaultTask {
     @Input
     @Incubating
     @Optional
-    @Option(option = "network-timeout", description = "Timeout in ms to use when the wrapper is performing network operations.")
+    @Option(option = "network-timeout", descriptionription = "Timeout in ms to use when the wrapper is performing network operations.")
     public Property<Integer> getNetworkTimeout() {
         return networkTimeout;
     }
@@ -552,6 +552,6 @@ public abstract class Wrapper extends DefaultTask {
      */
     @Incubating
     @Input
-    @Option(option = "validate-url", description = "Sets task to validate the configured distribution url.")
+    @Option(option = "validate-url", descriptionription = "Sets task to validate the configured distribution url.")
     public abstract Property<Boolean> getValidateDistributionUrl();
 }

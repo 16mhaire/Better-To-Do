@@ -4,7 +4,7 @@
             "outputFile": "com.example.betterto_do.app-mergeDebugResources-104:/values-lt/values-lt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\433524b4e7581de078b01dfc3165dc00\\transformed\\material3-1.0.0\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\0ebafeedb63207ef0a6c53d6603b819b\\transformed\\material3-1.0.0\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -21,41 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\df930cad8329c51d413dec3a1d8b2820\\transformed\\play-services-basement-18.1.0\\res\\values-lt\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "154",
-                        "endOffsets": "349"
-                    },
-                    "to": {
-                        "startLines": "62",
-                        "startColumns": "4",
-                        "startOffsets": "6487",
-                        "endColumns": "158",
-                        "endOffsets": "6641"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\440e96ec0b8f05310135423c393001dc\\transformed\\browser-1.4.0\\res\\values-lt\\values-lt.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,160,265,379",
-                        "endColumns": "104,104,113,105",
-                        "endOffsets": "155,260,374,480"
-                    },
-                    "to": {
-                        "startLines": "72,80,81,82",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "7747,8473,8578,8692",
-                        "endColumns": "104,104,113,105",
-                        "endOffsets": "7847,8573,8687,8793"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\a61b68540d5b22d903536d5ee78ef0fa\\transformed\\play-services-base-18.0.1\\res\\values-lt\\values.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\11c80a4b2bf64030db65e4e88981d597\\transformed\\play-services-base-18.0.1\\res\\values-lt\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\31aaed86389da8e6cf12c1e2d4524b49\\transformed\\ui-release\\res\\values-lt\\values-lt.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,198,282,380,485,580,657,748,835,919,989,1058,1144,1232,1307,1387,1470",
-                        "endColumns": "92,83,97,104,94,76,90,86,83,69,68,85,87,74,79,82,121",
-                        "endOffsets": "193,277,375,480,575,652,743,830,914,984,1053,1139,1227,1302,1382,1465,1587"
-                    },
-                    "to": {
-                        "startLines": "51,52,73,74,76,175,176,235,236,237,238,240,241,243,245,246,247",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5226,5319,7852,7950,8135,17956,18033,22912,22999,23083,23153,23304,23390,23562,23738,23818,23901",
-                        "endColumns": "92,83,97,104,94,76,90,86,83,69,68,85,87,74,79,82,121",
-                        "endOffsets": "5314,5398,7945,8050,8225,18028,18119,22994,23078,23148,23217,23385,23473,23632,23813,23896,24018"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\20fc330905d9f83066dad91a2feaefc4\\transformed\\core-1.12.0\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\cc36eaaeef797b61082e7a2049b1de65\\transformed\\core-1.12.0\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -106,7 +55,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\1e05f8bbeb8addf9f7ef113e7f5bf25c\\transformed\\firebase-ui-auth-7.2.0\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\8b354f7da84f5c057cb9c92b4b533614\\transformed\\ui-release\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,198,282,380,485,580,657,748,835,919,989,1058,1144,1232,1307,1387,1470",
+                        "endColumns": "92,83,97,104,94,76,90,86,83,69,68,85,87,74,79,82,121",
+                        "endOffsets": "193,277,375,480,575,652,743,830,914,984,1053,1139,1227,1302,1382,1465,1587"
+                    },
+                    "to": {
+                        "startLines": "51,52,73,74,76,175,176,235,236,237,238,240,241,243,245,246,247",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5226,5319,7852,7950,8135,17956,18033,22912,22999,23083,23153,23304,23390,23562,23738,23818,23901",
+                        "endColumns": "92,83,97,104,94,76,90,86,83,69,68,85,87,74,79,82,121",
+                        "endOffsets": "5314,5398,7945,8050,8225,18028,18119,22994,23078,23148,23217,23385,23473,23632,23813,23896,24018"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\912ccea21307427eed695c48dc9dedd7\\transformed\\play-services-basement-18.1.0\\res\\values-lt\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "154",
+                        "endOffsets": "349"
+                    },
+                    "to": {
+                        "startLines": "62",
+                        "startColumns": "4",
+                        "startOffsets": "6487",
+                        "endColumns": "158",
+                        "endOffsets": "6641"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\8395c197c995565145e4f49988d2f5db\\transformed\\firebase-ui-auth-7.2.0\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -123,24 +106,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\cd4c84cc2d8e5d33658b54ece87281ca\\transformed\\navigation-ui-2.7.5\\res\\values-lt\\values-lt.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,165",
-                        "endColumns": "109,118",
-                        "endOffsets": "160,279"
-                    },
-                    "to": {
-                        "startLines": "233,234",
-                        "startColumns": "4,4",
-                        "startOffsets": "22683,22793",
-                        "endColumns": "109,118",
-                        "endOffsets": "22788,22907"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\2c7fe5a76aa2a144c8c73656b482d9ae\\transformed\\appcompat-1.6.1\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\77dee2a85cbec689630886a6760aff94\\transformed\\appcompat-1.6.1\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -157,7 +123,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\898d55b55b744b85be594d6d59d4ee89\\transformed\\material-1.10.0\\res\\values-lt\\values-lt.xml",
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\5a14e496ad2535b83c4369a59ebd6b0c\\transformed\\navigation-ui-2.7.5\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,165",
+                        "endColumns": "109,118",
+                        "endOffsets": "160,279"
+                    },
+                    "to": {
+                        "startLines": "233,234",
+                        "startColumns": "4,4",
+                        "startOffsets": "22683,22793",
+                        "endColumns": "109,118",
+                        "endOffsets": "22788,22907"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\3262309fda401a6c638462744fa9da5e\\transformed\\material-1.10.0\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -173,6 +156,23 @@
                         "endLines": "8,36,37,38,39,40,48,49,50,77,79,174,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,239",
                         "endColumns": "12,78,77,82,93,89,95,117,83,65,98,77,64,109,62,71,58,73,60,53,123,60,61,53,77,133,87,83,140,78,83,142,96,76,55,53,65,74,78,87,79,75,77,72,76,106,86,80,89,91,71,80,91,54,81,65,84,86,61,63,62,71,110,115,100,108,59,57,81",
                         "endOffsets": "979,3827,3905,3988,4082,4172,5019,5137,5221,8291,8468,17951,18184,18294,18357,18429,18488,18562,18623,18677,18801,18862,18924,18978,19056,19190,19278,19362,19503,19582,19666,19809,19906,19983,20039,20093,20159,20234,20313,20401,20481,20557,20635,20708,20785,20892,20979,21060,21150,21242,21314,21395,21487,21542,21624,21690,21775,21862,21924,21988,22051,22123,22234,22350,22451,22560,22620,22678,23299"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anita\\.gradle\\caches\\transforms-3\\34f4f4a7192403f379614495f244ec53\\transformed\\browser-1.4.0\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,160,265,379",
+                        "endColumns": "104,104,113,105",
+                        "endOffsets": "155,260,374,480"
+                    },
+                    "to": {
+                        "startLines": "72,80,81,82",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7747,8473,8578,8692",
+                        "endColumns": "104,104,113,105",
+                        "endOffsets": "7847,8573,8687,8793"
                     }
                 }
             ]

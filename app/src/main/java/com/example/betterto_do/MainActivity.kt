@@ -29,14 +29,21 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background,
                 ) {
                     var isLoggedIn = FirebaseAuth.getInstance().currentUser
-                    if (isLoggedIn != null){
+                    /*if (isLoggedIn != null){
                         Dashboard()
                     }
                     else{
                         val intent = Intent(this, Login::class.java)
                         startActivity(intent)
                         finish()
+                    }*/
+
+                    while(isLoggedIn == null){
+                        val intent = Intent(this, Login::class.java)
+                        startActivity(intent)
+                        finish()
                     }
+                    Dashboard()
                 }
             }
         }

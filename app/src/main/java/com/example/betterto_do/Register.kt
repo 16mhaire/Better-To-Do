@@ -68,41 +68,6 @@ class Register : ComponentActivity() {
 
 
 }
-/*
-@Composable
-fun RegisterScreen(
-    modifier: Modifier = Modifier,
-    auth: FirebaseAuth,
-    userCredentials: MutableState<Register.UserCredentials>,
-    onEmailChanged: (String) -> Unit,
-    onPasswordChanged: (String) -> Unit
-) {
-    Surface(
-        modifier = Modifier.fillMaxSize()
-    ) {
-        Column (
-            verticalArrangement = Arrangement.Top
-        ){
-            RegisterHeader()
-            NewUserField("Email", false) { onEmailChanged(it) }
-            NewUserField("Password", true) { onPasswordChanged(it) }
-        }
-
-        Column(
-            verticalArrangement = Arrangement.Bottom
-        ) {
-            RegisterButton(
-                auth,
-                Register(),
-                userCredentials.value.email,
-                userCredentials.value.password
-            )
-            Spacer(Modifier.height(16.dp))
-            ReturningUserButton()
-        }
-    }
-}
-*/
 
 @Composable
 fun RegisterScreen(
@@ -120,7 +85,7 @@ fun RegisterScreen(
         ) {
             RegisterHeader()
             NewUserField("Email", false, onEmailChanged)
-            NewUserField("Password", false, onPasswordChanged)
+            NewUserField("Password", true, onPasswordChanged)
         }
 
 
@@ -244,7 +209,7 @@ fun RegisterButton(
 fun ReturningUserButton() {
     val context = LocalContext.current
 
-    val registerActivityLauncher = rememberLauncherForActivityResult(
+    val loginActivityLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.StartActivityForResult()
     ) { activityResult ->
         // Handle the result if needed
@@ -252,8 +217,8 @@ fun ReturningUserButton() {
 
     Button(
         onClick = {
-            val intent = Intent(context, Register::class.java)
-            registerActivityLauncher.launch(intent)
+            val intent = Intent(context, Login::class.java)
+            loginActivityLauncher.launch(intent)
         },
         modifier = Modifier.fillMaxWidth()
     ) {

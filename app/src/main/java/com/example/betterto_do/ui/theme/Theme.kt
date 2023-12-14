@@ -1,6 +1,6 @@
 package com.example.betterto_do.ui.theme
 
-import android.app.Activity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -61,12 +61,11 @@ fun BetterToDoTheme(
         else -> LightColorScheme
     }
     val view = LocalView.current
-    if (!view.isInEditMode) {
-        SideEffect {
-            val window = (view.context as Activity).window
-            window.statusBarColor = colorScheme.primary.toArgb()
-            WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
-        }
+    val context = view.context
+    if (context is AppCompatActivity) {
+        val window = context.window
+        window.statusBarColor = colorScheme.primary.toArgb()
+        WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
     }
 
     MaterialTheme(

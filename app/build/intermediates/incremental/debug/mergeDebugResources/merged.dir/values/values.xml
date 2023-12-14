@@ -4305,7 +4305,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="Theme.BetterToDo" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.BetterToDo" parent="Theme.AppCompat.Light.NoActionBar"/>
     <style name="Theme.Design" parent="Theme.AppCompat">
   </style>
     <style name="Theme.Design.BottomSheetDialog" parent="Theme.AppCompat.Dialog">

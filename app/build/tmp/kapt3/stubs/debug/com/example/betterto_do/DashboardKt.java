@@ -4,6 +4,7 @@ package com.example.betterto_do;
 @kotlin.OptIn(markerClass = {androidx.compose.material3.ExperimentalMaterial3Api.class})
 public final class DashboardKt {
     
+    @kotlin.OptIn(markerClass = {androidx.compose.material3.ExperimentalMaterial3Api.class})
     @androidx.compose.runtime.Composable
     public static final void Dashboard() {
     }

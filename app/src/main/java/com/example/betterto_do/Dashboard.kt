@@ -25,6 +25,7 @@ import com.google.firebase.auth.FirebaseAuth
 
 data class Task(val name: String)
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Dashboard() {
     var showAddTaskUI by remember { mutableStateOf(false) }
@@ -70,9 +71,9 @@ fun Dashboard() {
                 }
             }
             //@kevin this is where I added the listscreen from your code.
-            ListCreationScreen( onListCreated = {}
+            //ListCreationScreen( onListCreated = {}
 
-            )
+
             LazyColumn {
                 items(tasks.value) { task ->
                     TaskWidget(task)

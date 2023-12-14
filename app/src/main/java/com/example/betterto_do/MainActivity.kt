@@ -21,7 +21,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {
+                    //Need to figure out how to go between them
                     Dashboard()
+                    //ListCreationScreen()
                 }
             }
         }

@@ -31,4 +31,5 @@ interface TaskDAO {
 
     @Query("select * from task_table order by case when taskPriority like 'H%' then 1 when taskPriority like 'M%' then 2 when taskPriority like 'L%' then 3 end")
     fun sortByHighPriority(): Flow<List<Task>>
+
 }

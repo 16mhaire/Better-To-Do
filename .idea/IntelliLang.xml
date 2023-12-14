@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LanguageInjectionConfiguration">
+    <injection language="kotlin" injector-id="xml">
+      <display-name>activity/@name</display-name>
+      <single-file value="false" />
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("name")).withNamespace(string().equalTo("http://schemas.android.com/apk/res/android")).withParent(xmlTag().withLocalName(string().equalTo("activity")))]]></place>
+    </injection>
+  </component>
+</project>

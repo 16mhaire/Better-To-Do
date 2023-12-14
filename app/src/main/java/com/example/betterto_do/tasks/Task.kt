@@ -32,23 +32,6 @@ object CONSTANTS {
     const val PREFERENCE_KEY = "sort_order"
 }
 
-//Feel free to edit/delete/change everything below this line. I was just testing
-fun createNewTask(
-    taskName: String,
-    taskDescription: String?,
-    taskPriority: Priority,
-    taskDueDate: LocalTime? = null,
-    taskCompleted: Boolean = false
-): Task {
-    return Task(
-        taskName = taskName,
-        taskDescription = taskDescription,
-        taskPriority = taskPriority,
-        taskDueDate = taskDueDate,
-        taskCompleted = taskCompleted
-    )
-}
-
 enum class Action {
     ADD,
     UPDATE,

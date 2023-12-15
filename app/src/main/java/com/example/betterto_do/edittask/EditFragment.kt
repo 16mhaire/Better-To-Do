@@ -1,5 +1,6 @@
 package com.example.betterto_do.edittask
 
+import android.content.Context
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -20,7 +21,6 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.transition.MaterialContainerTransform
 import com.example.betterto_do.R
 import com.example.betterto_do.databinding.FragmentEditBinding
-import com.example.betterto_do.databinding.FragmentListBinding
 import com.example.betterto_do.listtasks.DATE_FORMAT
 import com.example.betterto_do.models.Task
 import java.util.*
@@ -53,6 +53,12 @@ class EditFragment : Fragment(), DatePickerFragment.Callbacks {
     // ViewModel for the fragment
     private lateinit var editFragmentViewModel: EditFragmentViewModel
 
+    // Initialize ViewModel
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        editFragmentViewModel = ViewModelProvider(this)[EditFragmentViewModel::class.java]
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -74,9 +80,6 @@ class EditFragment : Fragment(), DatePickerFragment.Callbacks {
         val taskId: UUID = arguments?.getSerializable(ARG_TASK_ID) as UUID
         editFragmentViewModel.loadTask(taskId)
         editTaskLayout.transitionName = taskId.toString()
-
-        // Initialize ViewModel
-        editFragmentViewModel = ViewModelProvider(this)[EditFragmentViewModel::class.java]
 
         return view
     }

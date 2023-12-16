@@ -2,14 +2,12 @@ package com.example.betterto_do.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.util.*
 
-// Data class representing a task with Room annotations
-@Entity
-data class SubTask(@PrimaryKey val id: UUID = UUID.randomUUID(),
-                var title: String = "",
-                var description: String = "",
-                var dueDate: Date = Date(),
-                var priorty: Int = 0,
-                var notification: Boolean = false,
-                var notificationID: String = "")
+const val DATABASE_TABLE = "task_table"
+@Entity(tableName = DATABASE_TABLE)
+data class SubTask(
+    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    val title: String,
+    val description: String?,
+    val subTaskCompleted: Boolean = false,
+)

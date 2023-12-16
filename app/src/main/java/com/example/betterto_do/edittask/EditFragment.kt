@@ -31,13 +31,12 @@ private const val DIALOG_DATE = "DateDialog"
 private const val RETURN_DATE = 0
 private const val NO_TITLE_TEXT = "Add a task title to save."
 
-// Fragment responsible for the screen for editing tasks
+// Fragment responsible for the editing tasks screen
 class EditFragment : Fragment(), DatePickerFragment.Callbacks {
     // View binding instance
     private var _binding: FragmentEditBinding? = null
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
+    // This property is only valid between onCreateView and onDestroyView.
     private val binding get() = _binding!!
 
     // UI components
@@ -53,7 +52,7 @@ class EditFragment : Fragment(), DatePickerFragment.Callbacks {
     // ViewModel for the fragment
     private lateinit var editFragmentViewModel: EditFragmentViewModel
 
-    // Initialize ViewModel
+    // Initialize ViewModel inside onAttach() APP CRASHES WITHOUT THIS!!!!!!
     override fun onAttach(context: Context) {
         super.onAttach(context)
         editFragmentViewModel = ViewModelProvider(this)[EditFragmentViewModel::class.java]

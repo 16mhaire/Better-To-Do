@@ -1,35 +1,32 @@
 package com.example.betterto_do.database
 
-import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.example.betterto_do.models.SubTask
-import java.util.*
+import kotlinx.coroutines.flow.Flow
 
 // Data Access Object that allows interacting with SubTasks in the SubTaskDatabase
+
 @Dao
-interface SubTasksDAO {
-    // Query to get all subtasks
-    @Query("SELECT * FROM subTask")
-    fun getAllSubTasks(): LiveData<List<SubTask>>
+interface SubTaskDAO {
+    @Query("select * from task_table order by id")
+    fun getAllSubTask(): Flow<List<SubTask>>
 
-    // Query to get a subtask by its ID
-    @Query("SELECT * FROM subTask WHERE id=(:id)")
-    fun getSubTaskFromId(id: UUID): LiveData<SubTask?>
+    @Query("select * from task_table where id = :id")
+    fun getSelectedSubTask(id: Int): Flow<SubTask>
 
-    // Query to get the number of subtasks
-    @Query("SELECT COUNT(*) FROM subTask")
-    fun getSubTaskCount(): LiveData<Int>
-
-    // Update subtask with new info
     @Update
-    fun updateSubTask(subTask: SubTask)
+    suspend fun updateSubTask(newSubTask: SubTask)
 
-    // Insert subtask into Database
-    @Insert
-    fun addSubTask(subTask: SubTask)
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertSubTask(subTask: SubTask)
 
-    // Delete subtask from Database
     @Delete
-    fun deleteSubTask(subTask: SubTask)
+    suspend fun deleteSubTask(subTask: SubTask)
+
+    @Query("delete from task_table")
+    suspend fun deleteAllSubTask()
+
+    @Query("select * from task_table where title like :searchQuery or description like :searchQuery")
+    fun searchSubTasks(searchQuery: String): Flow<List<SubTask>>
 
 }

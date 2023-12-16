@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/darkPrimary"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
@@ -15,12 +16,13 @@
         android:paddingBottom="25dp"
         android:paddingStart="20dp"
         android:fontFamily="@font/rubik_medium"
-        android:textColor="@color/mainText"
+        android:textSize="18sp"
+        android:textColor="@color/white"
         android:drawablePadding="10dp"
         android:clickable="true"
         android:background="?attr/selectableItemBackground"
         app:drawableStartCompat="@drawable/ic_settings"
-        app:drawableTint="@color/mainText" />
+        app:drawableTint="@color/white" />
 
     <TextView
         android:id="@+id/bugs_button"
@@ -32,12 +34,13 @@
         android:paddingBottom="25dp"
         android:paddingStart="20dp"
         android:fontFamily="@font/rubik_medium"
-        android:textColor="@color/mainText"
+        android:textSize="18sp"
+        android:textColor="@color/white"
         android:drawablePadding="10dp"
         android:clickable="true"
         android:background="?attr/selectableItemBackground"
         app:drawableStartCompat="@drawable/ic_bug_report"
-        app:drawableTint="@color/mainText" />
+        app:drawableTint="@color/white" />
 
     <TextView
         android:id="@+id/translate_button"
@@ -49,12 +52,13 @@
         android:paddingBottom="25dp"
         android:paddingStart="20dp"
         android:fontFamily="@font/rubik_medium"
-        android:textColor="@color/mainText"
+        android:textSize="18sp"
+        android:textColor="@color/white"
         android:drawablePadding="10dp"
         android:clickable="true"
         android:background="?attr/selectableItemBackground"
         app:drawableStartCompat="@drawable/ic_translate"
-        app:drawableTint="@color/mainText" />
+        app:drawableTint="@color/white" />
 
 
     <TextView
@@ -65,6 +69,7 @@
         android:paddingBottom="15dp"
         android:paddingStart="25dp"
         android:fontFamily="@font/rubik_medium"
-        android:textColor="@color/altText"/>
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
 
 </LinearLayout>

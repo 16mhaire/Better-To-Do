@@ -30,16 +30,18 @@
         <item>reply</item>
         <item>reply_all</item>
     </string-array>
-    <color name="altText">#2D323F</color>
+    <color name="altText">#FFFFFF</color>
     <color name="cancelred">#ea5455</color>
-    <color name="colorAccent">#1C1F27</color>
-    <color name="colorPrimary">#2D323F</color>
-    <color name="colorPrimaryDark">#C8C8C8</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorPrimary">#1C1F27</color>
+    <color name="colorPrimaryDark">#1C1F27</color>
+    <color name="cyan">#33FFFC</color>
     <color name="darkPrimary">#1C1F27</color>
     <color name="ic_launcher_background">#FFFFFF</color>
-    <color name="mainBackground">#FFFFFF</color>
+    <color name="mainBackground">#1C1F27</color>
     <color name="mainGreen">#3DDC84</color>
-    <color name="mainText">#1C1F27</color>
+    <color name="mainText">#FFFFFF</color>
+    <color name="purple">#4E20A0</color>
     <color name="white">#FFFFFF</color>
     <string name="addtitle">Add a new task</string>
     <string name="app_name">Better To-Do</string>
@@ -78,5 +80,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/mainBackground</item>
+        <item name="android:textColorPrimary">@color/white</item>
     </style>
 </resources>

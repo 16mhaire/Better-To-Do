@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/edittasklayout"
-    android:background="@color/mainBackground"
+    android:background="@color/darkPrimary"
     tools:context=".addtasks.AddFragment">
 
     <TextView
@@ -17,7 +17,7 @@
         android:layout_marginRight="16dp"
         android:fontFamily="@font/rubik_bold"
         android:text="@string/edit_title"
-        android:textColor="@color/mainText"
+        android:textColor="@color/cyan"
         android:textSize="28sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -35,10 +35,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edittitle"
-        app:boxBackgroundColor="@color/mainBackground"
+        app:boxBackgroundColor="@color/darkPrimary"
         android:textColorHint="@color/mainText"
         app:hintTextColor="@color/mainText"
-        app:boxStrokeColor="@color/mainText">
+        app:boxStrokeColor="@color/cyan">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/titleTextInput"
@@ -95,7 +95,7 @@
         app:layout_constraintTop_toBottomOf="@id/titleTextField"
         app:layout_constraintBottom_toTopOf="@id/priorityTitle"
         android:src="@drawable/ic_notifications_none"
-        app:tint="@color/mainText"
+        app:tint="@color/white"
         android:contentDescription="@string/todo4" />
 
     <TextView
@@ -106,14 +106,14 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/rubik_medium"
         android:text="@string/priorityTitle"
-        android:textColor="@color/mainText"
+        android:textColor="@color/white"
         android:gravity="center_vertical"
         android:drawablePadding="10dp"
         app:layout_constraintBottom_toTopOf="@id/prioritySelect"
         app:layout_constraintTop_toBottomOf="@id/taskDate"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:drawableTint="@color/mainText" />
+        app:drawableTint="@color/white" />
 
     <TextView
         android:id="@+id/prioritySelect"
@@ -124,7 +124,7 @@
         android:layout_marginBottom="8dp"
         android:padding="8dp"
         android:fontFamily="@font/rubik_bold"
-        android:textColor="@color/mainText"
+        android:textColor="@color/white"
         android:clickable="true"
         android:background="?attr/selectableItemBackground"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -153,11 +153,11 @@
         android:layout_marginTop="16dp"
         android:layout_marginRight="4dp"
         android:hint="@string/descriptionHint"
-        android:textColorHint="@color/mainText"
-        app:boxBackgroundColor="@color/mainBackground"
-        app:boxStrokeColor="@color/mainText"
+        android:textColorHint="@color/white"
+        app:boxBackgroundColor="@color/darkPrimary"
+        app:boxStrokeColor="@color/white"
 
-        app:hintTextColor="@color/mainText"
+        app:hintTextColor="@color/white"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/prioritySelect">
@@ -170,20 +170,20 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-
-
-
     <Button
         android:id="@+id/savebtn"
+        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="8dp"
         android:text="@string/save"
-        android:textColor="@color/white"
+        android:textColor="@color/cyan"
+        android:width="2dp" android:color="@color/cyan"
+        app:strokeColor="@color/cyan"
         android:textSize="12sp"
-        android:backgroundTint="@color/darkPrimary"
+        android:backgroundTint="@color/mainBackground"
         android:fontFamily="@font/rubik_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -205,6 +205,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/savebtn"
         app:layout_constraintRight_toRightOf="parent"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

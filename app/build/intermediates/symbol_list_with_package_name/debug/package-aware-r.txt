@@ -1557,6 +1557,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color cyan
 color darkPrimary
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
@@ -2256,6 +2257,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purple
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark

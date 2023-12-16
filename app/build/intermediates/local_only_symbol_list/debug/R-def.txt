@@ -12,11 +12,13 @@ color cancelred
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color cyan
 color darkPrimary
 color ic_launcher_background
 color mainBackground
 color mainGreen
 color mainText
+color purple
 color white
 drawable ic_bug_report
 drawable ic_code

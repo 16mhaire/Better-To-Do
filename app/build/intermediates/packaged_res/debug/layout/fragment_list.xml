@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mainBackground"
+    android:background="@color/darkPrimary"
     tools:context=".listtasks.ListFragment">
 
     <TextView
@@ -16,7 +16,7 @@
         android:layout_marginRight="16dp"
         android:fontFamily="@font/rubik_bold"
         android:text="@string/title"
-        android:textColor="@color/mainText"
+        android:textColor="@color/cyan"
         android:textSize="28sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -30,7 +30,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="16dp"
         android:fontFamily="@font/rubik_medium"
-        android:textColor="@color/altText"
+        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -84,9 +84,9 @@
             android:layout_margin="16dp"
             app:layout_anchor="@id/bottomAppBar"
             android:transitionName="list_to_add"
-            app:backgroundTint="@color/mainGreen"
+            app:backgroundTint="@color/cyan"
             app:srcCompat="@drawable/ic_plus"
-            app:tint="@color/white"
+            app:tint="@color/darkPrimary"
             android:contentDescription="@string/todo3" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

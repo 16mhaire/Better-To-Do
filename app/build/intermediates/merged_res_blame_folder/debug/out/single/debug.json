@@ -1,162 +1,158 @@
 [
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_code.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_code.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_notifications_none.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_notifications_none.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_prio_low.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_prio_low.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_translate.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_translate.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_prio_medium.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_prio_medium.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/layout_fragment_dialog.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/layout/fragment_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/layout_activity_main.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\layout_fragment_list.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\fragment_list.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_privacy.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_privacy.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\layout_task_list_item.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\task_list_item.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_settings.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_date.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_date.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_prio_medium.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_prio_medium.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\layout_fragment_dialog.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\fragment_dialog.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_prio_low.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_prio_low.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_plus.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_plus.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_privacy.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_privacy.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\font_rubik_medium.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\font\\rubik_medium.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/layout_task_list_item.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/layout/task_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_notifications.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_notifications.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_prio_high.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_prio_high.xml"
-    },
-    {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/font_rubik_bold.ttf.flat",
+        "source": "com.example.betterto_do.app-main-110:/font/rubik_bold.ttf"
     },
     {
         "merged": "com.example.betterto_do.app-merged_res-108:/layout_fragment_edit.xml.flat",
         "source": "com.example.betterto_do.app-main-110:/layout/fragment_edit.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/layout_fragment_list.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/layout/fragment_list.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_bug_report.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_bug_report.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_notifications.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_code.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_code.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_menu.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_menu.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_plus.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_plus.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/font_rubik_medium.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/font/rubik_medium.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\font_rubik_bold.ttf.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\font\\rubik_bold.ttf"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_menu.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_translate.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_translate.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_bug_report.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_bug_report.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\activity_main.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\layout_fragment_edit.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\fragment_edit.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/layout_fragment_add.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/layout/fragment_add.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_prio_high.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_prio_high.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.betterto_do.app-main-110:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\layout_fragment_add.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\fragment_add.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_notifications_none.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_notifications_none.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\drawable_ic_settings.xml.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\drawable\\ic_settings.xml"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-merged_res-108:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+        "merged": "com.example.betterto_do.app-merged_res-108:/drawable_ic_date.xml.flat",
+        "source": "com.example.betterto_do.app-main-110:/drawable/ic_date.xml"
     }
 ]

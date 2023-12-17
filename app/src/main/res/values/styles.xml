@@ -10,5 +10,5 @@
         <item name="android:textColorPrimary">@color/white</item>
     </style>
 
-
+    <style name="Theme.BetterToDo" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

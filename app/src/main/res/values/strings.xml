@@ -30,5 +30,7 @@
     <string name="todo4">TODO</string>
     <string name="todo5">TODO</string>
 
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
 
 </resources>

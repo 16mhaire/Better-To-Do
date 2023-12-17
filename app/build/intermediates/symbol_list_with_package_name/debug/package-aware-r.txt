@@ -1518,12 +1518,14 @@ color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
 color altText
+color amber
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1543,6 +1545,7 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color cerulean
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
@@ -1605,6 +1608,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color frenchPink
 color fui_bgAnonymous
 color fui_bgEmail
 color fui_bgFacebook
@@ -1615,9 +1619,11 @@ color fui_bgTwitter
 color fui_buttonShadow
 color fui_linkColor
 color fui_transparent
+color gunmetal
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
+color limeGreen
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2190,6 +2196,7 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color mediumRedViolet
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
 color mtrl_btn_stroke_color_selector
@@ -2258,6 +2265,9 @@ color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color purple
+color purple_200
+color purple_500
+color purple_700
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2270,6 +2280,8 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color teal_200
+color teal_700
 color tooltip_background_dark
 color tooltip_background_light
 color vector_tint_color
@@ -4646,6 +4658,8 @@ string time_picker_period_toggle_description
 string time_picker_pm
 string title
 string titleHint
+string title_activity_login
+string title_activity_register
 string todo
 string todo2
 string todo3
@@ -5293,6 +5307,7 @@ style Theme_AppCompat_Light_Dialog_MinWidth
 style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
+style Theme_BetterToDo
 style Theme_Design
 style Theme_Design_BottomSheetDialog
 style Theme_Design_Light

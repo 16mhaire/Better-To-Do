@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkPrimary"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/settings"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:paddingStart="20dp"
+        android:fontFamily="@font/rubik_medium"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:drawablePadding="10dp"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        app:drawableStartCompat="@drawable/ic_settings"
+        app:drawableTint="@color/white" />
+
+    <TextView
+        android:id="@+id/bugs_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/bugs"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:paddingStart="20dp"
+        android:fontFamily="@font/rubik_medium"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:drawablePadding="10dp"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        app:drawableStartCompat="@drawable/ic_bug_report"
+        app:drawableTint="@color/white" />
+
+    <TextView
+        android:id="@+id/translate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/translate"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:paddingStart="20dp"
+        android:fontFamily="@font/rubik_medium"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:drawablePadding="10dp"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        app:drawableStartCompat="@drawable/ic_translate"
+        app:drawableTint="@color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="25dp"
+        android:fontFamily="@font/rubik_medium"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="altText">#FFFFFF</color>
+    <color name="cancelred">#ea5455</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorPrimary">#1C1F27</color>
+    <color name="colorPrimaryDark">#1C1F27</color>
+    <color name="cyan">#33FFFC</color>
+    <color name="darkPrimary">#1C1F27</color>
+    <color name="mainBackground">#1C1F27</color>
+    <color name="mainGreen">#3DDC84</color>
+    <color name="mainText">#FFFFFF</color>
+    <color name="purple">#4E20A0</color>
+    <color name="white">#FFFFFF</color>
+</resources>

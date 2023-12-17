@@ -35,6 +35,21 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <service
+            android:name="com.example.betterto_do.MyService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.betterto_do.Register"
+            android:exported="true"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.BetterToDo" />
+        <activity
+            android:name="com.example.betterto_do.Login"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.BetterToDo" />
         <activity
             android:name="com.example.betterto_do.MainActivity"
             android:configChanges="uiMode"

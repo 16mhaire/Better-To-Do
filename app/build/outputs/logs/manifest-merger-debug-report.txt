@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.databinding:databinding-runtime:8.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\15b4282c7a8af1045ddc30e58e0512f6\transformed\databinding-runtime-8.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\2910ae4a9805c3bb8f3eb610f364a853\transformed\viewbinding-8.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3:1.1.1] C:\Users\Groobles\.gradle\caches\transforms-3\dae108e50398ef2036b140c69a5caf6d\transformed\material3-1.1.1\AndroidManifest.xml:17:1-22:12
@@ -164,8 +164,8 @@ MERGED from [com.google.android.play:core-common:2.0.2] C:\Users\Groobles\.gradl
 	xmlns:android
 		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:5:5-26:19
-INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:5:5-40:19
+INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:5:5-40:19
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\Groobles\.gradle\caches\transforms-3\0ac52616e049d9767385ca201eb909ad\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.google.android.play:review-ktx:2.0.1] C:\Users\Groobles\.gradle\caches\transforms-3\5ff5195837b85767d4828c60b497504a\transformed\review-ktx-2.0.1\AndroidManifest.xml:11:5-12:19
@@ -266,30 +266,58 @@ MERGED from [com.google.android.play:core-common:2.0.2] C:\Users\Groobles\.gradl
 		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:11:9-40
 	android:name
 		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:6:9-69
-activity#com.example.betterto_do.MainActivity
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:12:9-21:20
+service#com.example.betterto_do.MyService
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:12:9-15:39
+	android:enabled
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:14:13-35
 	android:exported
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:15:13-36
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:13:13-38
+activity#com.example.betterto_do.Register
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:16:9-20:55
+	android:label
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:19:13-60
+	android:exported
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:18:13-36
+	android:theme
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:20:13-52
+	android:name
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:17:13-37
+activity#com.example.betterto_do.Login
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:21:9-25:55
+	android:label
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:24:13-57
+	android:exported
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:23:13-36
+	android:theme
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:25:13-52
+	android:name
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:22:13-34
+activity#com.example.betterto_do.MainActivity
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:26:9-35:20
+	android:exported
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:29:13-36
 	android:configChanges
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:14:13-43
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:28:13-43
 	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:13:13-64
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:27:13-64
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:33:27-74
 meta-data#preloaded_fonts
-ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:23:9-25:57
+ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:37:9-39:57
 	android:resource
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:25:13-54
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:39:13-54
 	android:name
-		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:24:13-43
+		ADDED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml:38:13-43
 uses-sdk
 INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Groobles\AndroidStudioProjects\Better-To-Do\app\src\main\AndroidManifest.xml

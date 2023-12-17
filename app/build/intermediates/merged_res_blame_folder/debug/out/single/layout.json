@@ -1,27 +1,23 @@
 [
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-107:\\layout\\task_list_item.xml",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\task_list_item.xml"
+        "merged": "com.example.betterto_do.app-mergeDebugResources-107:/layout/fragment_dialog.xml",
+        "source": "com.example.betterto_do.app-main-110:/layout/fragment_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-107:\\layout\\fragment_dialog.xml",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\fragment_dialog.xml"
+        "merged": "com.example.betterto_do.app-mergeDebugResources-107:/layout/fragment_add.xml",
+        "source": "com.example.betterto_do.app-main-110:/layout/fragment_add.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-107:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\activity_main.xml"
+        "merged": "com.example.betterto_do.app-mergeDebugResources-107:/layout/activity_main.xml",
+        "source": "com.example.betterto_do.app-main-110:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-107:\\layout\\fragment_add.xml",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\fragment_add.xml"
+        "merged": "com.example.betterto_do.app-mergeDebugResources-107:/layout/task_list_item.xml",
+        "source": "com.example.betterto_do.app-main-110:/layout/task_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-107:\\layout\\fragment_edit.xml",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\fragment_edit.xml"
-    },
-    {
-        "merged": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-mergeDebugResources-107:\\layout\\fragment_list.xml",
-        "source": "C:\\Users\\Groobles\\.gradle\\daemon\\8.2\\com.example.betterto_do.app-main-110:\\layout\\fragment_list.xml"
+        "merged": "com.example.betterto_do.app-mergeDebugResources-107:/layout/fragment_list.xml",
+        "source": "com.example.betterto_do.app-main-110:/layout/fragment_list.xml"
     },
     {
         "merged": "com.example.betterto_do.app-mergeDebugResources-107:/layout/fragment_edit.xml",
